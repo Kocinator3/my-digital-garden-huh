@@ -10,7 +10,7 @@
       border-radius: 8px;
   }
 </style>
-<h3>První den</h3>
+<h2>První den</h2>
 <p>Trasa:</p>
 <iframe style="border:none" src="https://mapy.com/s/bujunegajo"></iframe>
 
