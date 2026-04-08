@@ -28,7 +28,7 @@
 <p>Kemp:</p>
 <iframe style="border:none" src="https://mapy.com/s/cepovakona"></iframe>
 
-[odkaz na kemp](https://mapy.com/s/dozehapore)
+[poloha kempu](https://mapy.com/s/dozehapore)
 <hr>
 <h2>Třetí den</h2>
 <p>Trasa:</p>
