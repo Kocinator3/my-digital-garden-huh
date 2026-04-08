@@ -16,7 +16,7 @@
 
 [odkaz na trasu](https://mapy.com/s/gefadotevo)
 <p>Kemp:</p>
-<iframe style="aspect-ratio:3/1" src="https://mapy.com/s/fujalozege"></iframe>
+<iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/fujalozege"></iframe>
 
 [poloha kempu](https://mapy.com/s/conomagama)
 <hr>
@@ -26,7 +26,7 @@
 
 [odkaz na trasu](https://mapy.com/s/nojudotuso)
 <p>Kemp:</p>
-<iframe style="aspect-ratio:3/1" src="https://mapy.com/s/cepovakona"></iframe>
+<iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/cepovakona"></iframe>
 
 [poloha kempu](https://mapy.com/s/dozehapore)
 <hr>
@@ -36,7 +36,7 @@
 
 [odkaz na trasu](https://mapy.com/s/nomejunama)
 <p>Kemp:</p>
-<iframe style="aspect-ratio:3/1" src="https://mapy.com/s/fujalozege"></iframe>
+<iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/fujalozege"></iframe>
 
 [poloha kempu](https://mapy.com/s/garuhazohu)
 <hr>
@@ -46,4 +46,4 @@
 
 [odkaz na trasu](https://mapy.com/s/japodasore)
 <p>Případný kamp na chill out:</p>
-<iframe style="aspect-ratio:3/1" src="https://mapy.com/s/jerugezeje"></iframe>
+<iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/jerugezeje"></iframe>
