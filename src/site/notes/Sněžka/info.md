@@ -3,5 +3,6 @@
 ---
 
 
-info o tripu na Sněžku
-[[Sněžka/Trasa 2\|Trasa]]
+info o tripu na Sněžku:
+- [[Sněžka/Trasa 2\|Trasa]]
+- [[Sněžka/úkoly\|Úkoly]]
