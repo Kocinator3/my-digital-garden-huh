@@ -1,0 +1,14 @@
+{
+  "/": [
+    "My digital garden",
+    "Sněžka",
+    "Test"
+  ],
+  "/My digital garden": [
+    "Home"
+  ],
+  "/Sněžka": [
+    "info",
+    "Trasa 2"
+  ]
+}
