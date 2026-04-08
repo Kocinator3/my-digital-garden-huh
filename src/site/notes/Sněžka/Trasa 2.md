@@ -38,10 +38,10 @@
 <p>Kemp:</p>
 <iframe style="border:none" src="https://mapy.com/s/fujalozege"></iframe>
 
-[poloha kempu](https://mapy.com/s/conomagama)
+[poloha kempu](https://mapy.com/s/garuhazohu)
 <hr>
 <h2>Čtvrtý den</h2>
 <p>Trasa:</p>
-<iframe style="border:none" src="https://mapy.com/s/fagehaboga"></iframe>
+<iframe style="border:none" src="https://mapy.com/s/motozapuro"></iframe>
 
 [odkaz na trasu](https://mapy.com/s/japodasore)
