@@ -42,8 +42,8 @@
 <hr>
 <h2>Čtvrtý den</h2>
 <p>Trasa:</p>
-<iframe src="https://mapy.com/s/motozapuro"></iframe>
+<iframe src="https://mapy.com/s/mopanedeno"></iframe>
 
-[odkaz na trasu](https://mapy.com/s/japodasore)
+[odkaz na trasu](https://mapy.com/s/jatemopuko)
 <p>Případný kamp na chill out:</p>
 <iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/jerugezeje"></iframe>
