@@ -12,9 +12,9 @@
 </style>
 <h2>První den</h2>
 <p>Trasa:</p>
-<iframe style="border:none" src="https://mapy.com/s/bujunegajo"></iframe>
+<iframe style="border:none" src="https://mapy.com/s/kapecetufu"></iframe>
 
-[odkaz na trasu](https://mapy.com/s/gefadotevo)
+[odkaz na trasu](https://mapy.com/s/hutozolopo)
 <p>Kemp:</p>
 <iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/fujalozege"></iframe>
 
