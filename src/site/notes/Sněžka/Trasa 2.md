@@ -35,6 +35,7 @@
 <iframe style="border:none" src="https://mapy.com/s/nacedoguda"></iframe>
 
 [odkaz na trasu](https://mapy.com/s/nomejunama)
+<p>Možnost jet autobusem z Pece pod Sněžkou do Vrchlabí.</p>
 <p>Kemp:</p>
 <iframe style="aspect-ratio:3/1.5" src="https://mapy.com/s/fujalozege"></iframe>
 
