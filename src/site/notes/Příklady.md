@@ -13,3 +13,6 @@ $=\sqrt{2}$
 
 $\sqrt{3\sqrt{3\sqrt{3}}}$
 $=\sqrt[8]{3^6}$
+---
+$$x^n\cdot{}x^m=x^{n+m}$$
+$$(x^n)^m=x^{n\cdot{}m}$$
