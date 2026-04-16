@@ -16,4 +16,4 @@ $=\sqrt[8]{3^6}$
 ---
 $$x^n\cdot{}x^m=x^{n+m}$$
 $$(x^n)^m=x^{n\cdot{}m}$$
-$$x^n\cdot{}y^n=xy^n$$
+$$x^n\cdot{}y^n=(x\cdot{}y)^n$$
