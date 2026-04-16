@@ -17,3 +17,4 @@ $=\sqrt[8]{3^6}$
 $$x^n\cdot{}x^m=x^{n+m}$$
 $$(x^n)^m=x^{n\cdot{}m}$$
 $$x^n\cdot{}y^n=(x\cdot{}y)^n$$
+$$\frac{x^n}{x^m}=x^{n-m}$$$$x^{-n}=\frac{1}{x^n}$$
