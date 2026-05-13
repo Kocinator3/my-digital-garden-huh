@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/skola/fyzika/mechanika/gravitacni-pole/","dg-note-properties":{}}
 ---
 
-#### Vzorečky:$$
+#### Vzorečky:
+$$
 \begin{gathered}
 F_\text{g}=G\cdot{}\frac{m_1\cdot{}m_2}{r^2}
 \\\\
@@ -22,7 +23,8 @@ v=v_0-g\cdot{}t\vphantom{\frac{M}{M}}
 \end{gathered}
 $$
 ---
-#### Random výpočet:$$  
+#### Random výpočet:
+$$  
 \begin{array}{l}
 	v_0 = 20\text{ ms}^{-1} \\
 	t = 1\text{ s}\
