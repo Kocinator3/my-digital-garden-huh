@@ -1,0 +1,10 @@
+/* Zúžení oken s poznámkami na 25 % šířky obrazovky */
+.sliding-pane {
+    width: 25vw !important;
+    min-width: 300px !important;
+}
+
+.popover {
+    width: 25vw !important;
+    max-width: 25vw !important;
+}
