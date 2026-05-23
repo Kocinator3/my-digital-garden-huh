@@ -8,8 +8,8 @@
 - výboje na východ a jihozápad, ovládl území od Labe po Pyreneje
 - přijal křesťanství, bojoval proti **Ariánům
 - z důvodu státní správy bylo území rozděleno na **3 části** = Austrasie, Nustrie a Burgundsko
-- politickou moc začali získávat správci paláců = **majordomové**, nakonec skutečně vlásli
-- majordom **Pipin $\text{II.}$ spojil všechny Franky
+- politickou moc začali získávat správci paláců = **majordomové**, nakonec skutečně vládli
+- majordom **Pipin $\text{II.}$** spojil všechny Franky
 - jeho syn **Karel Martel** porazil u **Tours a Poitiers Araby r. 732** w zabránil jejich dalšímu pronikání do západní Evropy
 - **Pipin $\text{III.}$ Krátký** se stal za souhlasu papeže r.751 franckým králem = **dynastie karlovců**
 
