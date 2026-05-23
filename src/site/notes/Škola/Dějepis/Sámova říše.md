@@ -22,7 +22,7 @@
 
 - Povstání Slovanů v roce 623 proti Avarům vzniklo z toho, že Avaři, obývající dnešní Maďarsko napadali okolná slovanské obyvatelstvo.
 - Při tomto povstání v této oblasti pobýval franský kupec Sámo.
-	- Pocházel ze Senonského kraje a byl inteligentní a vůdčí typ.
+	>Pocházel ze Senonského kraje a byl inteligentní a vůdčí typ.
 - Sámo se svým doprovodem postavil jako spojenec povstalých Slovanů proti Avarům.
 - V průběhu tohoto boje **Slovanů** proti **Avarům** poznali Slované kvality Sáma a zvolili si ho jako svého **přirozeného představitele**.
 - Slované pod vedením Sáma **Avary porazili**.
