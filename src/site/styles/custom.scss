@@ -1,10 +1,9 @@
-/* Zúžení oken s poznámkami na 25 % šířky obrazovky */
-.sliding-pane {
-    width: 25vw !important;
-    min-width: 300px !important;
-}
-
-.popover {
-    width: 25vw !important;
-    max-width: 25vw !important;
+:root {
+    /* Nastaví šířku levého panelu se složkami přesně na 25 % obrazovky */
+    --dg-filetree-width: 25vw !important;
+    --dg-filetree-min-width: 25vw !important;
+    
+    /* Pokud bys chtěl na čtvrtinu roztáhnout i pravý panel s grafem, přidej i toto: */
+    --dg-sidebar-width: 25vw !important;
+    --dg-sidebar-max-width: 25vw !important;
 }
