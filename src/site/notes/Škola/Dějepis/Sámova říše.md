@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/skola/dejepis/samova-rise/","dg-note-properties":{}}
 ---
 
+- byla prvním státním útvarem Slovanů
+- trvala od roku 623 do 658
+- rozléhala se na území dnešní ČR, záp. Slovenska, vých. Německa, Z. Maďarska, JZ. Polska, V. Rakouska a S. Slovinska
 # Sámo
 
 - **Francký kupec**
@@ -11,12 +14,6 @@
 - Byl náš první státní představitel
 - Nepřítel z Franské říše - král Dagobert
 - Rozhodující boj byl sveden v r. 631 u Vogastisburku
-
-# Sámova říše
-
-- byla prvním státním útvarem Slovanů
-- trvala od roku 623 do 658
-- rozléhala se na území dnešní ČR, záp. Slovenska, vých. Německa, Z. Maďarska, JZ. Polska, V. Rakouska a S. Slovinska
 
 # Vznik 
 
