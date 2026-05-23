@@ -1,14 +1,32 @@
 {
   "/": [
-    "My digital garden",
+    "Home",
     "Sněžka",
-    "Test"
-  ],
-  "/My digital garden": [
-    "Home"
+    "Škola"
   ],
   "/Sněžka": [
     "info",
     "Trasa 2"
+  ],
+  "/Škola": [
+    "Biologie",
+    "Dějepis",
+    "Fyzika"
+  ],
+  "/Škola/Biologie": [
+    "anatomie"
+  ],
+  "/Škola/Biologie/anatomie": [
+    "Nervová soustava (NS)"
+  ],
+  "/Škola/Dějepis": [
+    "Francká říše",
+    "Sámova říše"
+  ],
+  "/Škola/Fyzika": [
+    "mechanika"
+  ],
+  "/Škola/Fyzika/mechanika": [
+    "Gravitační pole vzorečky"
   ]
 }
