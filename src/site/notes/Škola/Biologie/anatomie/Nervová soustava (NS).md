@@ -62,6 +62,7 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 - Jednosměrný **chemický přenos**
 	Průběh:
 	- po přenosu impulzu do synaptického knoflíku - **podráždění**
+	- #doplnit
 ### Části NS
 
 **a) CNS**
