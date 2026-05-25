@@ -45,4 +45,4 @@
 - Na odkazu Sáma, tj. jeho myšlenek a činů, **navázala *Velká Morava***, na ni potom i ***Český stát***
 
 ---
-[[Škola/Dějepis/Francká říše\|zápisky o Francké říši]]
+[[škola/Dějepis/Francká říše\|zápisky o Francké říši]]
