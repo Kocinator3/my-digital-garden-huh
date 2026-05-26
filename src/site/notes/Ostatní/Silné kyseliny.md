@@ -9,6 +9,7 @@ $$
 	\ce{BI}\\
 	\ce{H2SO4}\\
 	\ce{HNO3}\\
-	\ce{HClO3}
+	\ce{HClO3}\\
+	\ce{HClO4}
 \end{array}
 $$
