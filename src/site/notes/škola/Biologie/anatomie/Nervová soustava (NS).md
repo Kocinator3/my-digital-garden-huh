@@ -61,8 +61,9 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 - Přes **synapse (zápoje)**
 - Jednosměrný **chemický přenos**
 	Průběh:
-	- po přenosu impulzu do synaptického knoflíku - **podráždění**
-	- #doplnit
+	- po přenosu impulzu do synaptického knoflíku - **podráždění membrány**
+	- vylití mediátorů do synaptické štěrbiny
+	- navázání mediátorů na receptory v membráně př. acetylcholni, noradrenalin
 ### Části NS
 
 **a) CNS**
