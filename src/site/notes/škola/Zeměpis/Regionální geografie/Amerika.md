@@ -2,12 +2,12 @@
 {"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/","dg-note-properties":{}}
 ---
 
-#doplnit
+#doplnit (v sešitě)
 ### Nerostné bohatství
 
 - velké bohatství nerostných surovin
 - ropa a zemní plym . USA (u Mexického zálivu, pobřeží)
-- #doplnit
+- #doplnit (vyžebrat)
 
 ### Obyvatelstvo
 
@@ -42,3 +42,61 @@
 - Náboženství
 	- většina obyvatel - křesťanství (římskokatolické, protestantské)
 	- indiánské kmeny - přírodní náboženství (animismus)
+
+- v Americe zastoupena všechna lidská plemena:
+	1. europoidní:
+		- Angloameričané - USA, Kanada
+		- Latinoameričané - Střední a Jižní Amerika
+		- Frankoameričané - provincie Quebec, Kanada, bývalé fr. kolonie
+	2. mongoloidní:
+		- Eskymáci - sever Kanady, Aljaška
+		- Indiání - Střední a Jižní Amerika
+	3. negroidní:
+		- potomci otroků dovezených z Afriky
+		- USA, Brazílie, Karibské oblasti
+	- velké množství míšenců
+		- míšenci bělochů a černochů - **mulati**
+		- míšenci bělochů a indiánů - **mestici**
+		- míšenci indiánů a černochů - **zambové**
+- v SA převládá: bílé plemeno
+- ve Střední a Jižní Americe převládají: míšenci, indiání, černoši
+
+#### Jazyky
+
+- Španělština:
+	- Argentina, Chille, Perv , Venezuela , Mexiko
+- Portugalština:
+	- Brazílie
+
+### Hospodářství
+
+- dva makroregiony dle ekonomického i politického hlediska
+	1) **Angloamerický** - hospodářsky vyspělý (USA, Kanada)
+		-  hospodářsky nejvýznamnější oblast světa
+		- USA: 28% světové průmyslové výroby, 18% zemědělské výroby a 20% světového obchodu
+		- Kanada: vyspělý průmyslově-zemědělský stát
+	2. **Latinskoamerický** -hospodářsky málo rozvinutý (střední a Jižní Amerika)
+		- hospodářsky nejpokročilejší - ==nově industrializované země Latinské Ameriky:== Argentina, Chile, Uruguay, Mexiko, Venezuela, Portoriko
+		- rozsáhlý hospodářský potenciál: Brazílie
+		- chudé země s málo rozvinutým hospodářstvím: Haiti, Nikaragua, Honduras
+
+### Zemědělství
+
+- žďárové zemědělství - zalesněná Amazonská pánev -> likvidace lesů
+	- zúrodnění pole opouštěna kvůli ztrátě úrodnosti
+- plantážní zemědělství - pěstování plodin určených pro vývoz
+	- pěstování cukrové třtiny, banánovníku, kávovníku
+		- vedoucí pozice Latinské Ameriky ve sklizni těchto plodin
+- **živočišná výroba** - dominuje chov hovězího dobytka - extenzivní chov - Brazílie, Argentina, Uruguay
+- chov ovcí - Uruguay
+- chov prasat - Brazílie
+- rybolov - Peru, Chile
+### Doprava
+
+- velký význam má silniční doprava:
+	- **Panamericana** - nejdelší dálniční síť světa
+	- vnitrozemím Brazílie až k pobřeží Atlantského oceánu prochází **Transamazonská dálnice**
+- Severní Amerika - hustá železniční síť
+	- velké zásahy do indiánských území
+- říční doprava - v těžko prostupných deštných lesích - obrovské množství nerostných surovin se pčepravují pomocí ropovodů a plynovodů
+- námořní doprava - přeprava zboží a surovin **Panamský průplav**
