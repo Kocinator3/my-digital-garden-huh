@@ -35,3 +35,8 @@
 #### Pozitivismus
 
 - pozitivní = ==dané fakta==
+
+#### Sociální statika a dynamika
+
+- ***Sociální statika*** instituce, které zaručují řád a stabilitu ve společnosti.
+- ***Sociální dynamika*** naopak zkoumá vývoj společnosti, změny a procesy, ke kterým v ní dochází.
