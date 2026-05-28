@@ -22,7 +22,7 @@ d) Zajišťuje tzv. vyšší nervové funkce (instinkty a emoce, učení, pamě�
 
 ### Základní schéma funkce NS:
 
-Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centrum (mozek, mícha) -> Odstředivá Nervová dráha (motorická, efektirní)-> Efektor (orgán vykonávající odpověď)
+Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centrum (mozek, mícha) -> Odstředivá Nervová dráha (motorická, efektirní) -> Efektor (orgán vykonávající odpověď)
 
 ### Neuron (nervová buňka)
 
