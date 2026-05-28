@@ -44,9 +44,20 @@
 
 ### Karl Marx (1818 - 1883)
 
-- Karl Marx se považoval za ekonoma
+- Karl Marx se považoval za **ekonoma**
 	- jeho nejrozsáhlejší spis **Kapitál**
 - Vývoj společnosti 
-	- jakým způsobem se společnost živí
-	- co vyrábí a jak má rozdělené vlastnictví
-- 
+	- jakým způsobem se společnost **živí**
+	- co **vyrábí** a jak má **rozdělené vlastnictví**
+- **zažil** **zásadní** změnu a to průmyslovou revoluci
+	- nový způsob **hospodaření**
+	- **manufaktury** se rozpadají 
+	- **mechanizace** nahrazení lidské síly
+- Marx společnost dělil:
+	1. ***Beztřídní***
+	2. #doplnit
+
+#### Socialismus
+
+-  z lat. *socialis* - společenský, družný
+- důraz klade na ==společnost== a ==kolektiv==
