@@ -47,8 +47,6 @@
 - Karl Marx se považoval za ekonoma
 	- jeho nejrozsáhlejší spis **Kapitál**
 - Vývoj společnosti 
-	- jakým způsobem se společnost
-		- živí
-		- vyrábí
-		- její rozdělení vlastnictví
+	- jakým způsobem se společnost živí
+	- co vyrábí a jak má rozdělené vlastnictví
 - 
