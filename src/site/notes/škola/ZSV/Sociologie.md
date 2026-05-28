@@ -27,7 +27,8 @@
 
 ### Auguste Comte (1798 - 1857)
 
-- **tři fáze vývoje společnosti** - jak člověk rozumí světu
+- vývoj jak člověk rozumí světu
+- **tři fáze vývoje společnosti**
 	1. **stadium teologické** - do roku 1300, lidé věří v nadpřirozené síly a uctívají tajemnou moc božstev.
 	2. **stadium metafyzické** - v letech 1300 - 1800, lidé se odklánějí od víry v nadpřirozené síly a začínají svou víru obracet k přírodě a jiným abstraktním silám. 
 	3. **stadium pozitivní (vědecké)** - se datuje od roku 1800, vyznačuje se vírou ve vědu, lidé pozorují okolní svět a snaží se hledat odpovědi na otázky s ním související nikoli pomocí abstrakních sil, nýbrž s pomocí vědy.
@@ -41,4 +42,13 @@
 - ***Sociální statika*** instituce, které zaručují řád a stabilitu ve společnosti.
 - ***Sociální dynamika*** naopak zkoumá vývoj společnosti, změny a procesy, ke kterým v ní dochází.
 
-$$\ce{C + O2 -> CO2}$$
+### Karl Marx (1818 - 1883)
+
+- Karl Marx se považoval za ekonoma
+	- jeho nejrozsáhlejší spis **Kapitál**
+- Vývoj společnosti 
+	- jakým způsobem se společnost
+		- živí
+		- vyrábí
+		- její rozdělení vlastnictví
+- 
