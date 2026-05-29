@@ -77,5 +77,60 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 		- motorické (hybné)
 		- autonomní - sympatikus a parasympatikus
 #### Nervová hmota
+
 **Šedá** - těla neuronů a dendrity - zpracování
 **Bílá** - dlouhé výběžky neuroná - nervové dráhy
+
+# Mozek
+#doplnit (sesit)
+
+### Mozeček
+
+- nad. p. míchou a V. mostem, pod k. mozkem
+- **2 polokoule ==(hemisféry)==**
+	- spojené *mozečkovým červem*
+- Povrch - **šedá kůra mozečková**
+	- silně zvrásněna
+	- množství ***Purkyňových buněk** * (mnoho spojů)
+- centrum **koordinace pohybů, regulace svalového napětí a termoregulace svalového napětí a termoregulace**
+### Střední mozek
+
+- Malý, vklíněn mezi mezimozek a V. most
+- Nahoře **4 hrboly - centrum zrakových a sluchových reflexů**
+- Spojení mezi koncovým mozkem a nižšími částmi mozku
+
+### Mezimozek
+
+- Vklíněn mezi hemisféry koncového mozku
+- Na spodině tenká stěna z šedé n. hmoty - tzv. ***hypotalamus***
+	- **centrum pro řízení termoregulace, látkového metabolismu ve tkáních hospodaření s vodou**
+	- podíl na regulace spánku a bdění
+	- stopkou připojen **podvěsek mozkový - tzv *hypofýza***
+- Boční stěny (tzv. **talamy**) - silné
+	- převodní vlákna
+- Ke stropu připojena **šišinka - tzv *epifýzy***
+- Uvnitř ==III. mozková komora==
+
+### Koncový mozek
+
+- Nejvyvinutější část, shora překrývá další části
+- 2 polokoule ==(hemisféry)==
+	- propojené **kalosním tělesem**
+- Uvnitř každé hemisféry ==mozkové hemisféry (I. a II.)==
+	- vznik mozkomíšního mozku, neustálé proudění
+	- proudění se III. a IV. mozkovou komorou (přetékání mozkomíšního moku)
+- Na povrchu tzv. **plášť *(pallium)***
+	- šedá nervová hmota
+	- **brázdami** členěn na **laloky**:
+		- čelní lalok (na spodině 2 čichové výběžky) - motorická oblast
+		- temenní lalok - centrum pro signály z receptorů kožního svalstva
+		- týlní
+		- spánkový
+		- ostrůvkovitý
+- v mozkové kůře nastává rozvoj pro asociační oblasti - centrum pro děje myšlení probíhají v podkůrovém mozku
+- asymetrie mozkových hemisfér
+	- levá
+		- logika
+		- abstraktní myšlení
+	- pravá
+		- humanitní a umělecké myšlení
