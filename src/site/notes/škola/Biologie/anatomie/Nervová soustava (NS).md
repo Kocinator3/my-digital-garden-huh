@@ -30,13 +30,13 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 - **Schopnost převádět a zpracovávat nervové impulsy**
 - Nemůže se rozmnožovat!!!!!
 
-### Gliové buňky (neuroglie)
+#### Gliové buňky (neuroglie)
 
 - Vyplňují prostory mezi neurony (nevedou nervové vzruchy)
 - uklízejí
 - ochrana nervových buněk
 
-### Stavba neuronu
+#### Stavba neuronu
 
 - **Tělo (soma)** s jádrem
 - krátké výběžky - **dendrity**
@@ -63,7 +63,7 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 	Průběh:
 	- po přenosu impulzu do synaptického knoflíku - **podráždění membrány**
 	- vylití mediátorů do synaptické štěrbiny
-	- navázání mediátorů na receptory v membráně př. acetylcholni, noradrenalin
+	- navázání mediátorů na receptory v membráně př. acetylcholin, noradrenalin
 ### Části NS
 
 **a) CNS**
@@ -76,12 +76,37 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 	- odstředivé
 		- motorické (hybné)
 		- autonomní - sympatikus a parasympatikus
-#### Nervová hmota
 
-**Šedá** - těla neuronů a dendrity - zpracování
-**Bílá** - dlouhé výběžky neuroná - nervové dráhy
+><big>Nervová hmota</big>
+>**Šedá** - těla neuronů a dendrity - zpracování
+>**Bílá** - dlouhé výběžky neuroná - nervové dráhy
 
 # Mozek
+
+- ochrana:
+	- lebka
+	- mozkové pleny (meningy)
+		- tvrdá plena
+		- 2 měkké pleny:
+			- bezcévná pavoučnice
+			- cévnatá omozečnice
+- vývoj mozku:
+	- v embryonálním vývoji vzniká z přední čísti nervové trubice - nejprve 3 váčky, další diferenciace:
+		- přední mozek 
+			- koncový mozek
+			- mezimozek
+		- střední mozek
+		- zadní mozek
+			- Varolův most
+			- prodloužená mícha
+			- mozeček
+### Prodloužená mícha
+
+- pokračování páteřní míchy
+- uvnitř IV. mozková komora
+- centra pro řízení dýchání, srdeční frekvence, krev. tlaku, peristaltiky, polykací reflex a obranné reflexy (kýchání, kašlání, zvracení)
+- výstup 7 párů mozkových nervů - inervují oblast hlavy
+	- inervace = 
 #doplnit (sesit)
 
 ### Mozeček
