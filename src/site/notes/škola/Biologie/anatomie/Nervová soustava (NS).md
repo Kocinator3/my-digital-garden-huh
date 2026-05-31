@@ -114,8 +114,7 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 - spojuje koncový mozek a mozeček
 - řízení sekrece slin a sliz, řízení bdění - retikulární formace udržují bdělost
 - výstup trojklaného nervu
-- zbylých 5 párů mozkových nervů
-#doplnit 
+- zbylých 5 párů mozkových nervů 
 
 ### Mozeček
 
