@@ -16,7 +16,7 @@
 ### Funkce NS:
 
 a) **Zpracování podnětů** z vnějšího i vnitřního prostředí (vnímání)
-b) **Řídí činnost** vnitřních **orgánů** (něvědomé)
+b) **Řídí činnost** vnitřních **orgánů** (nevědomé)
 c) **Řídí činnost** kosterního **svalstva** (vědomé)
 d) Zajišťuje tzv. vyšší nervové funkce (instinkty a emoce, učení, paměť, myšlení a řeč)
 
@@ -106,8 +106,16 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 - uvnitř IV. mozková komora
 - centra pro řízení dýchání, srdeční frekvence, krev. tlaku, peristaltiky, polykací reflex a obranné reflexy (kýchání, kašlání, zvracení)
 - výstup 7 párů mozkových nervů - inervují oblast hlavy
-	- inervace = 
-#doplnit (sesit)
+	- inervace = přicházení nervových signálů
+
+### Varolův most
+
+- Val za prodlouženou míchou
+- spojuje koncový mozek a mozeček
+- řízení sekrece slin a sliz, řízení bdění - retikulární formace udržují bdělost
+- výstup trojklaného nervu
+- zbylých 5 párů mozkových nervů
+#doplnit 
 
 ### Mozeček
 
