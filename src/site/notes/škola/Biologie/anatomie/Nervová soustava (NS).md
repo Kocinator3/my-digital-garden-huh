@@ -52,11 +52,11 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 	- rozšířená část
 	- sekrece neurotransmiterů
 
-### Šíření nervového vruchu
+#### Šíření nervového vruchu
 
 = tok **el.proudu** = tok elektronů
 - zeloženo na **polopropustnosti membrány neuronu** ($\text{K}^+$ propouští dobře, $\text{Na}^+$ špatně)
-### Přenos vzruchu z jedné buňky na druhou
+#### Přenos vzruchu z jedné buňky na druhou
 
 - Přes **synapse (zápoje)**
 - Jednosměrný **chemický přenos**
