@@ -79,7 +79,7 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 
 ><big>Nervová hmota</big>
 >**Šedá** - těla neuronů a dendrity - zpracování
->**Bílá** - dlouhé výběžky neuroná - nervové dráhy
+>**Bílá** - dlouhé výběžky neuronů - nervové dráhy
 
 # Mozek
 
