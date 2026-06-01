@@ -166,3 +166,22 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 		- abstraktní myšlení
 	- pravá
 		- humanitní a umělecké myšlení
+
+#### Mozková kůra (=***neocortex***)
+
+- vývojově nejmladší a nejdokonalejší část mozku
+- 6 vrstev neuronů
+
+### Limbický systém
+
+- systém kolem III. mozkové komory (mezimozek a vývojově nejstarší část pláště)
+- zajišťuje instinktivní chování a emoce
+
+# Mícha
+
+- silný **nervový provazec**, končí u **2. bederního obratle**
+- ochrana
+	- páteřní kanál
+	- mozkomíšní mok
+- ==nižší reflexní ústrojí - centrum nižších reflexů==
+- 

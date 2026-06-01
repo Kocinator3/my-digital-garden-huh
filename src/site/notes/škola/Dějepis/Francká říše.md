@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/skola/dejepis/francka-rise/","dg-note-properties":{}}
 ---
 
-- germánský kmen **Franků**, v5. století sídlil na území Belgie a Nizozemí, odkud začali své výboje
+- germánský kmen **Franků**, v 5. století sídlil na území Belgie a Nizozemí, odkud začali své výboje
 - vytvořili největší, nejtrvalejší a nejvýznamnější z barbarských říší v letech **482 - 843**
 - počátku státu jsou spojeny s králem **Chlodvíkem** (481 - 511) **merovejská dynastie**
 - výboje na východ a jihozápad, ovládl území od Labe po Pyreneje
@@ -26,4 +26,5 @@
 - rozšíření latiny jako mezinárodního jazyka
 - Karlův syn ***Ludvík Pobožný*** chtěl vyřešit dynastické spory rozdělením říše mezi své tři syny.
 - ***Lothar*** se stal císařem, ***Karel Holý*** a ***Ludvík Němec*** se odmítli podřídit a ***Verdunskou smlouvou* r. 843** říši rozdělili
+
 
