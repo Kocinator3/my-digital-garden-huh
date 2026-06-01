@@ -184,4 +184,72 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 	- páteřní kanál
 	- mozkomíšní mok
 - ==nižší reflexní ústrojí - centrum nižších reflexů==
-- 
+
+### Stavba míchy
+
+- rýhou rozdělena na pravou a levou polovinu
+- na okrajích
+	- bílá nervová hmota (=axony, dlouhé výběžky)
+- centrální kanál
+	- šedá nervová hmota (=těla neuronů)
+	- tvar motýla
+	- z něj vybíhají přední a zadní kořeny míšní
+
+#### Zadní míšní rohy
+
+- užší
+- vystupují ze zadní rýhy
+- dostředivá nervová vlákna
+
+#### Přední míšní rohy
+
+- širší
+- odstředivá nervová vlákna
+- motoneurony
+- autonomní nervy
+
+#### Míšní nerv
+
+- spojení m. rohů
+- tzv. postranní provazce
+- sestupné i vzestupné nervové dráhy
+- celkem 31 párů
+
+## Nervové dráhy
+
+- skupiny nervových provazců
+
+==**a) Vzestupné (senzitivní)**==
+- **dostředivá** nervová vlákna
+- z receptorů do CNS
+
+==**b) Sestupné (motorické)**==
+- **odstředivá** nervová vlákna
+- z CNS k efektorům
+- **Pyramidová nervová dráha
+	- hlavní
+	- začíná u pyramidových buněk mozkové kůry
+	- na hranici páteřní a prodloužené míchy **se kříží**
+- **Mimopyramidové nervová dráha**
+	- vychází z šedé mozkové hmoty (ne z mozkové kůry)
+
+## Obvodové (periferní) nervy
+
+==**a) Mozkomíšní nervy**==
+- dostředivá i odstředivá vlákna (tj. senzitivní i motorická vlákna)
+- **bílá vlákna** - obalená myelinem
+
+	- ==**Míšní (spinální) nervy**==
+		- 31 párů
+		- vystupují mezi obratli
+		- začátek - spojení míšních rohů (kořenů)
+	- ==**Hlavové (mozkové, craniální) nervy**==
+		- 12 párů (senzitivní nebo motorické, popřípadě smíšené)
+		- vychází z mozkového kmene
+
+==**b) Vegetativní autonomní nervy**==
+- Inervují **vnitřní orgány**
+- Přerušovány tzv. **vegetativní uzliny (ganglia)**
+- 2 druhy nervových vláken:
+	- ==**n. sympatické**== vystupují z krční, hrudní a bederní míchy
+	- ==**n. parasympatické**== vystupují z mozku a z křížové míchy
