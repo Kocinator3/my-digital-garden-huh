@@ -6,7 +6,7 @@
 - vytvořili největší, nejtrvalejší a nejvýznamnější z barbarských říší v letech **482 - 843**
 - počátku státu jsou spojeny s králem **Chlodvíkem** (481 - 511) **merovejská dynastie**
 - výboje na východ a jihozápad, ovládl území od Labe po Pyreneje
-- přijal křesťanství, bojoval proti **Ariánům
+- přijal křesťanství, bojoval proti **Ariánům**
 - z důvodu státní správy bylo území rozděleno na **3 části** = Austrasie, Nustrie a Burgundsko
 - politickou moc začali získávat správci paláců = **majordomové**, nakonec skutečně vládli
 - majordom **Pipin $\text{II.}$** spojil všechny Franky
@@ -26,5 +26,4 @@
 - rozšíření latiny jako mezinárodního jazyka
 - Karlův syn ***Ludvík Pobožný*** chtěl vyřešit dynastické spory rozdělením říše mezi své tři syny.
 - ***Lothar*** se stal císařem, ***Karel Holý*** a ***Ludvík Němec*** se odmítli podřídit a ***Verdunskou smlouvou* r. 843** říši rozdělili
-
 
