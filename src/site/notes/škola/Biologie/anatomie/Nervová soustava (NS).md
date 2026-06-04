@@ -226,7 +226,7 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 ==**b) Sestupné (motorické)**==
 - **odstředivá** nervová vlákna
 - z CNS k efektorům
-- **Pyramidová nervová dráha
+- **Pyramidová nervová dráha**
 	- hlavní
 	- začíná u pyramidových buněk mozkové kůry
 	- na hranici páteřní a prodloužené míchy **se kříží**
