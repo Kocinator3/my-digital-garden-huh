@@ -61,3 +61,4 @@
 
 -  z lat. *socialis* - společenský, družný
 - důraz klade na ==společnost== a ==kolektiv==
+- 

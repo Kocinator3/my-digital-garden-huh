@@ -22,7 +22,7 @@
 - Sámo se svým doprovodem postavil jako spojenec povstalých Slovanů proti Avarům.
 - V průběhu tohoto boje **Slovanů** proti **Avarům** poznali Slované kvality Sáma a zvolili si ho jako svého **přirozeného představitele**.
 - Slované pod vedením Sáma **Avary porazili**.
-- Po porážce byl vytvořen **nadkmenový svaz**, který vyl později nazván **Sámovou říší**.
+- Po porážce byl vytvořen **nadkmenový svaz**, který byl později nazván **Sámovou říší**.
 
 # Bitvy proti Frankům
 
@@ -42,7 +42,7 @@
 
 ### Sámův odkaz
 
-- Na odkazu Sáma, tj. jeho myšlenek a činů, **navázala *Velká Morava***, na ni potom i ***Český stát***
+- Na odkazu Sáma, tj. jeho myšlenek a činů, **navázala *[[škola/Dějepis/Velká Morava\|Velká Morava]]***, na ni potom i ***Český stát***
 
 ---
-[[škola/Dějepis/Francká říše\|zápisky o Francké říši]]Francké říši]]
+[[škola/Dějepis/Francká říše\|zápisky o Francké říši]]
