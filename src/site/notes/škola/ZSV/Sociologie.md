@@ -55,10 +55,44 @@
 	- **mechanizace** nahrazení lidské síly
 - Marx společnost dělil:
 	1. ***Beztřídní***
-	2. #doplnit
+	2. ***Otrokářská***
+	3. ***Feudální***
+	4. ***Kapitalistická***
+	5. ***Komunistická***
 
 #### Socialismus
 
 -  z lat. *socialis* - společenský, družný
 - důraz klade na ==společnost== a ==kolektiv==
-- 
+- vznikl jako reakce na průmyslovou revoluci
+
+dělí se na dvě hlavní větve:
+
+##### Revoluční Socialismus
+
+- nová společenská skupina ==Dělnictvo = Proletariát==, která byla **stěžejní pro chod společnosti, ale přitom neměla podíl na moci ve státě** a musela snášet velmi tvrdé životní podmínky
+- dle Marxe měla proběhnout ***Proletářská Revoluce*** a vytvořit pak ==Beztřídní Společnost==
+
+##### Demokratický Socialismus
+
+- ideologie současných sociálně-demokratických stran
+- snaha **zlepšit životní podmínky pracujících, zmenšit majetkové rozdíly** ve společnosti
+- vytvořením ***Sociálního Státu***: **daňová a sociální politika** přerozděluje finance tak, aby byly vyváženy majetkové rozdíly mezi lidmi
+
+### Max Weber (1864 - 1920)
+
+-
+
+### T. G. Masaryk
+
+- Původní jméno Tomáš Masaryk
+- Působil na universitě ve Vídni.
+- Jeho doktorská práce byla: ***Sebevražda hromadným jevem společenským moderní osvěty***
+	- práce vyšla roku 1881 v češtině až roku 1904
+	- v 19. století změna spol., není nutno aby tolik lidí pracovalo na polích, společnost se modernizuje. Urbanizace, zesiluje se Druhý sektor.
+	- Rozpad tradiční rodiny -> sociální síť lidí se orientuje na práci
+	- Množství sebevražd se zvýšilo
+	- závěr ke kterému došel byl že sebevraždy nejvíce konali mladí muži z nižších ekonomických vrstev.
+- Hilsneriáda - Hilsner očištěn
+	- za snahu o nastolení rovnosti, se dočkal pouze nenávisti
+	- 

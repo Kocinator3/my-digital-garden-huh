@@ -18,7 +18,7 @@ nebo také nazývaný Nový svět
 
 ### Poloha
 
-- **na záoadnbí, severní a jižní polokouli**
+- **na západní, severní a jižní polokouli**
 - **na třech litosférických deskách: Severoamerické, Karibské (Středoamerické), Jihoamerické**
 - **omývána: Tichým oceánem (západ), Atlantským oceánem (východ), severním ledovým oceánem (sever)**
 -  $104\,400$ km dlouhé pobřeží
