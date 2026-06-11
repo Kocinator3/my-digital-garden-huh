@@ -6,17 +6,30 @@ $$
 \begin{align}
 &ax^2+bx+c=0&a=1\\\\
 &c=x_1\cdot{}x_2\\
-&b=-(x_1+x_2)\\\\
-&x_1'=2\cdot{}x_1\\
-&x_2'=2\cdot{}x_2\\\\\hline\\
-&c'=x_1'\cdot{}x_2'\\
-&b'=-(x_1'+x_2')\\\\
+&b=-(x_1+x_2)\\\\\hline\\
+&a'x^2+b'x+c=0&a'=1\\\\
 &c'=2\cdot{}x_1\cdot2\cdot{}x_2\\
 &b'=-(2\cdot{}x_1+2\cdot{}x_2)\\\\
 &c'=4\cdot{}x_1\cdot{}x_2\\
 &b'=-2(x_1+x_2)\\\\
 &c'=4\cdot{}c\\
 &b'=-2\cdot(-b)=2\cdot{}b\\\\
-&a'x^2+b'x+c'=0=\\&=ax^2+(2\cdot{}b)\cdot{}x+4\cdot{}c
+&\underline{\underline{ax^{2}+2\cdot{}b\cdot{}x+4\cdot{}c=0}}
+\end{align}
+$$
+$$
+\begin{align}
+	&ax^2+bx+c=0&a=1\\\\
+	&c=x_{1}\cdot{}x_{2}\\
+	&b=-(x_1+x_2)\\\\\hline\\
+	&a'x^2+b'x+c'=0&a',b',c'\in\mathbb{Z}\\\\
+	&c'=\frac{1}{x_1}\cdot\frac{1}{x_2}\\
+	&b'=-\left(\frac{1}{x_1}+\frac{1}{x_2}\right)\\\\
+	&c'=\frac{1}{x_1\cdot{}x_2}\\
+	&b'=-\left(\frac{x_1+x_2}{x_1\cdot{}x_2}\right)\\\\
+	&c'=\frac{1}{c}\\
+	&b'=-\left(\frac{-b}{c}\right)=\frac{b}{c}\\\\
+	&ax^{2}+\frac{b}{c}\cdot{}x+\frac{1}{c}=0\quad|\cdot{c}\\\\
+	&\underline{\underline{cx^2+bx+a=0}}
 \end{align}
 $$
