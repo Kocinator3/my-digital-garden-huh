@@ -81,7 +81,15 @@ dělí se na dvě hlavní větve:
 
 ### Max Weber (1864 - 1920)
 
--
+- německý sociolog a ekonom
+- dílo: **Protestantská etika a duch kapitalismu** → zamýšlí se nad vztahem mezi kapitalismem a náboženstvím
+- zkoumá lidské jednání každá naše jednání má nějaký motiv a očekávání, že vyvolá nějakou reakci
+- motivací pro jednání lidí v tradiční společnosti byly - (tradice, emoce, vášeň) v moderní spol. se mění na **cíl**
+- **Teorie Moci(Panství)** a její typologie:
+- 
+	1) Tradiční panství - založeno na síle zvyku a tradic
+	2) charismatické panství - moc založena na charismatu vůdce, příklad - Stalin, Hitler
+	3) racionálně legální panství - moc založena na síle zákona, rovina se zejména na západě
 
 ### T. G. Masaryk
 
