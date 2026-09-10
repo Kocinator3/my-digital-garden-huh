@@ -8,7 +8,7 @@
 - vymření přemyslovců po meči 1306 - Václav III
 - byl Vaclav IV? - ano ale v lucemburcich - syn Karla IV
 - sv. Václav 935 28.9 úmrtí
-- proc 100 leta valka - #doplnit -  Francie vyhrala
+- proc 100 leta valka - spor o trůn, teritorialní rozpory,  -  Francie vyhrala
 - po meci vymirali ruzne rody premyslovci arpadovci kapetovci nastupuje rod z Valoa
 - bitva u Krescaku - 1346 
 
