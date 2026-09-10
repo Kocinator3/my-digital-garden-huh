@@ -103,7 +103,7 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 ### Prodloužená mícha
 
 - pokračování páteřní míchy
-- uvnitř IV. mozková komora
+- uvnitř ==IV. mozková komora==
 - centra pro řízení dýchání, srdeční frekvence, krev. tlaku, peristaltiky, polykací reflex a obranné reflexy (kýchání, kašlání, zvracení)
 - výstup 7 párů mozkových nervů - inervují oblast hlavy
 	- inervace = přicházení nervových signálů
@@ -123,8 +123,8 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 	- spojené *mozečkovým červem*
 - Povrch - **šedá kůra mozečková**
 	- silně zvrásněna
-	- množství ***Purkyňových buněk** * (mnoho spojů)
-- centrum **koordinace pohybů, regulace svalového napětí a termoregulace svalového napětí a termoregulace**
+	- množství ***Purkyňových buněk*** (mnoho spojů)
+- centrum **koordinace pohybů, regulace svalového napětí a termoregulace**
 ### Střední mozek
 
 - Malý, vklíněn mezi mezimozek a V. most
@@ -148,9 +148,9 @@ Receptor (čidlo) -> Dostředivá nervová dráha (aferentní)-> Nervové centru
 - Nejvyvinutější část, shora překrývá další části
 - 2 polokoule ==(hemisféry)==
 	- propojené **kalosním tělesem**
-- Uvnitř každé hemisféry ==mozkové hemisféry (I. a II.)==
+- Uvnitř každé hemisféry ==jedna komora (I. a II.)==
 	- vznik mozkomíšního mozku, neustálé proudění
-	- proudění se III. a IV. mozkovou komorou (přetékání mozkomíšního moku)
+	- proudění se ==III. a IV. mozkovou komorou== (přetékání mozkomíšního moku)
 - Na povrchu tzv. **plášť *(pallium)***
 	- šedá nervová hmota
 	- **brázdami** členěn na **laloky**:
