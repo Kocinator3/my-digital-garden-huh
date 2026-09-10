@@ -4,7 +4,7 @@
 
 - vyjmenuj přemyslovce (aspon 5)
 - první a druhý král
-- vědy historie erby, listiny, příbuzenské vztahy - geneologie
+- vědy historie erby - heraldika, listiny - diplomatika, příbuzenské vztahy - geneologie
 - vymření přemyslovců po meči 1306 - Václav III
 - byl Vaclav IV? - ano ale v lucemburcich - syn Karla IV
 - sv. Václav 935 28.9 úmrtí
