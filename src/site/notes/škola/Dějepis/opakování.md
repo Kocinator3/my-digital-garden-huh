@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/skola/dejepis/opakovani/","dg-note-properties":{}}
 ---
 
-- vyjmenuj přemyslovce
+- vyjmenuj přemyslovce (aspon 5)
 - první a druhý král
 - vědy historie erby, listiny, příbuzenské vztahy - geneologie
 - vymření přemyslovců po meči 1306 - Václav III
