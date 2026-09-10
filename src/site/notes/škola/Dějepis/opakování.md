@@ -30,7 +30,7 @@ rozloha ceska za lucemburku
 - Dalimiova Kronika, Kosmasova Kronika, František Palacký - Dějiny české i na Moravě
 
 ==Dějiny po Jana Husa==
-- kázal v betlémské kapli - gotice
+- kázal v betlémské kapli - gotika
 	- katedrala sv vita, notredame, kostel sv. mikulase atd.
 	- lomený oblouk, do výšky, fialy
 	- mistr teodorik
