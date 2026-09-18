@@ -4,7 +4,7 @@
 
 - vyjmenuj přemyslovce (aspon 5)
 - první a druhý král
-- vědy historie erby - heraldika, listiny - diplomatika, příbuzenské vztahy - geneologie
+- vědy historie erby - heraldika, listiny - diplomatika, příbuzenské vztahy - genealogie
 - vymření přemyslovců po meči 1306 - Václav III
 - byl Vaclav IV? - ano ale v lucemburcich - syn Karla IV
 - sv. Václav 935 28.9 úmrtí
@@ -25,7 +25,7 @@ rozloha ceska za lucemburku
 	- první arcibiskup - Arnošt z Pardubic
 - první defenestrace - spatne dopadli na kopí
 - Karel IV byl cisarem sv. rise Rimske
-- Pototmci Karla IV - Zikmund, Václav IV, 
+- Pototmci Karla IV - Zikmund, Václav IV, kateřina lucemburská, anna lucemburská - anglie
 
 - Dalimiova Kronika, Kosmasova Kronika, František Palacký - Dějiny české i na Moravě
 
