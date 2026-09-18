@@ -1,0 +1,129 @@
+---
+{"dg-publish":true,"permalink":"/skola/zsv/media/masmedia.canvas/","contentClasses":"canvas-page","dg-note-properties":{}}
+---
+
+<div id="masmédiacanvas" class="canvas-wrapper hide">
+	<svg class="canvas-background">
+		<defs>
+			<pattern id="canvas-grid-masmédiacanvas" width="25" height="25" patternUnits="userSpaceOnUse">
+				<circle r="1.5" cx="12.5" cy="12.5"></circle>
+			</pattern>
+		</defs>
+		<rect width="100%" height="100%" fill="url(#canvas-grid-masmédiacanvas)"></rect>
+	</svg>
+	<div class="canvas">
+		<svg class="canvas-edges-container" style="position:absolute;width:1px;height:1px;overflow:visible;">
+			<defs><marker id="arrow-a882ff" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+			<path d="M0,0.5 L5,3 L0,5.5" fill="none" stroke="#a882ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+		</marker>
+		<marker id="arrow-a882ff-start" markerWidth="6" markerHeight="6" refX="1" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+			<path d="M6,0.5 L1,3 L6,5.5" fill="none" stroke="#a882ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+		</marker>
+<marker id="arrow-44cf6e" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+			<path d="M0,0.5 L5,3 L0,5.5" fill="none" stroke="#44cf6e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+		</marker>
+		<marker id="arrow-44cf6e-start" markerWidth="6" markerHeight="6" refX="1" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+			<path d="M6,0.5 L1,3 L6,5.5" fill="none" stroke="#44cf6e" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+		</marker>
+<marker id="arrow-fb464c" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+			<path d="M0,0.5 L5,3 L0,5.5" fill="none" stroke="#fb464c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+		</marker>
+		<marker id="arrow-fb464c-start" markerWidth="6" markerHeight="6" refX="1" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+			<path d="M6,0.5 L1,3 L6,5.5" fill="none" stroke="#fb464c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+		</marker><filter x="-0.1" y="-0.1" width="1.2" height="1.3" id="edge-label-bg">
+			<feFlood flood-color="var(--background-primary)" flood-opacity="1" result="bg"/>
+			<feMerge>
+				<feMergeNode in="bg"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter></defs><path d="M -35 -80 C -35 23.247275993122457, 116.75272400687754 -40, 220 -40" fill="none" stroke="#a882ff" stroke-width="2" class="canvas-edge" data-edge-id="8fe69d85ae084015"  marker-end="url(#arrow-a882ff)" />
+<path d="M -35 -80 C -35 76.98407562552325, -360 -16.984075625523246, -360 140" fill="none" stroke="#44cf6e" stroke-width="2" class="canvas-edge" data-edge-id="0025f66530a067d1"  marker-end="url(#arrow-44cf6e)" />
+<path d="M -35 -80 C -35 80.31219541881399, 300 -20.312195418813985, 300 140" fill="none" stroke="#fb464c" stroke-width="2" class="canvas-edge" data-edge-id="554e171cf259242c"  marker-end="url(#arrow-fb464c)" />
+<path d="M 40 230 C 90.11985634456667 230, 49.88014365543333 340, 100 340" fill="none" stroke="#a882ff" stroke-width="2" class="canvas-edge" data-edge-id="be0ec4bed619ddd1" marker-start="url(#arrow-a882ff-start)" marker-end="url(#arrow-a882ff)" />
+<path d="M -109 230 C -159 230, -110 340, -160 340" fill="none" stroke="#a882ff" stroke-width="2" class="canvas-edge" data-edge-id="b0ab2da5eb966ae9" marker-start="url(#arrow-a882ff-start)" marker-end="url(#arrow-a882ff)" />
+		</svg>
+		<div class="canvas-node canvas-node-group has-color" data-node-id="29731b3a545cb6f3" style="transform: translate(-560px, 140px); width: 400px; height: 400px; --canvas-color: #44cf6e; ">
+	<div class="canvas-node-label">Pozitiva</div>
+</div>
+<div class="canvas-node canvas-node-group has-color" data-node-id="b9291ec63a5ea3db" style="transform: translate(100px, 140px); width: 400px; height: 400px; --canvas-color: #fb464c; ">
+	<div class="canvas-node-label">Negativa</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="88e585bee12c62bc" style="transform: translate(220px, -110px); width: 250px; height: 140px; --canvas-color: #a882ff;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSBmaWxteQotIHRlbGV2aXpuw60gYSByb3pobGFzb3bDqSBzdGFuaWNlCi0gbm92aW55LCDEjWFzb3Bpc3kK"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="f155d92560869d97" style="transform: translate(120px, 240px); width: 250px; height: 60px; --canvas-color: #fb464c;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSByaXppa28gxaHDrcWZZW7DrSBkZXppbmZvcm1hY8Ot"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="0dab401645d7025f" style="transform: translate(140px, 400px); width: 250px; height: 80px; --canvas-color: #fb464c;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSB6amVkbm9kdcWhZW7DrSBpbmZvcm1hY8OtCgk9IHBhdcWhYWxpemFjZQ=="></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="a9091f7da81b9996" style="transform: translate(200px, 320px); width: 250px; height: 60px; --canvas-color: #fb464c;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSBvYnTDrcW+bsOhIGtvbXVuaWthY2UgcyBwxa92b2RjZW0="></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="a5689d5a6a31a3cf" style="transform: translate(220px, 160px); width: 250px; height: 60px; --canvas-color: #fb464c;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSBzdWJqZWt0aXZub3N0"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="6b1f4033ba6443f6" style="transform: translate(-540px, 160px); width: 250px; height: 100px; --canvas-color: #44cf6e;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSB2ZcWZZWpuw6kKLSBvdmxpdsWIdWplIMWhaXJva291IHZlxZllam5vc3Q="></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="0b81e96332af087d" style="transform: translate(-540px, 340px); width: 250px; height: 60px; --canvas-color: #44cf6e;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSBrb256aXN0ZW50bsOtIHZ5ZMOhdsOhbsOt"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="3d6183a00fadc7c7" style="transform: translate(-440px, 270px); width: 250px; height: 60px; --canvas-color: #44cf6e;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSBwxZnDrXBhZG7DoSBha3R1YWxub3N0"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="97537442d0e4a2d1" style="transform: translate(-440px, 420px); width: 250px; height: 82px; --canvas-color: #44cf6e;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="LSByeWNobGUgCi0gamFzbsSb"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="769be84f87d65c2f" style="transform: translate(-160px, -140px); width: 250px; height: 60px; --canvas-color: #a882ff;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="IyMgTWFzbcOpZGlh"></div>
+		</div>
+	</div>
+</div>
+<div class="canvas-node canvas-node-text has-color" data-node-id="25c7e05a0c047291" style="transform: translate(-109px, 200px); width: 149px; height: 60px; --canvas-color: #a882ff;">
+	<div class="canvas-node-container">
+		<div class="canvas-node-content markdown-rendered">
+			<div class="canvas-node-text-content" data-markdown="dmVsa8O9IGltcGFrdA=="></div>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
