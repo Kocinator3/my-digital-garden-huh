@@ -1,13 +1,22 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+body .canvas-node-text-content {
+  white-space: normal;
+  padding: 8px 12px;
+  font-size: 16px;
+  line-height: 1.4;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  ul, ol {
+    margin-block: 0;
+  }
+
+  li {
+    padding-block: 0;
+  }
 }
