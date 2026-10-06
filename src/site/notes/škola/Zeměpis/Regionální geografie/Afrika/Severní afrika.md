@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/severni-afrika/","dg-note-properties":{}}
 ---
 
-c### Poloha
+### Poloha
 
 - sever kontinentu
 - **subtropický pás**
