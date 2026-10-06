@@ -27,4 +27,3 @@
 - Karlův syn ***Ludvík Pobožný*** chtěl vyřešit dynastické spory rozdělením říše mezi své tři syny.
 - ***Lothar*** se stal císařem, ***Karel Holý*** a ***Ludvík Němec*** se odmítli podřídit a ***Verdunskou smlouvou* r. 843** říši rozdělili
 
-.

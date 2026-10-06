@@ -233,4 +233,5 @@ Však opustil bych i tu, co mám rád.
 
 #### ***Julius Caesar***
 
-- Děj se i přes zavádějící název primárně zaměřuje na Caesarova syna Bruta. A na to jak společně s jeho  zavraždili samotného Caesara. Ačkoliv Řím "osvobodili" Caesarovi stoupenci se jim chtěli pomstít, děj vrcholí na Bitvě u Filipp.
+- Dílo je tragédie zaměřená na psychologii a dilemata při rozhodování mezi rodinou a vlastí.
+- Děj se věnuje Caesarovýmu synovi Brutovi, jež se s jeho odbojem rozhodl Řím osvobodit z diktatury jeho otce. Brut je vystaven dilematu zda zradí svého otce nebo svou vlast. Po Caesarově vraždě byli odbojáři pronásledováni Caesarovými stoupenci a vše bylo rozhodnuto na bitvě u Filipp, kde Brut ze své cti spáchá sebevraždu aby nemusel být dopaden stoupenci svého otce.
