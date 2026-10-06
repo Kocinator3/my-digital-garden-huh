@@ -32,3 +32,7 @@
 
 
 ==test bude prezentace do 40 slidu==
+
+části afriky
+
+[[škola/Zeměpis/Regionální geografie/Afrika/Severní afrika\|Severní afrika]], [[škola/Zeměpis/Regionální geografie/Afrika/Střední afrika\|Střední afrika]], [[škola/Zeměpis/Regionální geografie/Afrika/Subsaharská Afrika\|Subsaharská Afrika]], [[škola/Zeměpis/Regionální geografie/Afrika/Západní afrika\|Západní afrika]]
