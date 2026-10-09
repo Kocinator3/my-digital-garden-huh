@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/ostatni/plspublish/houby-test/","dg-note-properties":{}}
 ---
 
+
 # Houby
 
 ## Taxonomie
@@ -68,7 +69,7 @@ Houby (Fungi )
 3. karyogamie - splývání jader, redukční dělení a vznikají pohlavní výtrusy  
      
      
-   !\[\[Pasted image 20261006214620.png\]\]
+   ![Pasted image 20261006214620.png](/img/user/Ostatn%C3%AD/plspublish/Pasted%20image%2020261006214620.png)
 
 # Význam
 
@@ -107,7 +108,7 @@ Houby (Fungi )
 3. vzniká plodnice (ne u všech)
 4. v plodnicích se tvoří tzv. vřecka (nebo na konci vláken sekundárního podhoubí)
 5. jak je tam redukční dělení (úplný R!) a vzniká 8 výtrusů  
-   !\[\[Pasted image 20261006215508.png\]\]
+   ![Pasted image 20261006215508.png](/img/user/Ostatn%C3%AD/plspublish/Pasted%20image%2020261006215508.png)
 
 # Houby stopkovýtrusé
 
@@ -126,12 +127,12 @@ Houby (Fungi )
 4. splývání jader v bazidíích?
 5. R faktoriál (redukční dělení)
 6. vzniknou 4 výtrusy (bazidiospory)  
-   !\[\[Pasted image 20261006220052.png\]\]
+   ![Pasted image 20261006220052.png](/img/user/Ostatn%C3%AD/plspublish/Pasted%20image%2020261006220052.png)
 
 # Stavba plodnice
 
 nikdy nevíš  
-!\[\[Pasted image 20261006220147.png\]\]
+![Pasted image 20261006220147.png](/img/user/Ostatn%C3%AD/plspublish/Pasted%20image%2020261006220147.png)
 
 Sněti (to tam asi nebude):
 
@@ -179,4 +180,4 @@ Zástupci : prašná sněť pšeničná, ovesná, kukuřičná
 
 ## Stavba stélky
 
-!\[\[Screenshot From 2026-10-06 22-09-41.png\]\]
+![Screenshot From 2026-10-06 22-09-41.png](/img/user/Ostatn%C3%AD/plspublish/Screenshot%20From%202026-10-06%2022-09-41.png)
