@@ -722,6 +722,21 @@ module.exports = function(eleventyConfig) {
   }
 
 
+  function removeFirstTextOccurrence(node, value) {
+    if (node.nodeType === 3) {
+      const text = node.textContent || "";
+      if (text.includes(value)) {
+        node.textContent = text.replace(value, "");
+        return true;
+      }
+    }
+
+    for (const child of node.childNodes || []) {
+      if (removeFirstTextOccurrence(child, value)) return true;
+    }
+    return false;
+  }
+
   function transformColorHighlights(parsed) {
     const markers = [
       ["🔴", "highlight-red"],
@@ -736,7 +751,10 @@ module.exports = function(eleventyConfig) {
     for (const mark of parsed.querySelectorAll("mark")) {
       const text = mark.textContent || "";
       const match = markers.find(([emoji]) => text.includes(emoji));
-      if (match) mark.classList.add(match[1]);
+      if (match) {
+        mark.classList.add(match[1]);
+        removeFirstTextOccurrence(mark, match[0]);
+      }
     }
   }
 
