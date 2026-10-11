@@ -28,6 +28,7 @@ export function toGlobalGraph(graph) {
       home: !!n.home,
       group: n.group || "none",
       ...(n.folder ? { folder: true } : {}),
+      ...(n.folderRoot ? { folderRoot: true } : {}),
     })),
     links,
   };
