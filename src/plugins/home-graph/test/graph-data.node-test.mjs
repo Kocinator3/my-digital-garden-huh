@@ -8,6 +8,7 @@ const sample = {
     "/a/": { id: 1, url: "/a/", title: "A &amp; B", group: "škola", hide: false },
     "/secret/": { id: 2, url: "/secret/", title: "Secret", hide: true },
     "/b/": { id: 3, url: "/b/", title: "B", group: "Sněžka" },
+    "__folder__/": { id: 4, url: "/a/", title: "📁 /", folder: true, group: "none" },
   },
   links: [
     { source: 0, target: 1 },
@@ -21,7 +22,7 @@ const sample = {
 
 test("toGlobalGraph drops hidden nodes and links touching them", () => {
   const g = toGlobalGraph(sample);
-  assert.deepEqual(g.nodes.map((n) => n.id).sort(), [0, 1, 3]);
+  assert.deepEqual(g.nodes.map((n) => n.id).sort(), [0, 1, 3, 4]);
   assert.ok(g.links.every((l) => l.source !== 2 && l.target !== 2));
 });
 
@@ -40,6 +41,7 @@ test("toGlobalGraph keeps the home flag and only the fields the renderer needs",
   assert.equal(g.nodes.find((n) => n.id === 3).home, false);
   assert.equal(g.nodes.find((n) => n.id === 1).group, "škola");
   assert.equal(g.nodes.find((n) => n.id === 3).group, "Sněžka");
+  assert.equal(g.nodes.find((n) => n.id === 4).folder, true);
 });
 
 test("toGlobalGraph tolerates missing or malformed input", () => {
