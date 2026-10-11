@@ -262,44 +262,31 @@ button.obsidian-bases-dropdown-item.obsidian-bases-dropdown-item {
   color: var(--text-muted, #888);
   font-style: italic;
 }
-/* Červená 🔴 */
-mark:has(*:is([data-text*="🔴"], [alt="🔴"], [aria-label="🔴"])),
-mark:has(span[data-text="🔴"]) {
-    background-color: rgba(255, 77, 79, 0.35) !important;
+/* Colored Obsidian highlights: classes are assigned from the marker emoji at build time. */
+mark.highlight-red {
+  background-color: rgba(255, 77, 79, 0.35) !important;
 }
 
-/* Modrá 🔵 */
-mark:has(*:is([data-text*="🔵"], [alt="🔵"], [aria-label="🔵"])),
-mark:has(span[data-text="🔵"]) {
-    background-color: rgba(24, 144, 255, 0.35) !important;
+mark.highlight-blue {
+  background-color: rgba(24, 144, 255, 0.35) !important;
 }
 
-/* Zelená 🟢 */
-mark:has(*:is([data-text*="🟢"], [alt="🟢"], [aria-label="🟢"])),
-mark:has(span[data-text="🟢"]) {
-    background-color: rgba(82, 196, 26, 0.35) !important;
+mark.highlight-green {
+  background-color: rgba(82, 196, 26, 0.35) !important;
 }
 
-/* Žlutá 🟡 */
-mark:has(*:is([data-text*="🟡"], [alt="🟡"], [aria-label="🟡"])),
-mark:has(span[data-text="🟡"]) {
-    background-color: rgba(250, 219, 20, 0.35) !important;
+mark.highlight-yellow {
+  background-color: rgba(250, 219, 20, 0.35) !important;
 }
 
-/* Fialová 🟣 */
-mark:has(*:is([data-text*="🟣"], [alt="🟣"], [aria-label="🟣"])),
-mark:has(span[data-text="🟣"]) {
-    background-color: rgba(146, 84, 222, 0.35) !important;
+mark.highlight-purple {
+  background-color: rgba(146, 84, 222, 0.35) !important;
 }
 
-/* Oranžová 🟠 */
-mark:has(*:is([data-text*="🟠"], [alt="🟠"], [aria-label="🟠"])),
-mark:has(span[data-text="🟠"]) {
-    background-color: rgba(255, 122, 24, 0.35) !important;
+mark.highlight-orange {
+  background-color: rgba(255, 122, 24, 0.35) !important;
 }
 
-/* Hnědá 🟤 */
-mark:has(*:is([data-text*="🟤"], [alt="🟤"], [aria-label="🟤"])),
-mark:has(span[data-text="🟤"]) {
-    background-color: rgba(140, 87, 50, 0.35) !important;
+mark.highlight-brown {
+  background-color: rgba(140, 87, 50, 0.35) !important;
 }
