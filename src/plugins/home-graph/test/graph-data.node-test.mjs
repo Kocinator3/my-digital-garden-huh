@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { toGlobalGraph, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
+import { toGlobalGraph, folderView, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
 
 const sample = {
   nodes: {
@@ -51,6 +51,32 @@ test("toGlobalGraph tolerates missing or malformed input", () => {
     nodes: [{ id: 1, url: undefined, title: undefined, home: false, group: "none" }],
     links: [],
   });
+});
+
+test("folderView keeps ancestor path, direct files, and immediate child folders", () => {
+  const graph = {
+    nodes: [
+      { id: 0, title: "/", folder: true, folderRoot: true, folderPath: "" },
+      { id: 1, title: "A", folder: true, folderPath: "A" },
+      { id: 2, title: "B", folder: true, folderPath: "A/B" },
+      { id: 3, title: "C", folder: true, folderPath: "A/C" },
+      { id: 4, title: "deep", folder: true, folderPath: "A/B/deep" },
+      { id: 5, title: "root-file", folderPath: "" },
+      { id: 6, title: "a-file", folderPath: "A" },
+      { id: 7, title: "b-file", folderPath: "A/B" },
+      { id: 8, title: "deep-file", folderPath: "A/B/deep" },
+    ],
+    links: [
+      { source: 0, target: 1 }, { source: 1, target: 2 }, { source: 1, target: 3 },
+      { source: 2, target: 4 }, { source: 0, target: 5 }, { source: 1, target: 6 },
+      { source: 2, target: 7 }, { source: 4, target: 8 },
+    ],
+  };
+  assert.deepEqual(folderView(graph, "A/B").nodes.map((n) => n.id), [0, 1, 2, 4, 7]);
+  assert.deepEqual(folderView(graph, "A/B").links, [
+    { source: 1, target: 2 }, { source: 2, target: 4 }, { source: 2, target: 7 },
+  ]);
+  assert.deepEqual(folderView(graph, "").nodes.map((n) => n.id), [0, 1, 5]);
 });
 
 test("buildDegreeMap counts both ends, with ids or resolved objects", () => {
