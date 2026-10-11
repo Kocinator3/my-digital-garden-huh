@@ -27,3 +27,15 @@ mark:has(*:is([data-text*="🟣"], [alt="🟣"], [aria-label="🟣"])),
 mark:has(span[data-text="🟣"]) {
     background-color: rgba(146, 84, 222, 0.35) !important;
 }
+
+/* Oranžová 🟠 */
+mark:has(*:is([data-text*="🟠"], [alt="🟠"], [aria-label="🟠"])),
+mark:has(span[data-text="🟠"]) {
+    background-color: rgba(255, 122, 24, 0.35) !important;
+}
+
+/* Hnědá 🟤 */
+mark:has(*:is([data-text*="🟤"], [alt="🟤"], [aria-label="🟤"])),
+mark:has(span[data-text="🟤"]) {
+    background-color: rgba(140, 87, 50, 0.35) !important;
+}
