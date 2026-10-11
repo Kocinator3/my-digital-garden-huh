@@ -255,6 +255,7 @@ async function computeGraph(data) {
       id: idx,
       title: v.data.title || v.fileSlug,
       url: v.url,
+      folderPath: fpath.split("/").slice(0, -1).join("/"),
       group,
       home:
         v.data["dg-home"] ||
