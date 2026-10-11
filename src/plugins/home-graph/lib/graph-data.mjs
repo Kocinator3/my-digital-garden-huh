@@ -27,7 +27,7 @@ export function toGlobalGraph(graph) {
       title: n.title,
       home: !!n.home,
       group: n.group || "none",
-      folder: !!n.folder,
+      ...(n.folder ? { folder: true } : {}),
     })),
     links,
   };
