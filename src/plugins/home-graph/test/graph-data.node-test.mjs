@@ -76,7 +76,10 @@ test("folderView keeps all descendant files and folders but hides unrelated bran
   assert.deepEqual(folderView(graph, "A/B").links, [
     { source: 2, target: 4 }, { source: 2, target: 7 }, { source: 4, target: 8 }, { source: 0, target: 2 },
   ]);
-  assert.deepEqual(folderView(graph, "").nodes.map((n) => n.id), [0, 1, 2, 3, 4, 5, 6, 7, 8]);
+  assert.deepEqual(folderView(graph, "").nodes.map((n) => n.id), [0, 1, 5]);
+  assert.deepEqual(folderView(graph, "").links, [
+    { source: 0, target: 1 }, { source: 0, target: 5 },
+  ]);
 });
 
 test("buildDegreeMap counts both ends, with ids or resolved objects", () => {
