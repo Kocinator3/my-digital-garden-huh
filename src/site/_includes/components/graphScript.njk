@@ -153,6 +153,13 @@ function renderGraph(graphData, containerId, isFullScreen) {
         text: htmlDecode(n.title),
     }));
     const links = graphData.links.map(l => ({ source: l.source, target: l.target }));
+    const rootNodeIds = new Set(nodes.filter(n => n.folder && (n.folderRoot || n.folderPath === "")).map(n => n.id));
+    const largestNonRootRadius = Math.max(1, ...nodes
+        .filter(n => !rootNodeIds.has(n.id))
+        .map(n => Math.max(1, nodeRadius(n.id, degreeMap) + (n.folder ? 1.5 : 0))));
+    const graphNodeRadius = n => rootNodeIds.has(n.id)
+        ? largestNonRootRadius + 3
+        : Math.max(1, nodeRadius(n.id, degreeMap) + (n.folder ? 1.5 : 0));
     // D3 Force Simulation — stronger repel for full graph to spread nodes
     const chargeStrength = isFullScreen ? -300 : -100;
     const linkDist = isFullScreen ? 80 : 40;
@@ -161,7 +168,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
         .force('charge', forceManyBody().strength(chargeStrength))
         .force('center', forceCenter(width / 2, height / 2).strength(0.5))
         .force('link', forceLink(links).id(d => d.id).distance(linkDist))
-        .force('collide', forceCollide(d => Math.max(1, nodeRadius(d.id, degreeMap) + (d.folder ? (d.folderPath === "" ? -0.5 : 1.5) : 0) + 1)).iterations(3))
+        .force('collide', forceCollide(d => graphNodeRadius(d) + 1).iterations(3))
         .force('radial', forceRadial(radius, width / 2, height / 2).strength(0.05));
 
     // Pixi v7 Application (synchronous constructor)
@@ -222,8 +229,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
     // Create node graphics
     for (const n of nodes) {
-        const baseRadius = Math.max(1, nodeRadius(n.id, degreeMap) + (n.folder ? (n.folderPath === "" ? -0.5 : 1.5) : 0));
-        const r = n.folderRoot ? baseRadius * 0.9 : baseRadius;
+        const r = graphNodeRadius(n);
 
         const label = new Text(n.text, {
             fontSize: 16,
