@@ -23,8 +23,8 @@ function filterFullGraphData(graphData) {
     };
 }
 
-// Show only the selected folder, its ancestor path, immediate child folders,
-// and files directly inside it. A click on another folder navigates that view.
+// Show the root, the selected folder, its immediate child folders, and its
+// direct files. Ancestor folders above the selected folder stay collapsed/hidden.
 function buildFolderViewData(graphData, folderPath) {
     if (!graphData || !graphData.nodes) return null;
     const allNodes = Object.values(graphData.nodes).filter(n => n && !n.hide);
@@ -32,9 +32,8 @@ function buildFolderViewData(graphData, folderPath) {
         if (!n.folder) return (n.folderPath || "") === folderPath;
         const currentPath = n.folderPath || "";
         if (currentPath === "") return true;
-        const isAncestor = folderPath === currentPath || folderPath.startsWith(currentPath + "/");
         const parentPath = currentPath.includes("/") ? currentPath.slice(0, currentPath.lastIndexOf("/")) : "";
-        return isAncestor || parentPath === folderPath;
+        return currentPath === folderPath || parentPath === folderPath;
     });
     const visibleIds = new Set(visibleNodes.map(n => n.id));
     const links = (graphData.links || []).filter(l => {
@@ -45,6 +44,18 @@ function buildFolderViewData(graphData, folderPath) {
         source: typeof l.source === "object" ? l.source.id : l.source,
         target: typeof l.target === "object" ? l.target.id : l.target,
     }));
+
+    // If ancestors are hidden, connect the root directly to the selected folder.
+    if (folderPath) {
+        const root = visibleNodes.find(n => n.folder && (n.folderRoot || (n.folderPath || "") === ""));
+        const selected = visibleNodes.find(n => n.folder && n.folderPath === folderPath);
+        if (root && selected && !links.some(l =>
+            (l.source === root.id && l.target === selected.id) ||
+            (l.source === selected.id && l.target === root.id)
+        )) {
+            links.push({ source: root.id, target: selected.id });
+        }
+    }
     return { nodes: visibleNodes, links };
 }
 
