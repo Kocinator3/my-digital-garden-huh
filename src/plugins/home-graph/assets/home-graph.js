@@ -114,7 +114,8 @@ function render(PIXI, el, data, state, onFolderClick = null) {
 
   for (const n of nodes) {
     const r = graphNodeRadius(n);
-    const label = new Text(n.text, { fontSize: 16, fill: textColor, fontFamily: bodyFont });
+    const isFolderRoot = n.folder && (n.folderRoot || n.title === "/" || (n.folderPath || "") === "");
+    const label = new Text(n.text, { fontSize: 16, fill: isFolderRoot ? mutedColor : textColor, fontFamily: bodyFont });
     label.resolution = 2;
     label.anchor.set(0.5, 1);
     label.scale.set(1 / 3);
@@ -124,7 +125,8 @@ function render(PIXI, el, data, state, onFolderClick = null) {
     gfx.interactive = true;
     gfx.cursor = "pointer";
     gfx.hitArea = new Circle(0, 0, r + 2);
-    const nodeColor = n.folder ? folderColor : (n.home ? mainColor : mutedColor);
+    // "/" is a virtual navigation marker; keep it neutral rather than accent-colored.
+    const nodeColor = isFolderRoot ? mutedColor : n.folder ? folderColor : (n.home ? mainColor : mutedColor);
     gfx.beginFill(nodeColor);
     gfx.drawCircle(0, 0, r);
     gfx.endFill();
