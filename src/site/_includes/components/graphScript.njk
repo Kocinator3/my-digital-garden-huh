@@ -1,5 +1,5 @@
 <script type="module">
-import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial } from 'd3-force';
+import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial, forceX, forceY } from 'd3-force';
 import { select } from 'd3-selection';
 import { zoom as d3Zoom, zoomIdentity } from 'd3-zoom';
 import { drag as d3Drag } from 'd3-drag';
@@ -127,6 +127,30 @@ function nodeRadius(nodeId, degreeMap) {
     return 2 + Math.sqrt(degreeMap[nodeId] || 0);
 }
 
+// Assign each folder a stable target area around the graph. Notes in the same
+// folder are gently pulled together while normal note-to-note links still apply.
+function buildFolderTargets(nodes, width, height) {
+    const groups = [...new Set(nodes.map(n => n.group || 'none'))].sort();
+    const center = { x: width / 2, y: height / 2 };
+    const targets = new Map();
+    if (groups.length === 1) {
+        targets.set(groups[0], center);
+        return targets;
+    }
+
+    const folderGroups = groups.filter(group => group !== 'none');
+    if (groups.includes('none')) targets.set('none', center);
+    const radius = Math.min(width, height) * 0.26;
+    folderGroups.forEach((group, index) => {
+        const angle = -Math.PI / 2 + (2 * Math.PI * index / folderGroups.length);
+        targets.set(group, {
+            x: center.x + Math.cos(angle) * radius,
+            y: center.y + Math.sin(angle) * radius,
+        });
+    });
+    return targets;
+}
+
 function renderGraph(graphData, containerId, isFullScreen) {
     if (!graphData || !graphData.nodes || graphData.nodes.length === 0) return null;
 
@@ -151,6 +175,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
         text: htmlDecode(n.title),
     }));
     const links = graphData.links.map(l => ({ source: l.source, target: l.target }));
+    const folderTargets = buildFolderTargets(nodes, width, height);
+    const folderTarget = node => folderTargets.get(node.group || 'none') || { x: width / 2, y: height / 2 };
 
     // D3 Force Simulation — stronger repel for full graph to spread nodes
     const chargeStrength = isFullScreen ? -300 : -100;
@@ -161,7 +187,9 @@ function renderGraph(graphData, containerId, isFullScreen) {
         .force('center', forceCenter(width / 2, height / 2).strength(0.5))
         .force('link', forceLink(links).id(d => d.id).distance(linkDist))
         .force('collide', forceCollide(d => nodeRadius(d.id, degreeMap) + 1).iterations(3))
-        .force('radial', forceRadial(radius, width / 2, height / 2).strength(0.05));
+        .force('radial', forceRadial(radius, width / 2, height / 2).strength(0.05))
+        .force('folder-x', forceX(d => folderTarget(d).x).strength(0.09))
+        .force('folder-y', forceY(d => folderTarget(d).y).strength(0.09));
 
     // Pixi v7 Application (synchronous constructor)
     const app = new Application({
@@ -278,12 +306,16 @@ function renderGraph(graphData, containerId, isFullScreen) {
     }
 
     for (const l of links) {
+        const source = typeof l.source === 'object' ? l.source : nodes.find(n => n.id === l.source);
+        const target = typeof l.target === 'object' ? l.target : nodes.find(n => n.id === l.target);
+        const sameFolder = source && target && (source.group || 'none') === (target.group || 'none');
+        const baseAlpha = sameFolder ? 0.4 : 0.13;
         linkRenderData.push({
             simulationData: l,
             active: false,
-            baseAlpha: 0.4,
-            targetAlpha: 0.4,
-            currentAlpha: 0.4,
+            baseAlpha,
+            targetAlpha: baseAlpha,
+            currentAlpha: baseAlpha,
         });
     }
 
