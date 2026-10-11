@@ -150,7 +150,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
     const nodes = graphData.nodes.map(n => ({
         ...n,
-        text: htmlDecode(n.title),
+        text: n.folder ? "📁" : htmlDecode(n.title),
     }));
     const links = graphData.links.map(l => ({ source: l.source, target: l.target }));
     // D3 Force Simulation — stronger repel for full graph to spread nodes
@@ -222,7 +222,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
 
     // Create node graphics
     for (const n of nodes) {
-        const r = nodeRadius(n.id, degreeMap) + (n.folder ? 1.5 : 0);
+        const baseRadius = nodeRadius(n.id, degreeMap) + (n.folder ? 1.5 : 0);
+        const r = n.folderRoot ? baseRadius * 0.9 : baseRadius;
 
         const label = new Text(n.text, {
             fontSize: 16,
