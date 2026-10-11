@@ -64,6 +64,13 @@ function buildFolderViewData(graphData, folderPath) {
     return { nodes: visibleNodes, links };
 }
 
+// The virtual "/" folder acts as an "up one level" button.
+function parentFolderPath(folderPath) {
+    const parts = String(folderPath || "").split("/").filter(Boolean);
+    parts.pop();
+    return parts.join("/");
+}
+
 function filterLocalGraphData(graphData, depth) {
     if (!graphData) return null;
     depth = depth || 1;
@@ -392,7 +399,8 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
                 const dist = Math.sqrt(dx * dx + dy * dy);
                 if (dt < 500 && dist < 5) {
                     if (node.folder) {
-                        if (onFolderClick) onFolderClick(node.folderPath || "");
+                        const isFolderRoot = node.folderRoot || (node.folderPath || "") === "" || node.text === "/";
+                        if (onFolderClick) onFolderClick(node.folderPath || "", isFolderRoot);
                     } else if (node.url) {
                         window.location = node.url;
                     }
@@ -533,8 +541,8 @@ function renderLocal() {
     const data = localGraphFolderPath !== null
         ? buildFolderViewData(graphDataCache, localGraphFolderPath)
         : filterLocalGraphData(graphDataCache, localGraphDepth);
-    const cleanup = renderGraph(data, 'link-graph', false, path => {
-        localGraphFolderPath = path;
+    const cleanup = renderGraph(data, 'link-graph', false, (path, isFolderRoot) => {
+        localGraphFolderPath = isFolderRoot ? parentFolderPath(localGraphFolderPath) : path;
         renderLocal();
     });
     localGraphCleanup = cleanup;
@@ -554,8 +562,8 @@ function renderModalGraph(initialData) {
     const data = globalGraphFolderPath !== null
         ? buildFolderViewData(graphDataCache, globalGraphFolderPath)
         : initialData;
-    globalGraphCleanup = renderGraph(data, 'full-graph-container', true, path => {
-        globalGraphFolderPath = path;
+    globalGraphCleanup = renderGraph(data, 'full-graph-container', true, (path, isFolderRoot) => {
+        globalGraphFolderPath = isFolderRoot ? parentFolderPath(globalGraphFolderPath) : path;
         renderModalGraph(initialData);
     });
     lucide.createIcons({ attrs: { class: ['svg-icon'] } });
