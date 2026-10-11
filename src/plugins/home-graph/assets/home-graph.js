@@ -61,12 +61,19 @@ function render(PIXI, el, data, state) {
   const degrees = buildDegreeMap(data.links);
   const nodes = data.nodes.map((n) => ({ ...n, text: htmlDecode(n.title) }));
   const links = data.links.map((l) => ({ source: l.source, target: l.target }));
+  const rootNodeIds = new Set(nodes.filter((n) => n.folder && (n.folderRoot || n.title === "/")).map((n) => n.id));
+  const largestNonRootRadius = Math.max(1, ...nodes
+    .filter((n) => !rootNodeIds.has(n.id))
+    .map((n) => Math.max(1, nodeRadius(degrees[n.id]) + (n.folder ? 1.5 : 0))));
+  const graphNodeRadius = (n) => rootNodeIds.has(n.id)
+    ? largestNonRootRadius + 3
+    : Math.max(1, nodeRadius(degrees[n.id]) + (n.folder ? 1.5 : 0));
 
   const simulation = forceSimulation(nodes)
     .force("charge", forceManyBody().strength(-300))
     .force("center", forceCenter(width / 2, height / 2).strength(0.5))
     .force("link", forceLink(links).id((d) => d.id).distance(80))
-    .force("collide", forceCollide((d) => Math.max(1, nodeRadius(degrees[d.id]) + (d.folder ? (d.title === "/" ? -0.5 : 1.5) : 0) + 1)).iterations(3))
+    .force("collide", forceCollide((d) => graphNodeRadius(d) + 1).iterations(3))
     .force("radial", forceRadial(Math.min(width, height) / 3, width / 2, height / 2).strength(0.05));
 
   const app = new Application({
@@ -106,8 +113,7 @@ function render(PIXI, el, data, state) {
   }
 
   for (const n of nodes) {
-    const baseRadius = Math.max(1, nodeRadius(degrees[n.id]) + (n.folder ? (n.title === "/" ? -0.5 : 1.5) : 0));
-    const r = n.folderRoot ? baseRadius * 0.9 : baseRadius;
+    const r = graphNodeRadius(n);
     const label = new Text(n.text, { fontSize: 16, fill: textColor, fontFamily: bodyFont });
     label.resolution = 2;
     label.anchor.set(0.5, 1);
