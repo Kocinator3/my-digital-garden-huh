@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { toGlobalGraph, folderView, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
+import { toGlobalGraph, folderView, parentFolderPath, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
 
 const sample = {
   nodes: {
@@ -51,6 +51,13 @@ test("toGlobalGraph tolerates missing or malformed input", () => {
     nodes: [{ id: 1, url: undefined, title: undefined, home: false, group: "none" }],
     links: [],
   });
+});
+
+test("parentFolderPath moves one level up and stops at root", () => {
+  assert.equal(parentFolderPath("skola/zemak"), "skola");
+  assert.equal(parentFolderPath("skola"), "");
+  assert.equal(parentFolderPath(""), "");
+  assert.equal(parentFolderPath(null), "");
 });
 
 test("folderView keeps all descendant files and folders but hides unrelated branches and ancestors", () => {
