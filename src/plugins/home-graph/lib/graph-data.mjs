@@ -36,17 +36,16 @@ export function toGlobalGraph(graph) {
 }
 
 /**
- * Browse one folder level: keep the root, selected folder, immediate child
- * folders, and direct files. Ancestor folders above the selection stay hidden.
+ * Browse a folder subtree: keep every descendant folder and file, the root,
+ * and hide unrelated branches and ancestor folders above the selection.
  */
 export function folderView(graphData, folderPath) {
   if (!graphData || !Array.isArray(graphData.nodes)) return { nodes: [], links: [] };
   const nodes = graphData.nodes.filter((n) => {
-    if (!n.folder) return (n.folderPath || "") === folderPath;
     const currentPath = n.folderPath || "";
+    if (!n.folder) return folderPath === "" || currentPath === folderPath || currentPath.startsWith(folderPath + "/");
     if (currentPath === "") return true;
-    const parentPath = currentPath.includes("/") ? currentPath.slice(0, currentPath.lastIndexOf("/")) : "";
-    return currentPath === folderPath || parentPath === folderPath;
+    return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
   });
   const ids = new Set(nodes.map((n) => n.id));
   const links = (graphData.links || []).filter((l) => {
