@@ -59,7 +59,7 @@ function render(PIXI, el, data, state) {
   const bodyFont = getComputedStyle(document.body).fontFamily || "Sans-Serif";
 
   const degrees = buildDegreeMap(data.links);
-  const nodes = data.nodes.map((n) => ({ ...n, text: htmlDecode(n.title) }));
+  const nodes = data.nodes.map((n) => ({ ...n, text: n.folder ? "📁" : htmlDecode(n.title) }));
   const links = data.links.map((l) => ({ source: l.source, target: l.target }));
 
   const simulation = forceSimulation(nodes)
@@ -106,7 +106,8 @@ function render(PIXI, el, data, state) {
   }
 
   for (const n of nodes) {
-    const r = nodeRadius(degrees[n.id]) + (n.folder ? 1.5 : 0);
+    const baseRadius = nodeRadius(degrees[n.id]) + (n.folder ? 1.5 : 0);
+    const r = n.folderRoot ? baseRadius * 0.9 : baseRadius;
     const label = new Text(n.text, { fontSize: 16, fill: textColor, fontFamily: bodyFont });
     label.resolution = 2;
     label.anchor.set(0.5, 1);
