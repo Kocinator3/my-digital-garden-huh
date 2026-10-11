@@ -241,10 +241,11 @@ async function computeGraph(data) {
   for (let idx = 0; idx < notes.length; idx++) {
     const v = notes[idx];
     let fpath = v.filePathStem.replace("/notes/", "");
-    let parts = fpath.split("/").filter(Boolean);
-    // Use the full folder path so same-named folders in different branches
-    // remain separate clusters. Notes directly under /notes belong to "none".
-    let group = parts.length > 1 ? parts.slice(0, -1).join("/") : "none";
+    let parts = fpath.split("/");
+    let group = "none";
+    if (parts.length >= 3) {
+      group = parts[parts.length - 2];
+    }
 
     const templateContent = await v.template.read();
     const content = templateContent?.content || "";
