@@ -36,8 +36,9 @@ test("toGlobalGraph de-duplicates reverse links and drops self links", () => {
 test("toGlobalGraph keeps the home flag and only the fields the renderer needs", () => {
   const g = toGlobalGraph(sample);
   const home = g.nodes.find((n) => n.id === 0);
-  assert.deepEqual(home, { id: 0, url: "/", title: "Home", home: true });
+  assert.deepEqual(home, { id: 0, url: "/", title: "Home", home: true, group: "none" });
   assert.equal(g.nodes.find((n) => n.id === 3).home, false);
+  assert.equal(g.nodes.find((n) => n.id === 3).group, "none");
 });
 
 test("toGlobalGraph tolerates missing or malformed input", () => {
