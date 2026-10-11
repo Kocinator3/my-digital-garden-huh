@@ -23,17 +23,16 @@ function filterFullGraphData(graphData) {
     };
 }
 
-// Show the root, the selected folder, its immediate child folders, and its
-// direct files. Ancestor folders above the selected folder stay collapsed/hidden.
+// Show every file and subfolder in the selected folder's subtree, while keeping
+// the root and hiding unrelated branches and ancestor folders above the selection.
 function buildFolderViewData(graphData, folderPath) {
     if (!graphData || !graphData.nodes) return null;
     const allNodes = Object.values(graphData.nodes).filter(n => n && !n.hide);
     const visibleNodes = allNodes.filter(n => {
-        if (!n.folder) return (n.folderPath || "") === folderPath;
         const currentPath = n.folderPath || "";
+        if (!n.folder) return folderPath === "" || currentPath === folderPath || currentPath.startsWith(folderPath + "/");
         if (currentPath === "") return true;
-        const parentPath = currentPath.includes("/") ? currentPath.slice(0, currentPath.lastIndexOf("/")) : "";
-        return currentPath === folderPath || parentPath === folderPath;
+        return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
     });
     const visibleIds = new Set(visibleNodes.map(n => n.id));
     const links = (graphData.links || []).filter(l => {
