@@ -21,7 +21,13 @@ export function toGlobalGraph(graph) {
     links.push({ source: l.source, target: l.target });
   }
   return {
-    nodes: nodes.map((n) => ({ id: n.id, url: n.url, title: n.title, home: !!n.home })),
+    nodes: nodes.map((n) => ({
+      id: n.id,
+      url: n.url,
+      title: n.title,
+      home: !!n.home,
+      group: n.group || "none",
+    })),
     links,
   };
 }
