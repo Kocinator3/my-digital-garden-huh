@@ -1,6 +1,6 @@
 // Home Graph plugin: renders the whole garden's link graph on the home page.
 // Force layout by d3, drawing by Pixi (both already used by the core graph).
-import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial, forceX, forceY } from "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm";
+import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial } from "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm";
 import { select } from "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm";
 import { zoom as d3Zoom, zoomIdentity } from "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm";
 import { drag as d3Drag } from "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm";
@@ -27,28 +27,6 @@ function cssVar(name) {
   return getComputedStyle(document.body).getPropertyValue(name).trim();
 }
 
-// Assign a stable target area to each folder so its notes form a visible cluster.
-function buildFolderTargets(nodes, width, height) {
-  const groups = [...new Set(nodes.map((n) => n.group || "none"))].sort();
-  const center = { x: width / 2, y: height / 2 };
-  const targets = new Map();
-  if (groups.length === 1) {
-    targets.set(groups[0], center);
-    return targets;
-  }
-
-  const folderGroups = groups.filter((group) => group !== "none");
-  if (groups.includes("none")) targets.set("none", center);
-  const radius = Math.min(width, height) * 0.26;
-  folderGroups.forEach((group, index) => {
-    const angle = -Math.PI / 2 + (2 * Math.PI * index / folderGroups.length);
-    targets.set(group, {
-      x: center.x + Math.cos(angle) * radius,
-      y: center.y + Math.sin(angle) * radius,
-    });
-  });
-  return targets;
-}
 
 const probe = document.createElement("div");
 probe.style.display = "none";
@@ -77,22 +55,19 @@ function render(PIXI, el, data, state) {
   const mainColor = resolveColor(cssVar("--dg-graph-node-color") || cssVar("--graph-main") || "#666", 0x666666);
   const mutedColor = resolveColor(cssVar("--dg-graph-node-color-muted") || cssVar("--graph-muted") || "#ccc", 0xcccccc);
   const textColor = resolveColor(cssVar("--dg-graph-label-color") || cssVar("--text-normal") || "#eee", 0xeeeeee);
+  const folderColor = resolveColor(cssVar("--text-accent") || "#7c3aed", 0x7c3aed);
   const bodyFont = getComputedStyle(document.body).fontFamily || "Sans-Serif";
 
   const degrees = buildDegreeMap(data.links);
   const nodes = data.nodes.map((n) => ({ ...n, text: htmlDecode(n.title) }));
   const links = data.links.map((l) => ({ source: l.source, target: l.target }));
-  const folderTargets = buildFolderTargets(nodes, width, height);
-  const folderTarget = (node) => folderTargets.get(node.group || "none") || { x: width / 2, y: height / 2 };
 
   const simulation = forceSimulation(nodes)
     .force("charge", forceManyBody().strength(-300))
     .force("center", forceCenter(width / 2, height / 2).strength(0.5))
     .force("link", forceLink(links).id((d) => d.id).distance(80))
-    .force("collide", forceCollide((d) => nodeRadius(degrees[d.id]) + 1).iterations(3))
-    .force("radial", forceRadial(Math.min(width, height) / 3, width / 2, height / 2).strength(0.05))
-    .force("folder-x", forceX((d) => folderTarget(d).x).strength(0.09))
-    .force("folder-y", forceY((d) => folderTarget(d).y).strength(0.09));
+    .force("collide", forceCollide((d) => nodeRadius(degrees[d.id]) + (d.folder ? 1.5 : 0) + 1).iterations(3))
+    .force("radial", forceRadial(Math.min(width, height) / 3, width / 2, height / 2).strength(0.05));
 
   const app = new Application({
     width, height, antialias: true, autoStart: false, autoDensity: true,
@@ -131,7 +106,7 @@ function render(PIXI, el, data, state) {
   }
 
   for (const n of nodes) {
-    const r = nodeRadius(degrees[n.id]);
+    const r = nodeRadius(degrees[n.id]) + (n.folder ? 1.5 : 0);
     const label = new Text(n.text, { fontSize: 16, fill: textColor, fontFamily: bodyFont });
     label.resolution = 2;
     label.anchor.set(0.5, 1);
@@ -142,11 +117,12 @@ function render(PIXI, el, data, state) {
     gfx.interactive = true;
     gfx.cursor = "pointer";
     gfx.hitArea = new Circle(0, 0, r + 2);
-    gfx.beginFill(n.home ? mainColor : mutedColor);
+    const nodeColor = n.folder ? folderColor : (n.home ? mainColor : mutedColor);
+    gfx.beginFill(nodeColor);
     gfx.drawCircle(0, 0, r);
     gfx.endFill();
-    if (n.home) {
-      gfx.lineStyle(0.5, mainColor);
+    if (n.home || n.folder) {
+      gfx.lineStyle(0.8, nodeColor);
       gfx.drawCircle(0, 0, r + 1.5);
     }
     gfx.on("pointerover", () => { setHover(n.id); });
@@ -156,13 +132,7 @@ function render(PIXI, el, data, state) {
     labelsLayer.addChild(label);
     nodeItems.push({ sim: n, gfx, label, r, active: false, target: 1, alpha: 1 });
   }
-  for (const l of links) {
-    const source = typeof l.source === "object" ? l.source : nodes.find((n) => n.id === l.source);
-    const target = typeof l.target === "object" ? l.target : nodes.find((n) => n.id === l.target);
-    const sameFolder = source && target && (source.group || "none") === (target.group || "none");
-    const baseAlpha = sameFolder ? 0.4 : 0.13;
-    linkItems.push({ sim: l, active: false, baseAlpha, target: baseAlpha, alpha: baseAlpha });
-  }
+  for (const l of links) linkItems.push({ sim: l, active: false, baseAlpha: 0.4, target: 0.4, alpha: 0.4 });
 
   select(app.view).call(
     d3Drag()
@@ -192,7 +162,7 @@ function render(PIXI, el, data, state) {
         dragging = false;
         const dt = Date.now() - dragStart.t;
         const dist = Math.hypot(event.x - dragStart.x, event.y - dragStart.y);
-        if (dt < 500 && dist < 5 && node.url) window.location = node.url;
+        if (dt < 500 && dist < 5 && node.url && !node.folder) window.location = node.url;
       })
   );
 
