@@ -36,6 +36,16 @@ export function toGlobalGraph(graph) {
 }
 
 /**
+ * Path of the parent folder. Used by the virtual "/" node as an "up one level" control.
+ * Null and root-level paths both resolve to the root.
+ */
+export function parentFolderPath(folderPath) {
+  const parts = String(folderPath || "").split("/").filter(Boolean);
+  parts.pop();
+  return parts.join("/");
+}
+
+/**
  * Browse a folder subtree: keep every descendant folder and file, the root,
  * and hide unrelated branches and ancestor folders above the selection.
  */
