@@ -376,7 +376,7 @@ async function computeGraph(data) {
 
     nodes[rootFolderKey] = {
       id: nextGraphId++,
-      title: "📁 /",
+      title: "/",
       url: representativeUrl,
       folder: true,
       folderRoot: true,
@@ -403,7 +403,7 @@ async function computeGraph(data) {
       folderNodeKeys.set(folder.path, key);
       nodes[key] = {
         id: nextGraphId++,
-        title: `📁 ${folder.path}`,
+        title: folder.path.split("/").pop(),
         url: folder.representativeUrl,
         folder: true,
         folderPath: folder.path,
