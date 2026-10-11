@@ -5,7 +5,7 @@ import { select } from "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm";
 import { zoom as d3Zoom, zoomIdentity } from "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm";
 import { drag as d3Drag } from "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm";
 import "https://cdn.jsdelivr.net/npm/d3-transition@3.0.1/+esm"; // selection.transition() for the animated fit button
-import { toGlobalGraph, folderView, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
+import { toGlobalGraph, folderView, parentFolderPath, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
 
 const PIXI_URL = "https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js";
 
@@ -173,7 +173,8 @@ function render(PIXI, el, data, state, onFolderClick = null) {
         const dist = Math.hypot(event.x - dragStart.x, event.y - dragStart.y);
         if (dt < 500 && dist < 5) {
           if (node.folder) {
-            if (onFolderClick) onFolderClick(node.folderPath || "");
+            const isFolderRoot = node.folderRoot || (node.folderPath || "") === "" || node.text === "/";
+            if (onFolderClick) onFolderClick(node.folderPath || "", isFolderRoot);
           } else if (node.url) {
             window.location = node.url;
           }
@@ -276,8 +277,8 @@ async function main() {
     instance = null;
     try {
       const visibleData = state.folderPath === null ? graph.data : folderView(graph.data, state.folderPath);
-      instance = render(graph.PIXI, canvasEl, visibleData, state, (path) => {
-        state.folderPath = path;
+      instance = render(graph.PIXI, canvasEl, visibleData, state, (path, isFolderRoot) => {
+        state.folderPath = isFolderRoot ? parentFolderPath(state.folderPath) : path;
         draw();
       });
     } catch (err) {
