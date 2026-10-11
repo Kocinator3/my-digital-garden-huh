@@ -721,6 +721,25 @@ module.exports = function(eleventyConfig) {
     }
   }
 
+
+  function transformColorHighlights(parsed) {
+    const markers = [
+      ["🔴", "highlight-red"],
+      ["🔵", "highlight-blue"],
+      ["🟢", "highlight-green"],
+      ["🟡", "highlight-yellow"],
+      ["🟣", "highlight-purple"],
+      ["🟠", "highlight-orange"],
+      ["🟤", "highlight-brown"],
+    ];
+
+    for (const mark of parsed.querySelectorAll("mark")) {
+      const text = mark.textContent || "";
+      const match = markers.find(([emoji]) => text.includes(emoji));
+      if (match) mark.classList.add(match[1]);
+    }
+  }
+
   eleventyConfig.addTransform("obsidian-html", async function(str) {
     if (!str || !isMarkdownPage(this.page.inputPath)) {
       return str;
@@ -730,6 +749,7 @@ module.exports = function(eleventyConfig) {
     transformCalloutBlockquotes(parsed.querySelectorAll("blockquote"));
     await transformPictures(parsed);
     transformTables(parsed);
+    transformColorHighlights(parsed);
     return parsed.innerHTML;
   });
 
