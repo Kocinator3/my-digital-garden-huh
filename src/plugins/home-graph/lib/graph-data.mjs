@@ -36,8 +36,8 @@ export function toGlobalGraph(graph) {
 }
 
 /**
- * Browse a single folder branch: keep the root and ancestor folders,
- * the selected folder's immediate child folders, and its direct files.
+ * Browse one folder level: keep the root, selected folder, immediate child
+ * folders, and direct files. Ancestor folders above the selection stay hidden.
  */
 export function folderView(graphData, folderPath) {
   if (!graphData || !Array.isArray(graphData.nodes)) return { nodes: [], links: [] };
@@ -45,9 +45,8 @@ export function folderView(graphData, folderPath) {
     if (!n.folder) return (n.folderPath || "") === folderPath;
     const currentPath = n.folderPath || "";
     if (currentPath === "") return true;
-    const isAncestor = folderPath === currentPath || folderPath.startsWith(currentPath + "/");
     const parentPath = currentPath.includes("/") ? currentPath.slice(0, currentPath.lastIndexOf("/")) : "";
-    return isAncestor || parentPath === folderPath;
+    return currentPath === folderPath || parentPath === folderPath;
   });
   const ids = new Set(nodes.map((n) => n.id));
   const links = (graphData.links || []).filter((l) => {
@@ -58,6 +57,18 @@ export function folderView(graphData, folderPath) {
     source: typeof l.source === "object" ? l.source.id : l.source,
     target: typeof l.target === "object" ? l.target.id : l.target,
   }));
+
+  // Keep the selected branch connected to the root without showing its ancestors.
+  if (folderPath) {
+    const root = nodes.find((n) => n.folder && (n.folderRoot || (n.folderPath || "") === ""));
+    const selected = nodes.find((n) => n.folder && n.folderPath === folderPath);
+    if (root && selected && !links.some((l) =>
+      (l.source === root.id && l.target === selected.id) ||
+      (l.source === selected.id && l.target === root.id)
+    )) {
+      links.push({ source: root.id, target: selected.id });
+    }
+  }
   return { nodes, links };
 }
 
