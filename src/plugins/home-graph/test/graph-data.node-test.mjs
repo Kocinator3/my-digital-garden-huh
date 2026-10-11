@@ -53,7 +53,7 @@ test("toGlobalGraph tolerates missing or malformed input", () => {
   });
 });
 
-test("folderView keeps root, selected folder, direct files, and immediate child folders but hides ancestors", () => {
+test("folderView keeps all descendant files and folders but hides unrelated branches and ancestors", () => {
   const graph = {
     nodes: [
       { id: 0, title: "/", folder: true, folderRoot: true, folderPath: "" },
@@ -72,11 +72,11 @@ test("folderView keeps root, selected folder, direct files, and immediate child 
       { source: 2, target: 7 }, { source: 4, target: 8 },
     ],
   };
-  assert.deepEqual(folderView(graph, "A/B").nodes.map((n) => n.id), [0, 2, 4, 7]);
+  assert.deepEqual(folderView(graph, "A/B").nodes.map((n) => n.id), [0, 2, 4, 7, 8]);
   assert.deepEqual(folderView(graph, "A/B").links, [
-    { source: 2, target: 4 }, { source: 2, target: 7 }, { source: 0, target: 2 },
+    { source: 2, target: 4 }, { source: 2, target: 7 }, { source: 4, target: 8 }, { source: 0, target: 2 },
   ]);
-  assert.deepEqual(folderView(graph, "").nodes.map((n) => n.id), [0, 1, 5]);
+  assert.deepEqual(folderView(graph, "").nodes.map((n) => n.id), [0, 1, 2, 3, 4, 5, 6, 7, 8]);
 });
 
 test("buildDegreeMap counts both ends, with ids or resolved objects", () => {
