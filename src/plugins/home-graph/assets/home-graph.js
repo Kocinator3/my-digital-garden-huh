@@ -5,7 +5,7 @@ import { select } from "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm";
 import { zoom as d3Zoom, zoomIdentity } from "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm";
 import { drag as d3Drag } from "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm";
 import "https://cdn.jsdelivr.net/npm/d3-transition@3.0.1/+esm"; // selection.transition() for the animated fit button
-import { toGlobalGraph, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
+import { toGlobalGraph, folderView, buildDegreeMap, nodeRadius, fitTransform, readOptions } from "../lib/graph-data.mjs";
 
 const PIXI_URL = "https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js";
 
@@ -45,7 +45,7 @@ function htmlDecode(s) {
   return decoder.value;
 }
 
-function render(PIXI, el, data, state) {
+function render(PIXI, el, data, state, onFolderClick = null) {
   const { Application, Container, Graphics, Text, Circle } = PIXI;
   while (el.firstChild) el.removeChild(el.firstChild);
   const width = el.clientWidth;
@@ -169,7 +169,13 @@ function render(PIXI, el, data, state) {
         dragging = false;
         const dt = Date.now() - dragStart.t;
         const dist = Math.hypot(event.x - dragStart.x, event.y - dragStart.y);
-        if (dt < 500 && dist < 5 && node.url && !node.folder) window.location = node.url;
+        if (dt < 500 && dist < 5) {
+          if (node.folder) {
+            if (onFolderClick) onFolderClick(node.folderPath || "");
+          } else if (node.url) {
+            window.location = node.url;
+          }
+        }
       })
   );
 
@@ -245,6 +251,7 @@ async function main() {
   const canvasEl = root.querySelector("[data-home-graph-canvas]");
   const emptyEl = root.querySelector("[data-home-graph-empty]");
   const state = readOptions(root.dataset);
+  state.folderPath = null;
 
   let graph;
   try {
@@ -266,7 +273,11 @@ async function main() {
     if (instance) instance.destroy();
     instance = null;
     try {
-      instance = render(graph.PIXI, canvasEl, graph.data, state);
+      const visibleData = state.folderPath === null ? graph.data : folderView(graph.data, state.folderPath);
+      instance = render(graph.PIXI, canvasEl, visibleData, state, (path) => {
+        state.folderPath = path;
+        draw();
+      });
     } catch (err) {
       // Typically: no WebGL available. Leave a note instead of a blank box.
       console.warn("[home-graph] could not render the graph:", err);
