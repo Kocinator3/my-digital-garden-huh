@@ -43,7 +43,12 @@ export function folderView(graphData, folderPath) {
   if (!graphData || !Array.isArray(graphData.nodes)) return { nodes: [], links: [] };
   const nodes = graphData.nodes.filter((n) => {
     const currentPath = n.folderPath || "";
-    if (!n.folder) return folderPath === "" || currentPath === folderPath || currentPath.startsWith(folderPath + "/");
+    // "/" means return to the real root level, not reveal all notes at once.
+    if (folderPath === "") {
+      if (n.folder) return currentPath === "" || !currentPath.includes("/");
+      return currentPath === "";
+    }
+    if (!n.folder) return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
     if (currentPath === "") return true;
     return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
   });
