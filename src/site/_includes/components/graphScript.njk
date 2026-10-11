@@ -23,6 +23,31 @@ function filterFullGraphData(graphData) {
     };
 }
 
+// Show only the selected folder, its ancestor path, immediate child folders,
+// and files directly inside it. A click on another folder navigates that view.
+function buildFolderViewData(graphData, folderPath) {
+    if (!graphData || !graphData.nodes) return null;
+    const allNodes = Object.values(graphData.nodes).filter(n => n && !n.hide);
+    const visibleNodes = allNodes.filter(n => {
+        if (!n.folder) return (n.folderPath || "") === folderPath;
+        const currentPath = n.folderPath || "";
+        if (currentPath === "") return true;
+        const isAncestor = folderPath === currentPath || folderPath.startsWith(currentPath + "/");
+        const parentPath = currentPath.includes("/") ? currentPath.slice(0, currentPath.lastIndexOf("/")) : "";
+        return isAncestor || parentPath === folderPath;
+    });
+    const visibleIds = new Set(visibleNodes.map(n => n.id));
+    const links = (graphData.links || []).filter(l => {
+        const source = typeof l.source === "object" ? l.source.id : l.source;
+        const target = typeof l.target === "object" ? l.target.id : l.target;
+        return visibleIds.has(source) && visibleIds.has(target);
+    }).map(l => ({
+        source: typeof l.source === "object" ? l.source.id : l.source,
+        target: typeof l.target === "object" ? l.target.id : l.target,
+    }));
+    return { nodes: visibleNodes, links };
+}
+
 function filterLocalGraphData(graphData, depth) {
     if (!graphData) return null;
     depth = depth || 1;
@@ -128,7 +153,7 @@ function nodeRadius(nodeId, degreeMap) {
 }
 
 
-function renderGraph(graphData, containerId, isFullScreen) {
+function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null) {
     if (!graphData || !graphData.nodes || graphData.nodes.length === 0) return null;
 
     const el = document.getElementById(containerId);
@@ -348,7 +373,9 @@ function renderGraph(graphData, containerId, isFullScreen) {
                 const dy = event.y - dragStartPos.y;
                 const dist = Math.sqrt(dx * dx + dy * dy);
                 if (dt < 500 && dist < 5) {
-                    if (node.url && !node.folder) {
+                    if (node.folder) {
+                        if (onFolderClick) onFolderClick(node.folderPath || "");
+                    } else if (node.url) {
                         window.location = node.url;
                     }
                 }
@@ -456,6 +483,8 @@ let fullGraphDataCache = null;
 let localGraphCleanup = null;
 let globalGraphCleanup = null;
 let localGraphDepth = 1;
+let localGraphFolderPath = null;
+let globalGraphFolderPath = null;
 
 let initPromise = null;
 function init() {
@@ -483,26 +512,45 @@ function renderLocal() {
         localGraphCleanup();
         localGraphCleanup = null;
     }
-    const data = filterLocalGraphData(graphDataCache, localGraphDepth);
-    const cleanup = renderGraph(data, 'link-graph', false);
+    const data = localGraphFolderPath !== null
+        ? buildFolderViewData(graphDataCache, localGraphFolderPath)
+        : filterLocalGraphData(graphDataCache, localGraphDepth);
+    const cleanup = renderGraph(data, 'link-graph', false, path => {
+        localGraphFolderPath = path;
+        renderLocal();
+    });
     localGraphCleanup = cleanup;
 }
 
 function setLocalGraphDepth(depth) {
     localGraphDepth = parseInt(depth, 10) || 1;
+    localGraphFolderPath = null;
     renderLocal();
 }
 
+function renderModalGraph(initialData) {
+    if (globalGraphCleanup) {
+        globalGraphCleanup();
+        globalGraphCleanup = null;
+    }
+    const data = globalGraphFolderPath !== null
+        ? buildFolderViewData(graphDataCache, globalGraphFolderPath)
+        : initialData;
+    globalGraphCleanup = renderGraph(data, 'full-graph-container', true, path => {
+        globalGraphFolderPath = path;
+        renderModalGraph(initialData);
+    });
+    lucide.createIcons({ attrs: { class: ['svg-icon'] } });
+}
+
 function openModal(data) {
+    globalGraphFolderPath = null;
     if (globalGraphCleanup) {
         globalGraphCleanup();
         globalGraphCleanup = null;
     }
     document.getElementById('full-graph').style.display = '';
-    setTimeout(() => {
-        globalGraphCleanup = renderGraph(data, 'full-graph-container', true);
-        lucide.createIcons({ attrs: { class: ['svg-icon'] } });
-    }, 50);
+    setTimeout(() => renderModalGraph(data), 50);
 }
 
 function openFullGraph() {
