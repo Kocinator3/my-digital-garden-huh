@@ -1,6 +1,6 @@
 // Home Graph plugin: renders the whole garden's link graph on the home page.
 // Force layout by d3, drawing by Pixi (both already used by the core graph).
-import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial } from "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm";
+import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial, forceX, forceY } from "https://cdn.jsdelivr.net/npm/d3-force@3.0.0/+esm";
 import { select } from "https://cdn.jsdelivr.net/npm/d3-selection@3.0.0/+esm";
 import { zoom as d3Zoom, zoomIdentity } from "https://cdn.jsdelivr.net/npm/d3-zoom@3.0.0/+esm";
 import { drag as d3Drag } from "https://cdn.jsdelivr.net/npm/d3-drag@3.0.0/+esm";
@@ -25,6 +25,29 @@ function loadPixi() {
 
 function cssVar(name) {
   return getComputedStyle(document.body).getPropertyValue(name).trim();
+}
+
+// Assign a stable target area to each folder so its notes form a visible cluster.
+function buildFolderTargets(nodes, width, height) {
+  const groups = [...new Set(nodes.map((n) => n.group || "none"))].sort();
+  const center = { x: width / 2, y: height / 2 };
+  const targets = new Map();
+  if (groups.length === 1) {
+    targets.set(groups[0], center);
+    return targets;
+  }
+
+  const folderGroups = groups.filter((group) => group !== "none");
+  if (groups.includes("none")) targets.set("none", center);
+  const radius = Math.min(width, height) * 0.26;
+  folderGroups.forEach((group, index) => {
+    const angle = -Math.PI / 2 + (2 * Math.PI * index / folderGroups.length);
+    targets.set(group, {
+      x: center.x + Math.cos(angle) * radius,
+      y: center.y + Math.sin(angle) * radius,
+    });
+  });
+  return targets;
 }
 
 const probe = document.createElement("div");
@@ -59,13 +82,17 @@ function render(PIXI, el, data, state) {
   const degrees = buildDegreeMap(data.links);
   const nodes = data.nodes.map((n) => ({ ...n, text: htmlDecode(n.title) }));
   const links = data.links.map((l) => ({ source: l.source, target: l.target }));
+  const folderTargets = buildFolderTargets(nodes, width, height);
+  const folderTarget = (node) => folderTargets.get(node.group || "none") || { x: width / 2, y: height / 2 };
 
   const simulation = forceSimulation(nodes)
     .force("charge", forceManyBody().strength(-300))
     .force("center", forceCenter(width / 2, height / 2).strength(0.5))
     .force("link", forceLink(links).id((d) => d.id).distance(80))
     .force("collide", forceCollide((d) => nodeRadius(degrees[d.id]) + 1).iterations(3))
-    .force("radial", forceRadial(Math.min(width, height) / 3, width / 2, height / 2).strength(0.05));
+    .force("radial", forceRadial(Math.min(width, height) / 3, width / 2, height / 2).strength(0.05))
+    .force("folder-x", forceX((d) => folderTarget(d).x).strength(0.09))
+    .force("folder-y", forceY((d) => folderTarget(d).y).strength(0.09));
 
   const app = new Application({
     width, height, antialias: true, autoStart: false, autoDensity: true,
@@ -100,7 +127,7 @@ function render(PIXI, el, data, state) {
       n.active = id !== null && neighbours.has(n.sim.id);
       n.target = id === null ? 1 : n.active ? 1 : 0.1;
     }
-    for (const l of linkItems) l.target = id === null ? 0.4 : l.active ? 0.8 : 0.05;
+    for (const l of linkItems) l.target = id === null ? l.baseAlpha : l.active ? 0.8 : 0.05;
   }
 
   for (const n of nodes) {
@@ -129,7 +156,13 @@ function render(PIXI, el, data, state) {
     labelsLayer.addChild(label);
     nodeItems.push({ sim: n, gfx, label, r, active: false, target: 1, alpha: 1 });
   }
-  for (const l of links) linkItems.push({ sim: l, active: false, target: 0.4, alpha: 0.4 });
+  for (const l of links) {
+    const source = typeof l.source === "object" ? l.source : nodes.find((n) => n.id === l.source);
+    const target = typeof l.target === "object" ? l.target : nodes.find((n) => n.id === l.target);
+    const sameFolder = source && target && (source.group || "none") === (target.group || "none");
+    const baseAlpha = sameFolder ? 0.4 : 0.13;
+    linkItems.push({ sim: l, active: false, baseAlpha, target: baseAlpha, alpha: baseAlpha });
+  }
 
   select(app.view).call(
     d3Drag()
