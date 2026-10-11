@@ -30,7 +30,13 @@ function buildFolderViewData(graphData, folderPath) {
     const allNodes = Object.values(graphData.nodes).filter(n => n && !n.hide);
     const visibleNodes = allNodes.filter(n => {
         const currentPath = n.folderPath || "";
-        if (!n.folder) return folderPath === "" || currentPath === folderPath || currentPath.startsWith(folderPath + "/");
+        // Clicking "/" returns to the actual root level: root-level notes and
+        // top-level folders only. Do not accidentally reveal every note in the garden.
+        if (folderPath === "") {
+            if (n.folder) return currentPath === "" || !currentPath.includes("/");
+            return currentPath === "";
+        }
+        if (!n.folder) return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
         if (currentPath === "") return true;
         return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
     });
@@ -265,10 +271,11 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
     // Create node graphics
     for (const n of nodes) {
         const r = graphNodeRadius(n);
+        const isFolderRoot = n.folder && (n.folderRoot || (n.folderPath || "") === "" || n.text === "/");
 
         const label = new Text(n.text, {
             fontSize: 16,
-            fill: textColor,
+            fill: isFolderRoot ? mutedColor : textColor,
             fontFamily: bodyFont,
         });
         label.resolution = 2;
@@ -283,7 +290,8 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
         gfx._nodeId = n.id;
 
         // Folder nodes stand out from notes and make the implicit hierarchy legible.
-        const nodeColor = n.folder ? folderColor : (n.current ? color : mutedColor);
+        // The virtual "/" node is a navigation/root marker, not a regular folder.
+        const nodeColor = isFolderRoot ? mutedColor : n.folder ? folderColor : (n.current ? color : mutedColor);
         gfx.beginFill(nodeColor);
         gfx.drawCircle(0, 0, r);
         gfx.endFill();
