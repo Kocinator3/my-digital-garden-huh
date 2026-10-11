@@ -379,6 +379,7 @@ async function computeGraph(data) {
       title: "📁 /",
       url: representativeUrl,
       folder: true,
+      folderRoot: true,
       folderPath: "",
       group: "none",
       home: false,
