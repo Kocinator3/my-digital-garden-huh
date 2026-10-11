@@ -29,9 +29,36 @@ export function toGlobalGraph(graph) {
       group: n.group || "none",
       ...(n.folder ? { folder: true } : {}),
       ...(n.folderRoot ? { folderRoot: true } : {}),
+      ...(n.folderPath !== undefined ? { folderPath: n.folderPath } : {}),
     })),
     links,
   };
+}
+
+/**
+ * Browse a single folder branch: keep the root and ancestor folders,
+ * the selected folder's immediate child folders, and its direct files.
+ */
+export function folderView(graphData, folderPath) {
+  if (!graphData || !Array.isArray(graphData.nodes)) return { nodes: [], links: [] };
+  const nodes = graphData.nodes.filter((n) => {
+    if (!n.folder) return (n.folderPath || "") === folderPath;
+    const currentPath = n.folderPath || "";
+    if (currentPath === "") return true;
+    const isAncestor = folderPath === currentPath || folderPath.startsWith(currentPath + "/");
+    const parentPath = currentPath.includes("/") ? currentPath.slice(0, currentPath.lastIndexOf("/")) : "";
+    return isAncestor || parentPath === folderPath;
+  });
+  const ids = new Set(nodes.map((n) => n.id));
+  const links = (graphData.links || []).filter((l) => {
+    const source = typeof l.source === "object" ? l.source.id : l.source;
+    const target = typeof l.target === "object" ? l.target.id : l.target;
+    return ids.has(source) && ids.has(target);
+  }).map((l) => ({
+    source: typeof l.source === "object" ? l.source.id : l.source,
+    target: typeof l.target === "object" ? l.target.id : l.target,
+  }));
+  return { nodes, links };
 }
 
 /** Number of visible links touching each node id. */
