@@ -5,9 +5,9 @@ import { toGlobalGraph, buildDegreeMap, nodeRadius, fitTransform, readOptions } 
 const sample = {
   nodes: {
     "/": { id: 0, url: "/", title: "Home", home: true, hide: false },
-    "/a/": { id: 1, url: "/a/", title: "A &amp; B", hide: false },
+    "/a/": { id: 1, url: "/a/", title: "A &amp; B", group: "škola", hide: false },
     "/secret/": { id: 2, url: "/secret/", title: "Secret", hide: true },
-    "/b/": { id: 3, url: "/b/", title: "B" },
+    "/b/": { id: 3, url: "/b/", title: "B", group: "Sněžka" },
   },
   links: [
     { source: 0, target: 1 },
@@ -38,7 +38,8 @@ test("toGlobalGraph keeps the home flag and only the fields the renderer needs",
   const home = g.nodes.find((n) => n.id === 0);
   assert.deepEqual(home, { id: 0, url: "/", title: "Home", home: true, group: "none" });
   assert.equal(g.nodes.find((n) => n.id === 3).home, false);
-  assert.equal(g.nodes.find((n) => n.id === 3).group, "none");
+  assert.equal(g.nodes.find((n) => n.id === 1).group, "škola");
+  assert.equal(g.nodes.find((n) => n.id === 3).group, "Sněžka");
 });
 
 test("toGlobalGraph tolerates missing or malformed input", () => {
