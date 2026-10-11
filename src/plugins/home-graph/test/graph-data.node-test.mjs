@@ -48,7 +48,7 @@ test("toGlobalGraph tolerates missing or malformed input", () => {
   assert.deepEqual(toGlobalGraph(null), { nodes: [], links: [] });
   assert.deepEqual(toGlobalGraph({}), { nodes: [], links: [] });
   assert.deepEqual(toGlobalGraph({ nodes: { x: { id: 1, hide: false } } }), {
-    nodes: [{ id: 1, url: undefined, title: undefined, home: false }],
+    nodes: [{ id: 1, url: undefined, title: undefined, home: false, group: "none" }],
     links: [],
   });
 });
