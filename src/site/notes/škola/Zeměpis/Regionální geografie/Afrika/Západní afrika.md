@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/zapadni-afrika/","dg-note-properties":{}}
 ---
 
-,,
+
 > jazyky - Francouzština, Arabština, Španělština
 > těžba - bauxit, ropa, diamanty
 > Největší loďstvo Liberie - uskupení levných vlajek
@@ -19,7 +19,7 @@
 > pohoří - Guinejské pohoří
 
 ## Státy
-[[Ostatní/Random cisla\|Random cisla]]
+
 ### Nigérie
 
 - státní zřízení - **republika**
@@ -37,6 +37,3 @@
 - velice zaostalé ohledně **techniky a chemizace**
 - typické **žďáření**: vypalování lesů a travnatých oblastí pro zemědělské účely
 
-==🔴test==
-
-==🔵testík==

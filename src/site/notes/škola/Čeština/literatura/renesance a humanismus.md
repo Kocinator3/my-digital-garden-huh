@@ -233,5 +233,47 @@ Však opustil bych i tu, co mám rád.
 
 #### ***Julius Caesar***
 
-- Dílo je tragédie zaměřená na psychologii a dilemata při rozhodování mezi rodinou a vlastí.
-- Děj se věnuje Caesarovýmu synovi Brutovi, jež se s jeho odbojem rozhodl Řím osvobodit z diktatury jeho otce. Brut je vystaven dilematu zda zradí svého otce nebo svou vlast. Po Caesarově vraždě byli odbojáři pronásledováni Caesarovými stoupenci a vše bylo rozhodnuto na bitvě u Filipp, kde Brut ze své cti spáchá sebevraždu aby nemusel být dopaden stoupenci svého otce.
+- Děj se i přes zavádějící název primárně zaměřuje na Caesarova syna Bruta. A na to jak společně s jeho  zavraždili samotného Caesara. Ačkoliv Řím "osvobodili" Caesarovi stoupenci se jim chtěli pomstít, děj vrcholí na Bitvě u Filipp.
+
+## Renesance a Humanismus v české literatuře
+
+**(70. léta 15. století - 20. léta 17 století)**
+
+- renesance se v ZKČ úplně neprosadila (=silný vliv náboženské ideologie)
+- více se u nás prosadil **==Humanismus==**
+- Znaky českého humanismu:
+	1. touha po vzdělání
+	2. vyrovnávání se s kulturou jiných evropských zemí
+	3. převaha literatury **naukového charakteru => v ==LAT.==**
+	4. literatura pro měšťany k životní praxi v čj
+	5. význam knihtisku - vzdělání, zlevnění knih
+	6. vliv **latiny** na rozběh spisovné češtiny
+
+### 2 linie Českého Humanismu
+
+- **Latinský**:
+	- Jan z Rabštejna - *dialogus* 1469 - kritika šlechticd Zdeňka ze Šternberka
+	- Bohuslav Hasištejnský z Lobkovic - *Ad sanctum Wenceslaum satyra* hlav. tématem je **kritika morálního úpadku** tehdejší společnosti, přítomnost kontrastuje výzvou ke svatému Václavu.
+	- Jan Campanus Vodňanský - *Bretislaus, comedia nova* 1614 první latinská div. hra s námětem z českých dějin
+- **Český (národní)**:
+	- Vittorin Kornel ze Všehrd - dílo?
+	- Kryštov Harant z Polžic + Bezdružic - dílo?
+	- Hájek z Libočan - dílo?
+
+### Jan Blahoslav
+
+- kdo?
+- překlad **Bible z latiny** do čj a tisk bible na **Moravě** - kde?, dílu?, význam?
+- dílo + obhajoba nutnosti - vzdělání?
+- 1. publikace o české mluvnici -> ?
+- zpěvník církevních písní -> ?
+
+### Zlatý věk českého písemnictví
+
+- kdo do něho patřil?
+	- 
+	- 
+-  kdo z něho čerpal?
+	- 
+	- 
+  

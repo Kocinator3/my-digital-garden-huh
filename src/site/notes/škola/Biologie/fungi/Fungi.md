@@ -56,7 +56,7 @@ Pohlavní způsob:
 	- bazidie ("výtrusnice") = bazidiospory
 - zajištěn 2 způsoby
 	- splývání gamet (pohl. buněk)
-	- splývání gmaetamíí (pohl. orgánů)
+	- splývání gametamíí (pohl. orgánů)
 - samotné rozmnožování je rozdšleno do několika fází:
 	1. plazmogamie - splývání buněčných obsahu 2 buněk dvou fyziologicky rozlišených houb. vláken
 	2. dikaryofáze - dvojaderná fáze vývoje (buňka, houb. vlákno)
@@ -81,8 +81,7 @@ Pohlavní způsob:
 	- splývání gametangií primárního podhoubí (jednojaderné) vzniká sekundární pohoubí (dvoujaderné=dikarofáze) pak vznoká plodnice (neplatí pro všechny) uvnitř kterých se tvoří se tvoří kyjovité protáhlé útvary tzv. vřecka
 	- v nich probíhá redukční (meiotycké) dělení a vzniká uvnitř 8 výtrusů
 - u zástupců, kteří nevytváří polodnice vznikají včecka na konci vláken sekundárního podhoubí
-- zástupci: kvasinky, štštičkovec, kropidlák, plíseň šedá, lanýž, paličkovice nachová, ucháč obecný, smrž jedlý
-
+- zástupci: kvasinky, štštičkovec, kropidlák, plíseň šedá, lanýž, paličkovice nachová, ucháč obecný, smž
 ### Třída :  Houby stopkovýtrusé
 
 - mnohobuněční podhoubí se soudkovitě ztloutlým pórem uvnitř přehrádek mezi jednotlivými buňkami houbového vlákna

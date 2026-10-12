@@ -38,8 +38,30 @@
 - Metalurgie
 - Svařování
 - Palivo budoucnosti
+- výroba $$\ce{NH3}$$
 
 **Značení vodíku**
 
 - Červený pruh na tlak. lahvích
 - piktogramy - pozor plyn pod tlakem, výbušnina
+
+**Příprava vodíku**
+
+- reakce kovu z kyselinou
+- reakce kovu s hydroxidem
+
+- Kippův přístroj:
+- $\ce{Zn + 2HCl -> H2 + ZnCl2}$
+
+**Výroba vodíku**
+
+- **reakce horké vodní páry s koksem**
+	- po první fázi vzniká směs $\ce{CO}$ a $\ce{H2}$ (tzv. vodní plyn, nebo svíti plyn)
+	- $\ce{2H2O + C -> CO2 - 2H2}$
+
+- **reakce methanu s vodní párou**
+	- $\ce{H20 + CH4 ->[\text{kat.}] H2 + CO2}$
+
+- **Elektrolýza vody nebo vodného roztoku NaCl
+	- $\ce{2Nacl + 2H2O ->[\text{el. proud}] NaOH + H2 + Cl2}$
+
