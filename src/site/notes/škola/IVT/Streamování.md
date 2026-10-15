@@ -7,11 +7,11 @@
 
 znamená přehrávat obsah průběžně, zatím co se stahuje
 
-- používáme ho každý den ikdyž si to zrovna neuvědmujeme
+- používáme ho každý den i když si to zrovna neuvědmujeme
 - můžeme ho potkat ve formě
 	- streamování na vyžádání - to je běžný konzumencký obash např. YouTube nebo Netflix
 	- živý přenos - Twitch, sportovní přenosy
-	- videohovory - Discord, Whatsapp
+	- videohovory - Discord, Whats-app
 - Beze streamování by všechna videa fungovali tou formou že si je uživatel musí stáhnout celé před předehráním a videohovory by neexistovaly vůbec.
 
 ## Jak to celé funguje?
