@@ -9,8 +9,8 @@
 - rodiče ${}{\dagger}{}$ na mor, k tetě Zuzaně do Strážnice
 - studium SŠ na Bratrském Gymnáziu (jednota bratrská)
 - na VŠ v Německu
-	- **Herborn** - teologie a filozofie učil ho tam J. H. Alsted - jež se věnoval pansofii a reformě vzdělávání - ==🟣První setkání JAK s pedagogikou==
-	- **Heidelberg** - teologie, filozofie, astronomie
+	- **Herborn** - teologie a filozofie učil ho tam **J. H. Alsted** - jež se věnoval pansofii a reformě vzdělávání - ==🟣První setkání JAK s **pedagogikou**==
+	- **Heidelberg** - **teologie**, filozofie, astronomie
 - Po návratu vyučuje na bratrském gymnáziu
 	- Fulnek
 	- Přerov
@@ -31,7 +31,7 @@
 7. Poslední země ve které i zemřel bylo Nizozemí 1656-70
 	- zde v **Amsterodamu** žije u syna Daniela -> reformuje školství
 
-### dílo
+## dílo
 
 ### česká
 
