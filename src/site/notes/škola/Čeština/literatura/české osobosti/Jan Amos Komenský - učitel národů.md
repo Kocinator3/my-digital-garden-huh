@@ -9,7 +9,7 @@
 - rodiče ${}{\dagger}{}$ na mor, k tetě Zuzaně do Strážnice
 - studium SŠ na Bratrském Gymnáziu (jednota bratrská)
 - na VŠ v Německu
-	- **Herborn** - Teologie a Filozofie učil ho tam Johann Heinrich Alsted - jež se věnoval pansofii a reformě vzdělávání- První setkání JAK s pedagogikou
+	- **Herborn** - Teologie a Filozofie učil ho tam J. H. Alsted - jež se věnoval pansofii a reformě vzdělávání- První setkání JAK s pedagogikou
 	- **Heidelberg** - Teologická
 - Po návratu vyučuje na bratrském gymnáziu
 	- Fulnek
