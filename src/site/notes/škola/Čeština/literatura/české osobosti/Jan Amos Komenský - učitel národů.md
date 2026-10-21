@@ -3,14 +3,14 @@
 ---
 
 
-- \* 28.3.1592 - $\dagger$ 15.11.1670 v Amsterodamu (pohřben v Naadenu)
+- \* 28.3.1592 - $\dagger$ 15.11.1670 v Amsterodamu (pohřben v Naardenu)
 - pedagog, reformátor školství, spisovatel, překladatel, kněz
-- Neví se kde se narodil tři kandidáti - Nivnice, Uherský Brod, Komňa - Jižní morava
+- Neví se kde se narodil tři kandidáti - Nivnice, Uherský Brod, Komňa - jižní morava
 - rodiče ${}{\dagger}{}$ na mor, k tetě Zuzaně do Strážnice
 - studium SŠ na Bratrském Gymnáziu (jednota bratrská)
 - na VŠ v Německu
-	- **Herborn** - Pedagogická
-	- **Heidelberk** - Teologická
+	- **Herborn** - Teologie a Filozofie učil ho tam Johann Heinrich Alsted - jež se věnoval pansofii a reformě vzdělávání- První setkání JAK s pedagogikou
+	- **Heidelberg** - Teologická
 - Po návratu vyučuje na bratrském gymnáziu
 	- Fulnek
 	- Přerov
@@ -24,7 +24,7 @@
 	- tvrdí, že angličtina v budoucnu bude jazykem světovým
 3. královna Kristina ho pozvala do Švédska a pak se přemístil do **Královského Pruska** do Elblag + píše zde učebnice (učí se do 19. století) - 1642-48
 4. návrat do Lešna - 1648-50
-	- krátce po návratu jeho druhá manželka po náročné cestě umírá
+	- krátce po návratu, jeho druhá manželka po náročné cestě umírá
 5. další pozvání do maďarského Blatného Potoka - 1650-54
 6. opětný návrat do Lešna - 1654-56
 	- 1656 - požár v Lešně,  shořela mu práce ***Thesaurus***
@@ -37,11 +37,11 @@
 
 - **Labyrint světa a ráj srdce**
 	- alegorická skladba
-	- 3 postavy - poutník = JAK, Všezvěd Všudybud, Mámení Mámil
+	- 3 postavy - poutník = JAK, Všezvěd Všudybud, Mámení
 	- poutník hledá smysl života a naplnění
 	- kritika společnosti
 	- návrat k vnitru = víře
-- **spis truchlivý **
+- **spis truchlivý**
 	- filozofický dialog s tématem rozporu rozumu a víry
 	- kritika společnosti
 - **Listové do nebe**
