@@ -1,0 +1,81 @@
+---
+{"dg-publish":true,"permalink":"/skola/cestina/literatura/ceske-osobosti/jan-amos-komensky-ucitel-narodu/","dg-note-properties":{}}
+---
+
+
+- \* 28.3.1592 - $\dagger$ 1670 v Amsterodamu (pohřben v Naadenu)
+- pedagog, reformátor školství, spisovatel, překladatel, kněz
+- Neví se kde se narodil tři kandidáti - Nivnice, Uherský Brod, Komňa - Jižní morava
+- rodiče ${}{\dagger}{}$ na mor, k tetě Zuzaně do Strážnice
+- studium SŠ na Bratrském Gymnáziu (jednota bratrská)
+- na VŠ v Německu
+	- **Herborn** - Pedagogická
+	- **Heidelberk** - Teologická
+- Po návratu vyučuje na bratrském gymnáziu
+	- Fulnek
+	- Praha
+- svatba + rodina
+- rok 1627 + 1628 -> obnovené zřízení zemské
+	- loučí se v **Krkonoších růžový palouček**
+1. Obchází do polského Lešna
+	- velká enkláva evangelíjců
+2. pozvání od Britského parlamentu aby pomohl založit **akademii věd**
+	- tvrdí, že angličtina v budoucnu bude jazykem světovým
+3. královna Kristina ho pozvala do **Královského Pruska** do Elblag + píše zde učebnice (učí se do 19. století)
+4. další pozvání do maďarského Blatného Potoka
+5. Poslední země ve které i zemřel bylo Nizozemí
+	- zde v **Amsterodamu** žije u syna Daniela -> reformuje školství
+	- 1654 - požár v Lešně ${}\dagger{}$ rodina, ztratil práci ***Thesaurus***
+
+### dílo
+
+### česká
+
+- **Labyrint světa a ráj srdce**
+	- alegorická skladba
+	- 3 postavy - poutník = JAK, Všezvěd Všudybud, Mámení Mámil
+	- poutník hledá smysl života a naplnění
+	- kritika společnosti
+	- návrat k vnitru = víře
+- **spis truchlivý **
+	- filozofický dialog s tématem rozporu rozumu a víry
+	- kritika společnosti
+- **Listové do nebe**
+	- 5 fiktivních dopisů
+	- chudí a bohatí si stěžují na sebe navzájem před Kristem a žádají spravedlivé rozeznání
+- **O poezii české**
+	- definice pravidel českého verše, která se opírají o **rytmus založený na počtu slabik a dvojího-rýmu**
+
+### latinská
+
+- ***Didactica Magna*** \[Velká didaktika]
+	- první velký systém moderní pedagogiky
+	- tři cíle výchovy
+		- *eruditio*
+		- *mores*
+		- *religio*
+	- čtyři stupně vzdělávaní
+	- zásady
+		- názornost
+		- konkrétní ${}\to{}$ abstraktní
+		- konec fyzických trestů
+- ***Orbis Pictus*** \[Svět v obrazech]
+	- univerzální učebnice, naučný a jazykový slovník
+	- děti se konečně učili z obrázků a neučili se text zpaměti
+- ***Janua Linguarum Reserata*** \[Brána jazyků otevřena]
+	- učebnice latiny učení ve větách nikoli ve slovech
+	- Kolik řečí znáš, tolikrát jsi člověkem
+- ***Informatorium* školy mateřské**
+	- pro nejmladší
+	- jak vyučovat v mateřské školce
+- ***Via Lucis*** \[Cesta světla]
+	- světlo symbolizuje **rozum a moudrost**
+	- klade důraz na tři pilíře **škola, jazyk a náprava**
+- ***Schola Ludus*** \[škola hrou]
+- ***Theatrum Mundi*** \[Divadlo světa]
+	- vysvětluje život jako předurčené divadlo nebo improvizaci s božským nebo kosmickým publikem
+- ***Thesaurus*** \[Poklad jazyka českého]
+	- JAK celoživotní dílo, shořelo
+
+> co je to ***pansofie***?
+> pansofie vševědy tedy všeobecné vzdělání, snaha pokrýt co nejvíce směrů
