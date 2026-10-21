@@ -54,3 +54,29 @@
 - 8.11.1620 - Jižní Čechy Jižní Morava - Bílá hora
 - 21.6.1621 $\dagger$ 27 vůdců stavovského povstání 
 - 1627 a 1628 obnovení zřízení zemské (Praha, Znojmo). nařizuje jedinou víru = katolickou
+
+## Jan Amos Komenský - učitel národů
+
+- \* 28.3.1592 - $\dagger$ 1670 v Amsterodamu (pohřben v Naadenu)
+- pedagog, reformátor školství, spisovatel, překladatel, kněz
+- Neví se kde se narodil tři kandidáti - Nivnice, Uherský Brod, Komňa - Jižní morava
+- rodiče ${}{\dagger}{}$ na mor, k tetě Zuzaně do Strážnice
+- studium SŠ na Bratrském Gymnáziu (jednota bratrská)
+- na VŠ v Německu
+	- **Herborn** - Pedagogická
+	- **Heidelberk** - Teologická
+- Po návratu vyučuje na bratrském gymnáziu
+	- Fulnek
+	- Praha
+- svatba + rodina
+- rok 1627 + 1628 -> obnovené zřízení zemské
+	- loučí se v **Krkonoších růžový palouček**
+1. Obchází do polského Lešna
+	- velká enkláva evangelíjců
+2. pozvání od Britského parlamentu aby pomohl založit **akademii věd**
+	- tvrdí, že angličtina v budoucnu bude jazykem světovým
+3. královna Kristina ho pozvala do **Královského Pruska** do Elblag + píše zde učebnice (učí se do 19. století)
+4. další pozvání do maďarského Blatného Potoka
+5. Poslední země ve které i zemřel bylo Nizozemí
+	- zde v **Amsterodamu** žije u syna Daniela -> reformuje školství
+	- 1654 - požár v Lešně ${}\dagger{}$ rodina, ztratil práci ***Thesaurus***
