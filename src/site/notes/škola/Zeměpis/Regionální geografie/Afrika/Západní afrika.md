@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/zapadni-afrika/","dg-note-properties":{}}
 ---
 
-
+,,
 > jazyky - Francouzština, Arabština, Španělština
 > těžba - bauxit, ropa, diamanty
 > Největší loďstvo Liberie - uskupení levných vlajek
@@ -19,7 +19,6 @@
 > pohoří - Guinejské pohoří
 
 ## Státy
-
 ### Nigérie
 
 - státní zřízení - **republika**
@@ -36,4 +35,3 @@
 - Tropické plodiny x zvířata - **čirok, proso, batáty, luštěniny, kukuřice, podzemnice olejná x buvoli, skop** (=kozy, ovce)
 - velice zaostalé ohledně **techniky a chemizace**
 - typické **žďáření**: vypalování lesů a travnatých oblastí pro zemědělské účely
-

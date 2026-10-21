@@ -13,8 +13,9 @@
 	- **Heidelberk** - Teologická
 - Po návratu vyučuje na bratrském gymnáziu
 	- Fulnek
-	- Praha
+	- Přerov
 - svatba + rodina
+- rok 1622 ${}\dagger{}$ jeho rodina umřela na mor
 - rok 1627 + 1628 -> obnovené zřízení zemské
 	- loučí se v **Krkonoších růžový palouček**
 1. Obchází do polského Lešna
@@ -25,7 +26,7 @@
 4. další pozvání do maďarského Blatného Potoka
 5. Poslední země ve které i zemřel bylo Nizozemí
 	- zde v **Amsterodamu** žije u syna Daniela -> reformuje školství
-	- 1654 - požár v Lešně ${}\dagger{}$ rodina, ztratil práci ***Thesaurus***
+	- 1656 - požár v Lešně ${}\dagger{}$ rodina, ztratil práci ***Thesaurus***
 
 ### dílo
 
@@ -45,6 +46,9 @@
 	- chudí a bohatí si stěžují na sebe navzájem před Kristem a žádají spravedlivé rozeznání
 - **O poezii české**
 	- definice pravidel českého verše, která se opírají o **rytmus založený na počtu slabik a dvojího-rýmu**
+- **Informatorium školy mateřské**
+	- určeno pro rodiče (zejména matky) nejmladších dětí do 6 let 
+	- **pozor:** nejde o mateřskou školku jako instituci, ale o **výchovu dítěte v rodině matkou**
 
 ### latinská
 
@@ -65,9 +69,6 @@
 - ***Janua Linguarum Reserata*** \[Brána jazyků otevřena]
 	- učebnice latiny učení ve větách nikoli ve slovech
 	- Kolik řečí znáš, tolikrát jsi člověkem
-- ***Informatorium* školy mateřské**
-	- pro nejmladší
-	- jak vyučovat v mateřské školce
 - ***Via Lucis*** \[Cesta světla]
 	- světlo symbolizuje **rozum a moudrost**
 	- klade důraz na tři pilíře **škola, jazyk a náprava**
