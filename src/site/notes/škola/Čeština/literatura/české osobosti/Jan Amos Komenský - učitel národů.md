@@ -68,7 +68,7 @@
 		- konec fyzických trestů
 - ***Orbis Pictus*** \[Svět v obrazech]
 	- univerzální učebnice, naučný a jazykový slovník
-	- děti se konečně učili z obrázků a neučili se text zpaměti
+	- děti se konečně učily z obrázků a neučily se text zpaměti
 - ***Janua Linguarum Reserata*** \[Brána jazyků otevřena]
 	- učebnice latiny učení ve větách nikoli ve slovech
 	- Kolik řečí znáš, tolikrát jsi člověkem
