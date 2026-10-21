@@ -80,3 +80,56 @@
 5. Poslední země ve které i zemřel bylo Nizozemí
 	- zde v **Amsterodamu** žije u syna Daniela -> reformuje školství
 	- 1654 - požár v Lešně ${}\dagger{}$ rodina, ztratil práci ***Thesaurus***
+
+### dílo
+
+### česká
+
+- **Labyrint světa a ráj srdce**
+	- alegorická skladba
+	- 3 postavy - poutník = JAK, Všezvěd Všudybud, Mámení Mámil
+	- poutník hledá smysl života a naplnění
+	- kritika společnosti
+	- návrat k vnitru = víře
+- **spis truchlivý **
+	- filozofický dialog s tématem rozporu rozumu a víry
+	- kritika společnosti
+- **Listové do nebe**
+	- 5 fiktivních dopisů
+	- chudí a bohatí si stěžují na sebe navzájem před Kristem a žádají spravedlivé rozeznání
+- **O poezii české**
+	- definice pravidel českého verše, která se opírají o **rytmus založený na počtu slabik a dvojího-rýmu**
+
+### latinská
+
+- ***Didactica Magna*** \[Velká didaktika]
+	- první velký systém moderní pedagogiky
+	- tři cíle výchovy
+		- *eruditio*
+		- *mores*
+		- *religio*
+	- čtyři stupně vzdělávaní
+	- zásady
+		- názornost
+		- konkrétní ${}\to{}$ abstraktní
+		- konec fyzických trestů
+- ***Orbis Pictus*** \[Svět v obrazech]
+	- univerzální učebnice, naučný a jazykový slovník
+	- děti se konečně učili z obrázků a neučili se text zpaměti
+- ***Janua Linguarum Reserata*** \[Brána jazyků otevřena]
+	- učebnice latiny učení ve větách nikoli ve slovech
+	- Kolik řečí znáš, tolikrát jsi člověkem
+- ***Informatorium* školy mateřské**
+	- pro nejmladší
+	- jak vyučovat v mateřské školce
+- ***Via Lucis*** \[Cesta světla]
+	- světlo symbolizuje **rozum a moudrost**
+	- klade důraz na tři pilíře **škola, jazyk a náprava**
+- ***Schola Ludus*** \[škola hrou]
+- ***Theatrum Mundi*** \[Divadlo světa]
+	- vysvětluje život jako předurčené divadlo nebo improvizaci s božským nebo kosmickým publikem
+- ***Thesaurus*** \[Poklad jazyka českého]
+	- JAK celoživotní dílo, shořelo
+
+> co je to ***pansofie***?
+> pansofie vševědy tedy všeobecné vzdělání, snaha pokrýt co nejvíce směrů
