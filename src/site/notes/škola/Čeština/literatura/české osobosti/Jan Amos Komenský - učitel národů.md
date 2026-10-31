@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/cestina/literatura/ceske-osobosti/jan-amos-komensky-ucitel-narodu/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/cestina/literatura/ceske-osobosti/jan-amos-komensky-ucitel-narodu/","created":"2026-10-21T19:26:29.322+02:00","updated":"2026-10-22T00:49:12.463+02:00","dg-note-properties":{}}
 ---
 
 

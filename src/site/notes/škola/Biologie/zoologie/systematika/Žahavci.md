@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/zahavci/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/zahavci/","created":"2026-10-21T19:26:29.022+02:00","updated":"2026-10-21T19:29:54.966+02:00","dg-note-properties":{}}
 ---
 
 # *Cnidaria*

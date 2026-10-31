@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:34:06.301+02:00","updated":"2026-10-20T23:13:48.694+02:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu

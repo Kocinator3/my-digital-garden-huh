@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/severni-afrika/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/severni-afrika/","created":"2026-10-04T20:28:04.626+02:00","updated":"2026-10-21T20:55:28.892+02:00","dg-note-properties":{}}
 ---
 
 ### Poloha

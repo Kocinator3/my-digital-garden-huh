@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/snezka/sobotin-okruhy/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/snezka/sobotin-okruhy/","created":"2026-10-04T20:28:04.438+02:00","updated":"2026-10-04T20:28:04.442+02:00","dg-note-properties":{}}
 ---
 
 <h3>1 den:</h3>

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/dejepis/francka-rise/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/dejepis/francka-rise/","created":"2026-10-04T20:28:04.706+02:00","updated":"2026-10-04T20:28:04.714+02:00","dg-note-properties":{}}
 ---
 
 - germánský kmen **Franků**, v 5. století sídlil na území Belgie a Nizozemí, odkud začali své výboje

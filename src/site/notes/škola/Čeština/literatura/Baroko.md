@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/cestina/literatura/baroko/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/cestina/literatura/baroko/","created":"2026-10-15T11:06:56.366+02:00","updated":"2026-10-21T14:16:21.985+02:00","dg-note-properties":{}}
 ---
 
 - 17. století

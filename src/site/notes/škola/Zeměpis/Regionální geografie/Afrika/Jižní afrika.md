@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/jizni-afrika/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/jizni-afrika/","created":"2026-10-14T07:47:29.071+02:00","updated":"2026-10-14T07:49:15.419+02:00","dg-note-properties":{}}
 ---
 
 

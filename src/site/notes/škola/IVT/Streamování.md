@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/ivt/streamovani/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/ivt/streamovani/","created":"2026-10-14T07:47:24.899+02:00","updated":"2026-10-13T08:07:06.244+02:00","dg-note-properties":{}}
 ---
 
 

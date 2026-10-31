@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ostatni/plspublish/houby-test/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/ostatni/plspublish/houby-test/","created":"2026-10-08T22:21:13.632+02:00","updated":"2026-10-08T22:28:45.044+02:00","dg-note-properties":{}}
 ---
 
 # Houby

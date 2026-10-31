@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/stredni-afrika/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/stredni-afrika/","created":"2026-10-06T10:19:54.561+02:00","updated":"2026-10-21T20:55:28.892+02:00","dg-note-properties":{}}
 ---
 
 - Burundi, Středoafrická republika, Čad, Rwanda, Zambie, Konžská demokratická republika, Kamerun

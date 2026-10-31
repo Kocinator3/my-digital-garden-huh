@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/fyzika/mechanika/gravitacni-pole-vzorecky/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/fyzika/mechanika/gravitacni-pole-vzorecky/","created":"2026-10-04T20:28:04.518+02:00","updated":"2026-10-04T20:28:04.522+02:00","dg-note-properties":{}}
 ---
 
 

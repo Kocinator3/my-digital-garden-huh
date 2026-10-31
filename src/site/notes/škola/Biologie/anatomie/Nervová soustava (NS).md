@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/anatomie/nervova-soustava-ns/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/anatomie/nervova-soustava-ns/","created":"2026-10-04T20:28:04.898+02:00","updated":"2026-10-04T20:28:04.898+02:00","dg-note-properties":{}}
 ---
 
 ### Řízení těla

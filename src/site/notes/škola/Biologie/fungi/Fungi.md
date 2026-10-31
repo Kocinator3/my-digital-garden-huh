@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/fungi/fungi/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/fungi/fungi/","created":"2026-10-04T20:28:04.938+02:00","updated":"2026-10-21T20:55:28.891+02:00","dg-note-properties":{}}
 ---
 
 1. Chytridiomycety (Chitridie) - starobylá skupina

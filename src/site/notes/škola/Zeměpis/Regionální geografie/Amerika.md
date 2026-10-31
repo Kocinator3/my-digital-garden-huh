@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/","created":"2026-10-04T20:28:04.570+02:00","updated":"2026-10-04T20:28:04.574+02:00","dg-note-properties":{}}
 ---
 
 #doplnit
