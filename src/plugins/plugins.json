@@ -51,7 +51,7 @@
       "repo": "oleeskild/garden-plugin-related-notes",
       "installedVersion": "1.0.0",
       "installedRef": "v1.0.0",
-      "installedAt": "2026-10-31T13:17:42.416Z",
+      "installedAt": "2026-10-31T13:27:40.375Z",
       "enabled": true,
       "files": [
         "src/plugins/related-notes/README.md",
