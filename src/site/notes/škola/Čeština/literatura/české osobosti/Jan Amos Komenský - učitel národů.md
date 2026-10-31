@@ -7,10 +7,10 @@
 - pedagog, reformátor školství, spisovatel, překladatel, kněz
 - Neví se kde se narodil tři kandidáti - Nivnice, Uherský Brod, Komňa - jižní Morava
 - rodiče ${}{\dagger}{}$ na mor, k tetě Zuzaně do Strážnice
-- studium SŠ na Bratrském Gymnáziu (jednota bratrská)
+- studium SŠ na Bratrském Gymnáziu (jednota bratrská) v Přerově
 - na VŠ v Německu
 	- **Herborn** - teologie a filozofie učil ho tam **J. H. Alsted** - jenž se věnoval pansofii a reformě vzdělávání - ==🟣První setkání JAK s **pedagogikou**==
-	- **Heidelberg** - **teologie**, filozofie, astronomie
+	- **Heidelberg** - **teologie**, filozofie, astronomie - strávil zde pouze jeden semestr
 - Po návratu vyučuje na bratrském gymnáziu
 	- Fulnek
 	- Přerov
@@ -24,8 +24,8 @@
 	- tvrdí, že angličtina v budoucnu bude jazykem světovým
 3. královna Kristina ho pozvala do Švédska a pak se přemístil do **Královského Pruska** do Elblag + píše zde učebnice (učí se do 19. století) - 1642-48
 4. návrat do Lešna - 1648-50
-	- krátce po návratu jeho druhá manželka po náročné cestě umírá
-5. další pozvání do maďarského Blatného Potoka - 1650-54
+	- krátce po návratu jeho druhá manželka po náročné cestě umírá ${}\dagger{}$
+5. pozvání do maďarského Blatného Potoka - 1650-54
 6. opětný návrat do Lešna - 1654-56
 	- ==🟠1656 - požár v Lešně==,  shořela mu práce ***Thesaurus***
 7. Poslední země ve které i zemřel bylo Nizozemí 1656-70
@@ -73,9 +73,11 @@
 	- učebnice latiny učení ve větách nikoli ve slovech
 	- ==🔵Kolik řečí znáš, tolikrát jsi člověkem==
 - ***Via Lucis*** \[Cesta světla]
+	- ideje křesťanské nápravy pomocí pansofie
 	- světlo symbolizuje **rozum a moudrost**
 	- klade důraz na tři pilíře **==🔵škola, jazyk a náprava==**
 - ***Schola Ludus*** \[škola hrou]
+	- soubor dramat, které přiměli žáky se na jevišti učit latinu
 - ***Theatrum Mundi*** \[Divadlo světa]
 	- vysvětluje život jako předurčené divadlo nebo improvizaci s božským nebo kosmickým publikem
 - ***Thesaurus*** \[Poklad jazyka českého]
