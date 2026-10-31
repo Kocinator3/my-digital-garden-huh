@@ -721,43 +721,6 @@ module.exports = function(eleventyConfig) {
     }
   }
 
-
-  function removeFirstTextOccurrence(node, value) {
-    if (node.nodeType === 3) {
-      const text = node.textContent || "";
-      if (text.includes(value)) {
-        node.textContent = text.replace(value, "");
-        return true;
-      }
-    }
-
-    for (const child of node.childNodes || []) {
-      if (removeFirstTextOccurrence(child, value)) return true;
-    }
-    return false;
-  }
-
-  function transformColorHighlights(parsed) {
-    const markers = [
-      ["🔴", "highlight-red"],
-      ["🔵", "highlight-blue"],
-      ["🟢", "highlight-green"],
-      ["🟡", "highlight-yellow"],
-      ["🟣", "highlight-purple"],
-      ["🟠", "highlight-orange"],
-      ["🟤", "highlight-brown"],
-    ];
-
-    for (const mark of parsed.querySelectorAll("mark")) {
-      const text = mark.textContent || "";
-      const match = markers.find(([emoji]) => text.includes(emoji));
-      if (match) {
-        mark.classList.add(match[1]);
-        removeFirstTextOccurrence(mark, match[0]);
-      }
-    }
-  }
-
   eleventyConfig.addTransform("obsidian-html", async function(str) {
     if (!str || !isMarkdownPage(this.page.inputPath)) {
       return str;
@@ -767,7 +730,6 @@ module.exports = function(eleventyConfig) {
     transformCalloutBlockquotes(parsed.querySelectorAll("blockquote"));
     await transformPictures(parsed);
     transformTables(parsed);
-    transformColorHighlights(parsed);
     return parsed.innerHTML;
   });
 

@@ -23,54 +23,6 @@ function filterFullGraphData(graphData) {
     };
 }
 
-// Show every file and subfolder in the selected folder's subtree, while keeping
-// the root and hiding unrelated branches and ancestor folders above the selection.
-function buildFolderViewData(graphData, folderPath) {
-    if (!graphData || !graphData.nodes) return null;
-    const allNodes = Object.values(graphData.nodes).filter(n => n && !n.hide);
-    const visibleNodes = allNodes.filter(n => {
-        const currentPath = n.folderPath || "";
-        // Clicking "/" returns to the actual root level: root-level notes and
-        // top-level folders only. Do not accidentally reveal every note in the garden.
-        if (folderPath === "") {
-            if (n.folder) return currentPath === "" || !currentPath.includes("/");
-            return currentPath === "";
-        }
-        if (!n.folder) return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
-        if (currentPath === "") return true;
-        return currentPath === folderPath || currentPath.startsWith(folderPath + "/");
-    });
-    const visibleIds = new Set(visibleNodes.map(n => n.id));
-    const links = (graphData.links || []).filter(l => {
-        const source = typeof l.source === "object" ? l.source.id : l.source;
-        const target = typeof l.target === "object" ? l.target.id : l.target;
-        return visibleIds.has(source) && visibleIds.has(target);
-    }).map(l => ({
-        source: typeof l.source === "object" ? l.source.id : l.source,
-        target: typeof l.target === "object" ? l.target.id : l.target,
-    }));
-
-    // If ancestors are hidden, connect the root directly to the selected folder.
-    if (folderPath) {
-        const root = visibleNodes.find(n => n.folder && (n.folderRoot || (n.folderPath || "") === ""));
-        const selected = visibleNodes.find(n => n.folder && n.folderPath === folderPath);
-        if (root && selected && !links.some(l =>
-            (l.source === root.id && l.target === selected.id) ||
-            (l.source === selected.id && l.target === root.id)
-        )) {
-            links.push({ source: root.id, target: selected.id });
-        }
-    }
-    return { nodes: visibleNodes, links };
-}
-
-// The virtual "/" folder acts as an "up one level" button.
-function parentFolderPath(folderPath) {
-    const parts = String(folderPath || "").split("/").filter(Boolean);
-    parts.pop();
-    return parts.join("/");
-}
-
 function filterLocalGraphData(graphData, depth) {
     if (!graphData) return null;
     depth = depth || 1;
@@ -175,8 +127,7 @@ function nodeRadius(nodeId, degreeMap) {
     return 2 + Math.sqrt(degreeMap[nodeId] || 0);
 }
 
-
-function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null) {
+function renderGraph(graphData, containerId, isFullScreen) {
     if (!graphData || !graphData.nodes || graphData.nodes.length === 0) return null;
 
     const el = document.getElementById(containerId);
@@ -191,7 +142,6 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
     const color = resolveColor(getCssVar('--dg-graph-node-color') || getCssVar('--graph-main') || '#666');
     const mutedColor = resolveColor(getCssVar('--dg-graph-node-color-muted') || getCssVar('--graph-muted') || '#ccc');
     const textColor = resolveColor(getCssVar('--dg-graph-label-color') || getCssVar('--text-normal') || '#eee');
-    const folderColor = resolveColor(getCssVar('--text-accent') || '#7c3aed');
     const bodyFont = getComputedStyle(document.body).fontFamily || 'Sans-Serif';
 
     const degreeMap = buildDegreeMap(graphData.links);
@@ -201,13 +151,7 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
         text: htmlDecode(n.title),
     }));
     const links = graphData.links.map(l => ({ source: l.source, target: l.target }));
-    const rootNodeIds = new Set(nodes.filter(n => n.folder && (n.folderRoot || n.folderPath === "")).map(n => n.id));
-    const largestNonRootRadius = Math.max(1, ...nodes
-        .filter(n => !rootNodeIds.has(n.id))
-        .map(n => Math.max(1, nodeRadius(n.id, degreeMap) + (n.folder ? 1.5 : 0))));
-    const graphNodeRadius = n => rootNodeIds.has(n.id)
-        ? largestNonRootRadius + 3
-        : Math.max(1, nodeRadius(n.id, degreeMap) + (n.folder ? 1.5 : 0));
+
     // D3 Force Simulation — stronger repel for full graph to spread nodes
     const chargeStrength = isFullScreen ? -300 : -100;
     const linkDist = isFullScreen ? 80 : 40;
@@ -216,7 +160,7 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
         .force('charge', forceManyBody().strength(chargeStrength))
         .force('center', forceCenter(width / 2, height / 2).strength(0.5))
         .force('link', forceLink(links).id(d => d.id).distance(linkDist))
-        .force('collide', forceCollide(d => graphNodeRadius(d) + 1).iterations(3))
+        .force('collide', forceCollide(d => nodeRadius(d.id, degreeMap) + 1).iterations(3))
         .force('radial', forceRadial(radius, width / 2, height / 2).strength(0.05));
 
     // Pixi v7 Application (synchronous constructor)
@@ -277,12 +221,11 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
 
     // Create node graphics
     for (const n of nodes) {
-        const r = graphNodeRadius(n);
-        const isFolderRoot = n.folder && (n.folderRoot || (n.folderPath || "") === "" || n.text === "/");
+        const r = nodeRadius(n.id, degreeMap);
 
         const label = new Text(n.text, {
             fontSize: 16,
-            fill: isFolderRoot ? mutedColor : textColor,
+            fill: textColor,
             fontFamily: bodyFont,
         });
         label.resolution = 2;
@@ -296,15 +239,14 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
         gfx.hitArea = new Circle(0, 0, r + 2);
         gfx._nodeId = n.id;
 
-        // Folder nodes stand out from notes and make the implicit hierarchy legible.
-        // The virtual "/" node is a navigation/root marker, not a regular folder.
-        const nodeColor = isFolderRoot ? mutedColor : n.folder ? folderColor : (n.current ? color : mutedColor);
+        // Draw node circle — current node gets main color, others get muted
+        const nodeColor = n.current ? color : mutedColor;
         gfx.beginFill(nodeColor);
         gfx.drawCircle(0, 0, r);
         gfx.endFill();
 
-        if (n.current || n.folder) {
-            gfx.lineStyle(0.8, nodeColor);
+        if (n.current) {
+            gfx.lineStyle(0.5, color);
             gfx.drawCircle(0, 0, r + 1.5);
         }
 
@@ -398,10 +340,7 @@ function renderGraph(graphData, containerId, isFullScreen, onFolderClick = null)
                 const dy = event.y - dragStartPos.y;
                 const dist = Math.sqrt(dx * dx + dy * dy);
                 if (dt < 500 && dist < 5) {
-                    if (node.folder) {
-                        const isFolderRoot = node.folderRoot || (node.folderPath || "") === "" || node.text === "/";
-                        if (onFolderClick) onFolderClick(node.folderPath || "", isFolderRoot);
-                    } else if (node.url) {
+                    if (node.url) {
                         window.location = node.url;
                     }
                 }
@@ -509,8 +448,6 @@ let fullGraphDataCache = null;
 let localGraphCleanup = null;
 let globalGraphCleanup = null;
 let localGraphDepth = 1;
-let localGraphFolderPath = null;
-let globalGraphFolderPath = null;
 
 let initPromise = null;
 function init() {
@@ -538,45 +475,26 @@ function renderLocal() {
         localGraphCleanup();
         localGraphCleanup = null;
     }
-    const data = localGraphFolderPath !== null
-        ? buildFolderViewData(graphDataCache, localGraphFolderPath)
-        : filterLocalGraphData(graphDataCache, localGraphDepth);
-    const cleanup = renderGraph(data, 'link-graph', false, (path, isFolderRoot) => {
-        localGraphFolderPath = isFolderRoot ? parentFolderPath(localGraphFolderPath) : path;
-        renderLocal();
-    });
+    const data = filterLocalGraphData(graphDataCache, localGraphDepth);
+    const cleanup = renderGraph(data, 'link-graph', false);
     localGraphCleanup = cleanup;
 }
 
 function setLocalGraphDepth(depth) {
     localGraphDepth = parseInt(depth, 10) || 1;
-    localGraphFolderPath = null;
     renderLocal();
 }
 
-function renderModalGraph(initialData) {
-    if (globalGraphCleanup) {
-        globalGraphCleanup();
-        globalGraphCleanup = null;
-    }
-    const data = globalGraphFolderPath !== null
-        ? buildFolderViewData(graphDataCache, globalGraphFolderPath)
-        : initialData;
-    globalGraphCleanup = renderGraph(data, 'full-graph-container', true, (path, isFolderRoot) => {
-        globalGraphFolderPath = isFolderRoot ? parentFolderPath(globalGraphFolderPath) : path;
-        renderModalGraph(initialData);
-    });
-    lucide.createIcons({ attrs: { class: ['svg-icon'] } });
-}
-
 function openModal(data) {
-    globalGraphFolderPath = null;
     if (globalGraphCleanup) {
         globalGraphCleanup();
         globalGraphCleanup = null;
     }
     document.getElementById('full-graph').style.display = '';
-    setTimeout(() => renderModalGraph(data), 50);
+    setTimeout(() => {
+        globalGraphCleanup = renderGraph(data, 'full-graph-container', true);
+        lucide.createIcons({ attrs: { class: ['svg-icon'] } });
+    }, 50);
 }
 
 function openFullGraph() {
