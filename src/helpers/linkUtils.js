@@ -255,7 +255,6 @@ async function computeGraph(data) {
       id: idx,
       title: v.data.title || v.fileSlug,
       url: v.url,
-      folderPath: fpath.split("/").slice(0, -1).join("/"),
       group,
       home:
         v.data["dg-home"] ||
@@ -307,6 +306,13 @@ async function computeGraph(data) {
   // Now that we know all links and backlinks, inject them into the notes
   // so bases queries can access file.links and file.backlinks.
   const urlToNode = nodes;
+  const urlToPath = {};
+  for (const item of notes) {
+    urlToPath[item.url] = item.filePathStem.replace("/notes/", "");
+  }
+  // Vault paths let file.links.contains(link("x")) match by note name;
+  // unresolved links stay as their raw stem
+  const toPaths = (urls) => urls.map((u) => urlToPath[u] || String(u).replace(/^\/notes\//, ""));
   const basesNotes = notes.map((item) => {
     const url = (urlToNode[item.url] || {});
     return {
@@ -317,6 +323,8 @@ async function computeGraph(data) {
       // Inject computed link data for bases queries
       _links: url.outBound || [],
       _backlinks: url.backLinks || [],
+      _linkPaths: toPaths(url.outBound || []),
+      _backlinkPaths: toPaths(url.backLinks || []),
     };
   });
 
@@ -340,110 +348,6 @@ async function computeGraph(data) {
         }
       }
       node.size = node.neighbors.length;
-    }
-  }
-
-  // Add virtual folder nodes to the graph only. No notes or Markdown files are modified.
-  // Every visible note links to its direct parent folder; folders link to their
-  // parent folder. This mirrors folder structure as implicit graph mentions.
-  const visibleNotesForFolders = notes
-    .filter((item) => nodes[item.url] && !nodes[item.url].hide)
-    .map((item) => ({
-      item,
-      path: item.filePathStem.replace("/notes/", "").split("/").filter(Boolean),
-    }));
-  const folderRecords = new Map();
-
-  for (const entry of visibleNotesForFolders) {
-    const folderParts = entry.path.slice(0, -1);
-    for (let depth = 1; depth <= folderParts.length; depth++) {
-      const folderPath = folderParts.slice(0, depth).join("/");
-      if (!folderRecords.has(folderPath)) {
-        folderRecords.set(folderPath, {
-          path: folderPath,
-          parentPath: folderParts.slice(0, depth - 1).join("/"),
-          representativeUrl: entry.item.url,
-        });
-      }
-    }
-  }
-
-  if (folderRecords.size > 0) {
-    let nextGraphId = notes.length;
-    const folderNodeKeys = new Map();
-    const rootFolderKey = "__folder__/";
-    const representativeUrl =
-      visibleNotesForFolders.length > 0 ? visibleNotesForFolders[0].item.url : "/";
-
-    nodes[rootFolderKey] = {
-      id: nextGraphId++,
-      title: "/",
-      url: representativeUrl,
-      folder: true,
-      folderRoot: true,
-      folderPath: "",
-      group: "none",
-      home: false,
-      outBound: [],
-      neighbors: [],
-      backLinks: [],
-      noteIcon: null,
-      hide: false,
-      private: false,
-      size: 0,
-    };
-    folderNodeKeys.set("", rootFolderKey);
-
-    const sortedFolders = [...folderRecords.values()].sort(
-      (a, b) => a.path.split("/").length - b.path.split("/").length ||
-        a.path.localeCompare(b.path, undefined, { sensitivity: "base" })
-    );
-
-    for (const folder of sortedFolders) {
-      const key = `__folder__/${folder.path}/`;
-      folderNodeKeys.set(folder.path, key);
-      nodes[key] = {
-        id: nextGraphId++,
-        title: folder.path.split("/").pop(),
-        url: folder.representativeUrl,
-        folder: true,
-        folderPath: folder.path,
-        group: folder.parentPath || "none",
-        home: false,
-        outBound: [],
-        neighbors: [],
-        backLinks: [],
-        noteIcon: null,
-        hide: false,
-        private: false,
-        size: 0,
-      };
-    }
-
-    // Build tree edges (root -> top-level folder -> nested folder).
-    for (const folder of sortedFolders) {
-      const parentKey = folder.parentPath
-        ? folderNodeKeys.get(folder.parentPath)
-        : rootFolderKey;
-      const childKey = folderNodeKeys.get(folder.path);
-      if (parentKey && childKey) {
-        links.push({ source: nodes[parentKey].id, target: nodes[childKey].id });
-      }
-    }
-
-    // Attach each note to its immediate folder. Notes in the vault root attach
-    // directly to the root folder so the whole hierarchy remains connected.
-    for (const entry of visibleNotesForFolders) {
-      const folderPath = entry.path.slice(0, -1).join("/");
-      const folderKey = folderPath
-        ? folderNodeKeys.get(folderPath)
-        : rootFolderKey;
-      if (folderKey && nodes[entry.item.url]) {
-        links.push({
-          source: nodes[folderKey].id,
-          target: nodes[entry.item.url].id,
-        });
-      }
     }
   }
 
