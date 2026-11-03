@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/prvoci/","created":"2026-10-04T20:28:04.926+02:00","updated":"2026-10-09T11:48:07.516+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/prvoci/","created":"2026-10-04T20:28:04.926+02:00","updated":"2026-11-02T17:37:27.226+01:00","dg-note-properties":{}}
 ---
 
-- vodní (mořské i sladkovodní) i původní mikroorganismy
+- vodní (mořské i sladkovodní) i půdní mikroorganismy
 - tělo tvořeno **jedinou** buňkou -> zajišťuje všechny životní funkce => přítomnost **specifických organel**
-- zesílená buněčná buněčná membrána - **pelikula**
+- zesílená buněčná membrána - **pelikula**
 - osmoregulace - **pulzující vakuoly**
 - příjem potravy - fagocytóza
 - heterotrofní - bakterie, řasy, sinice
@@ -12,28 +12,36 @@
 	- nepohlavní dělení na 2 dceřiné buňky, rozpadem na dceřiné útvary
 	- pohlavní splýváním gamet nebo splýváním celých jedinců někdy střídání pohlavní a nepohlavní rozmnožování: **rodozměna** (*metageneze*)
 
+---
+
+# kmen: Praprvoci (*Sarcomastigophora*)
+
 - jednobuněční
-- pohyb - bičík
+- pohyb - **bičík** nebo **panožky**
 - 2 skupiny
 	- bičíkovci
 	- kořenonožci
 
-## podkmen: bičíkovci
+## podkmen: bičíkovci (*Mastigophora*)
 
-- heterotrofní
+- heterotrofní (bez plastidů)
 - 1 nebo více bičíků
 - různé prosdtředí
 
-- Trubénky
+### Trubénky (*Choanoflagellida*)
 
-### Trypanozómy
+- 1 bičík s límečkovou obrubou
+- často v koloniích
+- živí se zbytky organických látek a bakteriemi
+
+### Trypanozómy (*Trypanosoma*)
 
 - nebezpeční cizopasníci - v krvi, lymfě nebo mozkomíšního moku u obratlovců i člověka
 - příjem potravy celým povrchem těla
 - pohybující orgán: **undulující membrána**
 - *trypanozóma spavičná* v tropické Africe, způsobuje spavou nemoc
 
-### Bičenky
+### Bičenky (*Trichomonas*)
 
 - 4-6 bičíků
 - žijí v tělních dutinách savců a ptáků
@@ -42,7 +50,7 @@
 	- způsobuje záněty až neplodnost
 	- přenos pohlavním stykem
 
-### Lamblie (Giardia)
+### Lamblie (*Giardia*)
 
 - u člověka cizopasí lamblie střevní (*Giardia intestinalis*)
 	- 8 bičíků 2 jádra
@@ -56,14 +64,14 @@
 
 ### Bičivka rybí
 
-## podkmen: kořenonožci (sarcodina)
+## podkmen: kořenonožci (*sarcodina*)
 
 - schopnost vychlipovat cytoplazmu -> panožky
-	- funkce: pohyb a příjem potravy (fagocytózy)
-- některá vývojová stádia opatčená bičíky (1-2)
+	- funkce: pohyb a příjem potravy (fagocytóza)
+- některá vývojová stádia opatřená bičíky (1-2)
 - někteří vytváří schránky
 
-### Měňavky
+### Měňavky (*Amoebina*)
 
 - ve vodě i půdě
 - měňavka velká *Amoeba proteus*
@@ -71,20 +79,21 @@
 - měňavka střevní *Entamoeba coli* - ve střeva člověka, neškodí
 - měňavka úplavičná *Entemoeba histolytica* - ve střevě člověka, napadá střevní tkáň, rozkládá buňky, nemoc **úplavice**
 
-### Dírkonožci
+### Dírkonožci (*Foraminifera*)
 
 - mořští
 - tvoří vápenité schránky s otvory por panožky
 - prázdné schránky nacházíme v mořském písku
 - vyhynulý penízek *Nummulites* - schránky až 10 cm - numulitové vápence
+- kilovinka (*Globigerina*) - v mořích
 
-### Mřížovci *Radiolaria*
+### Mřížovci (*Radiolaria*)
 
 - mořští
 - vytvářejí podpůrné struktury až ozdobné schránky s otvory z oxidu křemičitého
-- schránky odumřelých živočichů se usazují ve formě radiolového bahna
+- schránky odumřelých živočichů se usazují ve formě radiolariového bahna
 
-### Slunivky
+### Slunivky 
 
 - sladkovodní
 - obývají rašeliniště
@@ -98,42 +107,58 @@
 - Rozlitka Hruškovitá
 - také chitinové chránky
 
-## Výtrusovci *Apicomplexa*
+---
+
+# kmen: Výtrusovci (*Apicomplexa*)
 
 - nitrobuněční paraziti -> speciální soubor organel na přídi buňky pro pronikání do buněk hostitele - **apikální komplex**
 - střídání pohlavních a nepohlavních stádíí v živ. cyklu
 	- nepohl. stadia - invazivní funkce
 - u některých druhů střídání hostitelů
 
-### Kokcidie *Coccidia*
+## Kokcidie (*Coccidia*)
 
 - nitrobuněční paraziti členovců a obratlovců
 - onemocnění kokcidióza
 - např. kokcidióza králíků a zajíců - v buňkách střeva a žlucovodů
 
-### Toxoplazma *Toxoplasma gondii*
+## Toxoplazma (*Toxoplasma gondii*)
 
 - v Evropě promořenost asi 40% -> určitý stupeň imunity
 - při prvním napadení - horečky, zduření uzlin, únava
 - velmi nebezpečné v těhotenství - transplacentrální přenos na plod -> poškození plodu (nerv. soustava)
 - zdroj nákazy - kočky i jiní obratlovci
 
-### Krvinovky *Haemosporidia*
+## Krvinkovky (*Haemosporidia*)
 
-- cizopasníci červených krvinek obratlovců rod **zimnčka** *Plasmodium* - původce **malárie** 4 druhy, bažinaté oblasti tropů a subtropů nepohl. stádia napadají buňky jater a krvinky
+- cizopasníci červených krvinek obratlovců rod **zimnička** (*Plasmodium*) - původce **malárie** 4 druhy, bažinaté oblasti tropů a subtropů
+- nepohlavní stádia napadají buňky jater a krvinky v krvinkách dochází k pomnožení -> prasknutí krvinek a uvolňování **toxinů** -> záchvaty vysokých horeček v cyklech 24-72 hodin hostitelem a přenašečem na člověka je komár z rodu *Anopheles*
 
-## kmen: hmyzomorky *Microspora*
+---
 
-- cizopasníci členovců napadají včely
+# kmen: Hmyzomorky (*Microspora*)
 
-## kmen: výtrusenky *Myxozoa*
+- cizopasníci členovců, ryb i dalších živočichů
+- aktivní stádia mají podobu měňavek
+- invazivní stadia s dlouhým pólovým vláknem a to k proniknutí do buňky hostitele
+- Hmyzomorka včelí (*Nosema apis*)
 
-- cizopasníci především u kroužkovců a ryb aktivní stadia měňavkovitá
+---
 
-## kmen: nálevníci *Ciliophora*
+# kmen: výtrusenky (*Myxozoa*)
+
+- cizopasníci především u kroužkovců a ryb
+- aktivní stadia měňavkovitá
+- invazivní stadia - spory, 1-6 pólových vláken
+- Rybomorka pstruží (*Myxosoma cerebralis*) - napadá chrupavku lebky plůdků pstruhů
+
+---
+
+# kmen: nálevníci *Ciliophora*
 
 - silná **pelikula** (dvojtá membrána)
-- pravidelně rozmístěné pohyblivé organely - **řasinky 2 typy jader**
+- pravidelně rozmístěné pohyblivé organely - **řasinky** 
+- **2 typy jader**
 	- velké vegetativní j. řídí životní funkce
 	- malé vegetativní j. uplatňuje se při rozmnožování
 - **buněčná ústa a buněčná řiť** - pro příjem potravy a vylučování
@@ -147,7 +172,7 @@
 > 
 > potrava - bakterie
 
-### zástupci
+## zástupci
 
 -  trepka 
 	- brvy po celý život

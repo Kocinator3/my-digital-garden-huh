@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:34:06.301+02:00","updated":"2026-10-20T23:13:48.694+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:34:06.301+02:00","updated":"2026-11-02T11:02:08.335+01:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu
@@ -149,14 +149,17 @@ $$
 		- oxidy **nekovů s vysokou elektronegativitou**
 		- mezi molekulami velmi slabé přitažlivé síly
 		- kapaliny a plyny (nízká teplota tání i varu)
+		- např voda
 	- **kovalentní oxidy**
 		- pevné kovalentní vazby
 		- prostorová struktura - atomy uspořádány v trojrozměrné mřížce
 		- pevné, tvrdé, nerozpustné látky s vysokou teplotou tání i varu
+		- např korund nebo křemen
 	- **iontové oxidy**
 		- tvořené anionty ${}\ce{ O^{-2} }{}$ a kationty kovů s nízkou elektronegativitou
 		- pevné látky s vysokou teplotou tání a varu
 		- v pevném stavu nevodivé, v tavenině vedou el. proud
+		- oxid vápenatý nebo oxid sodný
 - dle chemického chování (reakce s vodou, hydroxidy, kyselinami)
 	- **kyselé oxidy**
 		- ${}\boxed{\ce{ CO2 NO2 SO3 CrO3 Mn2O7 }}{}$
@@ -180,4 +183,51 @@ $$
 		- oxidy **kovů** s nízkým oxidačním číslem
 		- **reakce**:
 			- s **vodou neregují**
-			- reagují s 
+			- reagují s **kyselinami a hydroxidy za vzniku solí**
+			- Př.: ${}\ce{Cu2O, ZnO, Al2O3, Au2O3, SnO2}$
+$$
+\begin{aligned}
+\ce{ ZnO + H2SO4 &-> ZnSO4 + H2O } \\
+\ce{ ZnO + 2NaOH + H2O &-> Na2[Zn(OH)4] } \\
+\text{tetrahydroxidozinečnatan}&\text{sodný} \\ \\
+
+\ce{ Al2O3 + HCl &-> AlCl3 + H2O } \\
+\ce{ Al2O3 + KOH + H2O &-> K[Al(OH)4] } \\
+\text{tetrahydoxidohlinitan}\,&\text{sodný}
+\end{aligned}
+$$
+
+	- **Neutrální (acidobazicky netečné)
+		- oxidy nekovů s nízkým ox. číslem (**nejčastěji +II**)
+		- s vodou **nereagují**
+
+# Voda (oxidan) ${}\ce{ H2O }{}$
+
+- **základní údaje
+	- ${}t_{T}=0˚\text{C}{}$ - normální tlak
+	- ${}t_{V}=100˚\text{C}{}$ - normální tlak
+	- max hustota ${}1\,\text{gcm}^{3}{}$ při 4˚C
+- **Molekula**:
+	- lomený tvar, známka velikost úhlu a to 104,45˚C
+	- vazby typu ${}\sigma{}$ - polární, vznik parciálních nábojů
+	- volný el. pár na O - tvorba **vodíkových můstků**
+- Základ života na Zemi
+- Jako jediná látka všechna tři skupenství
+- Neustálý koloběh v přírodě
+- nejrozšířenější sloučenina na Zemi
+- pokrývá 2/3 souše, v přírodě není nikdy čistá
+- součást všech živých organismů (cca 70%)
+- základní vlastnosti:
+	- bez zápachu
+	- bez chuti
+	- v silné vrstvě namodralá
+- polární rozpouštědlo - rozpouští iont. sloučeniny
+
+**Voda ve sloučeninách**
+
+- krystalová voda - ==🔵hydráty==
+	- ${}\ce{ H2O}{}$ součást **krystalové mřížky solí**
+	- vliv na vlastnosti látky (př. barva rozpustnost)
+	- ${}\ce{ CuSO4*5H2O }{}$
+	- ${}\ce{ ZnSO4*7H2O }{}$
+	- ${}\ce{ Na2CO3*10H2O }{}$
