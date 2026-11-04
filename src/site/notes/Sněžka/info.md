@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/snezka/info/","created":"2026-10-04T20:28:04.422+02:00","updated":"2026-10-04T20:28:04.434+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/snezka/info/","created":"2026-08-31T16:59:19.558+02:00","updated":"2026-04-09T03:38:36.000+02:00","dg-note-properties":{}}
 ---
 
 

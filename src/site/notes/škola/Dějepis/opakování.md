@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/dejepis/opakovani/","created":"2026-10-04T20:28:04.734+02:00","updated":"2026-10-04T20:28:04.738+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/dejepis/opakovani/","created":"2026-09-10T11:22:45.242+02:00","updated":"2026-09-14T10:56:11.161+02:00","dg-note-properties":{}}
 ---
 
 - vyjmenuj přemyslovce (aspon 5)

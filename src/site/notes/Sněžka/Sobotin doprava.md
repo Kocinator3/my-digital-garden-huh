@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/snezka/sobotin-doprava/","created":"2026-10-04T20:28:04.414+02:00","updated":"2026-10-04T20:28:04.418+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/snezka/sobotin-doprava/","created":"2026-08-31T16:59:19.558+02:00","updated":"2026-06-08T14:01:54.000+02:00","dg-note-properties":{}}
 ---
 
 V po 24.8. v 5:12

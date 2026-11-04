@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/jizni-amerika/","created":"2026-10-04T20:28:04.606+02:00","updated":"2026-10-04T20:28:04.614+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/jizni-amerika/","created":"2026-08-31T16:59:19.560+02:00","updated":"2026-06-08T17:09:48.000+02:00","dg-note-properties":{}}
 ---
 
 # <p hidden>Jižní Amerika</p>

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/snezka/trasa-2/","created":"2026-10-04T20:28:04.446+02:00","updated":"2026-10-04T20:28:04.454+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/snezka/trasa-2/","created":"2026-08-31T16:59:19.558+02:00","updated":"2026-04-14T16:42:00.000+02:00","dg-note-properties":{}}
 ---
 
 <style>
