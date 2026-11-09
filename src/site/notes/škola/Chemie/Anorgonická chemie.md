@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-02T09:46:30.425+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-06T13:34:44.729+01:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu
@@ -185,6 +185,7 @@ $$
 			- s **vodou neregují**
 			- reagují s **kyselinami a hydroxidy za vzniku solí**
 			- Př.: ${}\ce{Cu2O, ZnO, Al2O3, Au2O3, SnO2}$
+
 $$
 \begin{aligned}
 \ce{ ZnO + H2SO4 &-> ZnSO4 + H2O } \\
@@ -197,9 +198,9 @@ $$
 \end{aligned}
 $$
 
-	- **Neutrální (acidobazicky netečné)
-		- oxidy nekovů s nízkým ox. číslem (**nejčastěji +II**)
-		- s vodou **nereagují**
+- **Neutrální (acidobazicky netečné)**
+	- oxidy nekovů s nízkým ox. číslem (**nejčastěji +II**)
+	- s vodou **nereagují**
 
 # Voda (oxidan) ${}\ce{ H2O }{}$
 
@@ -228,6 +229,41 @@ $$
 - krystalová voda - ==🔵hydráty==
 	- ${}\ce{ H2O}{}$ součást **krystalové mřížky solí**
 	- vliv na vlastnosti látky (př. barva rozpustnost)
+	- lze jednoduše odstranit zahříváním
 	- ${}\ce{ CuSO4*5H2O }{}$
 	- ${}\ce{ ZnSO4*7H2O }{}$
 	- ${}\ce{ Na2CO3*10H2O }{}$
+
+---
+
+$$
+\begin{aligned}
+\ce{ NO2 + H2O &-> HNO3 } \,\text{- kyselý oxid}\\
+\ce{ CO + H2O &-> \text{nereaguje}}\,\text{- amfoterní oxid} \\
+\ce{ MgO + H2O &-> Mg(OH)2 }\,\text{- bazický oxid}
+\end{aligned}
+$$
+
+---
+
+- **voda v komplexech - aquakomplexy**
+
+- napojení koordinační vazbou, nelze vodu jednoduše odstranit zahříváním
+- např. ${}\ce{  [Cr(H₂O)₆]^{3+} }{}$ ${}\ce{ [Fe(H₂O)₆]^{3+}}{}$
+
+**Druhy vody**(*různá klasifikace*)
+
+- **dle obsahu rozpuštěných solí**
+	- měkká
+	- tvrdá
+- **dle praktického používání**
+	- destilovaná
+	- pitná
+	- užitková
+	- odpadní
+
+# Peroxid vodíku *(zastarale kysličník)* ${}\ce{ H2O2 }{}$
+
+- nelineární molekula
+- vodíkové můstky silnější než v ${}\ce{ H2O }{}$
+- peroxidový anion
