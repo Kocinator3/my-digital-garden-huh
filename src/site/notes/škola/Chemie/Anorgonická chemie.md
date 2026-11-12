@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-06T13:34:44.729+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-09T09:30:49.869+01:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu
@@ -266,4 +266,22 @@ $$
 
 - nelineární molekula
 - vodíkové můstky silnější než v ${}\ce{ H2O }{}$
-- peroxidový anion
+- peroxidový anion ${}\ce{ O2^{-2}}{}$
+
+## peroxidy
+
+- dvouprvkové sloučeniny **s alk. kovy a kovy alk. zemin**
+- syntetické látky - přípravované spalováním kovu v nadbytku kyslíku
+- ${}\text{Na}_{2}^{\text{I}}\text{O}_{2}^{-2}{}$ - peroxid sodný
+- ${}\ce{ K2O2 \text{- peroxid draselný} }{}$
+- ${}\ce{ CaO2 \text{- peroxid vápenatý} }{}$
+
+## superoxidy = hyperoxidy
+
+- hyperoxidový anion ${}\text{O}_{2}^{-}{}$
+- dvouprvkové sloučeniny **s alk. kovy**
+- připravují se reakcí peroxidu s kyslíkem
+- toxické - vznik v bílých krvinkách (stop. množství, zabíjí mikroorganismy)
+- ${}\ce{ CsO2 \text{- superoxid cesný} }{}$
+- ${}\ce{ NaO2 \text{- superoxid sodný} }{}$
+- ${}\ce{ Ca(O2)2 \text{- superoxid vápenatý} }{}$

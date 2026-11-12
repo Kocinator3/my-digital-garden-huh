@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/zahavci/","created":"2026-10-21T14:59:19.483+02:00","updated":"2026-11-06T11:27:33.539+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/zahavci/","created":"2026-10-21T14:59:19.483+02:00","updated":"2026-11-12T12:57:33.108+01:00","dg-note-properties":{}}
 ---
+
 
 # *Cnidaria*
 
@@ -60,8 +61,4 @@ třídy
 
 - schránky z ${}\ce{ CaCO3 }{}$ (tvrdý korál) nebo z rohoviny (měkký korál)
 - výjímky nepřísedlý způsob života
-- sasanky výjímka - beze schránky
-
->sasanka koňská, plášťová
->korál červený
->větevník nízký, plochý, mozkový, houbový - pohyblivá planula
+- sasanky výjímka beze schránky

@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/prvoci/","created":"2026-09-23T15:07:29.111+02:00","updated":"2026-11-02T17:37:27.226+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/prvoci/","created":"2026-09-23T15:07:29.111+02:00","updated":"2026-11-12T12:57:41.508+01:00","dg-note-properties":{}}
 ---
+
 
 - vodní (mořské i sladkovodní) i půdní mikroorganismy
 - tělo tvořeno **jedinou** buňkou -> zajišťuje všechny životní funkce => přítomnost **specifických organel**
@@ -160,7 +161,7 @@
 - pravidelně rozmístěné pohyblivé organely - **řasinky** 
 - **2 typy jader**
 	- velké vegetativní j. řídí životní funkce
-	- malé vegetativní j. uplatňuje se při rozmnožování
+	- malé generativní j. uplatňuje se při rozmnožování
 - **buněčná ústa a buněčná řiť** - pro příjem potravy a vylučování
 - **trichocysty** - drobné váčky s obsahem buněčných jedů - vystřelují obsah, který tuhne v rosolovité vlákno
 - **pulzující vakuoly** - osmoregulace

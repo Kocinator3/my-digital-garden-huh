@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-04T12:17:47.341+01:00","updated":"2026-11-06T12:37:46.616+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-04T12:17:47.341+01:00","updated":"2026-11-11T12:31:47.846+01:00","dg-note-properties":{}}
 ---
 
 # Povrchová vrstva kapalin
@@ -46,3 +46,15 @@ F & =\frac{\text{F}_{g}}{2}=\frac{m\cdot{}g}{2} \\
 $$
 
 - úhel smáčení ${}\theta{}$
+- ${}\theta{}$ úuhel, který svírá povrch kapaliny se stěnou stykový úuhel
+- ${}\theta=0˚{}$ kapalina dokonale smáčí
+- ${}\theta=\pi{}$ kapalina dokonale nesmáčí
+
+reálná kapalina:
+- smáčivá kapalina${}0<\theta< \frac{\pi}{2}{}$ 
+- nesmáčivá  ${}\frac{\pi}{2}<\theta<\pi{}$
+
+---
+
+- Kapillární tlak vzníká zakřivením povrchu kapaliny při stěnách, vzniká také u kapek, bublin.
+- Je způsoben pružností povrchové vrstvy.
