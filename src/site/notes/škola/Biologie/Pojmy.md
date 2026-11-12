@@ -1,41 +1,70 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/pojmy/","created":"2026-11-12T18:18:54.723+01:00","updated":"2026-11-12T18:19:02.496+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/pojmy/","created":"2026-11-12T18:26:12.279+01:00","updated":"2026-11-12T18:26:12.279+01:00","dg-note-properties":{}}
 ---
 
-Pojem | Význam
----|---
-Apikální komplex | Speciální soubor organel na přídi buňky u výtrusovců, který slouží pro pronikání do buněk hostitele.
-Aska (vřecka) | Výtrusnice vřeckovýtrusých hub (Askomycet), ve kterých vznikají výtrusy zvané askospory.
-Bazidie | Výtrusnice (stopky) stopkovýtrusých hub (Bazidiomycet), na kterých vznikají bazidiospory.
-Blastula | Rané embryonální stádium živočichů; má tvar duté koule tvořené buňkami, uvnitř je dutina zvaná blastocoel.
-Boubel | Klidové larvální stádium (cysta) tasemnice, které se nachází ve svalovině nebo orgánech mezihostitele.
-Coelom | Pravá tělní dutina živočichů, která je z obou stran ohraničená mezodermem (u skupiny Coelomata).
-Deuterostomia (Druhoústí) | Skupina živočichů, u kterých z embryonálního blastoporu (prvoúst) vzniká řitní otvor a ústa se prolamují druhotně na opačném konci těla.
-Dikaryofáze | Dvoujaderná fáze vývoje u hub – stádium po splynutí cytoplazmy (plazmogamii), ale před splynutím jader.
-Ektoderm | Vnější zárodečný list vznikající během gastrulace (tvoří např. pokožku a nervovou soustavu).
-Endoderm | Vnitřní zárodečný list vznikající během gastrulace (stává se z něj např. trávicí trubice).
-Fagocytóza | Způsob příjmu potravy buněčným pohlcováním, typický například pro měňavky či jiné prvoky.
-Fotobiont | Autotrofní (fotosyntetizující) složka lišejníku; jedná se o zelenou řasu (fykobiont) nebo sinici (cyanobiont).
-Gastrula | Vývojové stádium embrya s vchlípenými buňkami, čímž se zakládají zárodečné listy (ektoderm a endoderm). Houbovci zůstali na tomto vývojovém stupni.
-Gemule | Vnitřní pupeny u sladkovodních houbovců, které slouží k nepohlavnímu rozmnožování a přečkání nepříznivých podmínek.
-Hyfy | Jednobuněčná či mnohobuněčná houbová vlákna; tvoří základní stavební jednotku houbové stélky.
-Izidie | Válcovité výrůstky stélky lišejníků s heteromerickou stavbou, které slouží k nepohlavnímu rozmnožování.
-Karyogamie | Proces splývání jader (např. v životním cyklu hub probíhá ve výtrusnici).
-Konjugace | Spájení; pohlavní rozmnožování u nálevníků, při kterém si jedinci vyměňují část genetického materiálu z malých jader.
-Láčka | Gastrovasculární trávicí soustava s jediným (přijímacím i vyvrhovacím) otvorem, typická pro žahavce.
-Metageneze | Rodozměna, tedy pravidelné střídání pohlavní a nepohlavní generace v životním cyklu (např. polyp a medúza u žahavců).
-Mezoderm | Třetí (střední) zárodečný list, který se tvoří u bilaterálně souměrných živočichů (Triploblastica) a dává vznik např. svalům.
-Mycelium | Podhoubí; shluk rozvětvených a vzájemně propletených houbových vláken (hyf) mající primárně stavební funkci.
-Mykobiont | Houbová složka lišejníku, která poskytuje oporu a vodu (v 97 % se jedná o vřeckovýtrusé houby).
-Pelikula | Zesílená buněčná membrána chránící povrch těla u některých prvoců (např. nálevníků).
-Plazmogamie | Splývání buněčných obsahů (cytoplazmy) dvou fyziologicky rozlišených houbových vláken.
-Proglotidy | Tělní články tasemnice; zralé proglotidy na konci těla bývají plné vajíček a oddělují se.
-Protonefridie | Typ vylučovací soustavy u ploštěnců, začínající plaménkovými buňkami a pokračující odvodným kanálkem.
-Protostomia (Prvoústí) | Skupina živočichů (např. měkkýši, kroužkovci, členovci), u kterých dává blastoporus (prvoústa) vznik ústnímu otvoru.
-Pulzující vakuola | Organela typická pro vodní prvoky, která zajišťuje osmoregulaci (odstraňuje z buňky přebytečnou vodu).
-Rabdity | Tělíska v pokožce volně žijících ploštěnek, která napomáhají tvorbě ochranného slizového obalu.
-Skolex | Hlavička tasemnice, která je k přichycení v hostiteli často opatřena přísavkami nebo háčky.
-Soredie (sorál) | Buňky fotobionta obklopené houbovými hyfami mykobionta; slouží k nepohlavnímu rozmnožování a šíření lišejníků.
-Sporokarp | Plodnice hub; útvar tvořený houbovými vlákny, ve kterém vznikají výtrusy pohlavním způsobem.
-Strobilace | Typ nepohlavního rozmnožování u medúzovců, při kterém dochází k příčnému odškrcování malých medúz z přisedlého polypa.
-Tegument | Ochranná vrstva u parazitických ploštěnců (motolic a tasemnic), která je chrání před vnějšími vlivy a trávicími enzymy hostitele.
+
+| Pojem | Význam |
+| --- | --- |
+| **HOUBY A LIŠEJNÍKY** |  |
+| Saprofyt | Organismus získávající živiny rozkladem odumřelého organického materiálu. |
+| Chitin | Polysacharid tvořící stavební materiál buněčné stěny hub. |
+| Hyfy | Houbová vlákna (mohou být jednobuněčná nepřehrádkovaná i mnohobuněčná). |
+| Mycelium | Podhoubí, shluk rozvětvených a propletených houbových vláken bez vyživovací funkce. |
+| Sporokarp | Plodnice hub, útvar ve kterém vznikají výtrusy pohlavním způsobem. |
+| Plazmogamie | Fáze rozmnožování, při které splývají buněčné obsahy dvou fyziologicky odlišených houbových vláken. |
+| Dikaryofáze | Dvoujaderná fáze vývoje buňky nebo houbového vlákna. |
+| Karyogamie | Splývání jader (např. ve výtrusnici), po kterém následuje redukční dělení. |
+| Mykobiont | Houbová složka lišejníku (většinou vřeckovýtrusá houba). |
+| Fytobiont (fotobiont) | Řasová nebo sinicová složka lišejníku (zajišťuje fotosyntézu). |
+| Lichenismus | Úzký způsob symbiózy houby a řasy/sinice v lišejníku. |
+| Homeomerická stélka | Stélka lišejníku, kde jsou houbová a řasová složka rovnoměrně propleteny (např. rosolovité). |
+| Heteromerická stélka | Stélka lišejníku rozdělená na vrstvy (svrchní kůra, gonidiová vrstva s řasou, dřeň, spodní kůra). |
+| Soredie (sorály) | Buňky fotobionta obklopené hyfami, slouží k nepohlavnímu rozmnožování lišejníků odtržením. |
+| Izidie | Válcovité výrůstky heteromerické stélky sloužící k nepohlavnímu rozmnožování lišejníků. |
+| Apothecium / perithecium | Plodnice lišejníku (týká se pouze houbové složky) sloužící k pohlavnímu rozmnožování. |
+| **PRVOCI A HOUBOVCI** |  |
+| Pelikula | Zesílená buněčná membrána na povrchu těla prvoců. |
+| Pulzující vakuola | Organela prvoců sloužící k osmoregulaci (odstraňování přebytečné vody z buňky). |
+| Fagocytóza | Způsob přijímání potravy pohlcováním částeček (typické např. u kořenonožců). |
+| Undulující membrána | Pohybový orgán některých parazitických bičíkovců (např. trypanozómy). |
+| Panožky (pseudopodia) | Výběžky cytoplazmy u kořenonožců sloužící k pohybu a pohlcování potravy. |
+| Apikální komplex | Soubor organel na přídi buňky výtrusovců pro pronikání do buněk hostitele. |
+| Trichocysty | Drobné váčky pod pelikulou nálevníků vystřelující vlákno (funkce obrany nebo lovu). |
+| Makronukleus | Velké vegetativní jádro nálevníků, které řídí běžné životní funkce buňky. |
+| Mikronukleus | Malé generativní jádro nálevníků, které se uplatňuje při pohlavním rozmnožování. |
+| Konjugace | Pohlavní rozmnožování nálevníků (spájení dvou jedinců a výměna části genetické informace). |
+| Gemule | Vnitřní pupen (shluk buněk) sladkovodních hub pro přečkání nepříznivých podmínek (zima, sucho). |
+| **ŽAHAVCI** |  |
+| Cnidocyty | Žahavé buňky obsahující toxiny. |
+| Láčka | Jednoduchá, vakovitá trávicí dutina (gastrovasculární soustava) pouze s jedním přijímacím/vyvrhovacím otvorem. |
+| Polyp | Přisedlé (benthické) a obvykle nepohlavní stádium žahavců. |
+| Medúza | Pohyblivé (pelagické) a pohlavní stádium žahavců. |
+| Metageneze (Rodozměna) | Pravidelné střídání pohlavní a nepohlavní generace v životním cyklu (typické pro medúzovce). |
+| Planula | Obrvená, volně plovoucí larva žahavců vznikající oplozením vajíčka medúzy. |
+| Strobila | Stádium polypa při nepohlavním rozmnožování (strobilaci), kdy dochází k odškrcování segmentů. |
+| Efyra | Mladá nedospělá medúza, která se odškrtila ze strobily. |
+| **PLOŠTĚNCI** |  |
+| Protonefridie (plaménkové b.) | Vylučovací soustava ploštěnců, tvořená odvodnými kanálky a slepě zakončenými plaménkovými buňkami. |
+| Tegument | Ochranná buněčná vrstva na povrchu těla parazitických ploštěnců (motolic a tasemnic), chrání před trávením hostitele. |
+| Miracidium | Obrvená volně plovoucí larva motolic, která se líhne z vajíčka a hledá mezihostitele. |
+| Redie | Larvální stádium motolic, které se vyvíjí a parazituje uvnitř mezihostitele. |
+| Cerkarie | Pohyblivá larva motolic, která opouští mezihostitele a čeká na konečného hostitele (např. na trávě nebo ve vodě). |
+| Skolex | Hlavička tasemnice opatřená příchytnými orgány (přísavky, háčky nebo štěrbiny). |
+| Proglotidy | Tělní články tasemnice, které se tvoří za krčkem a obsahují pohlavní orgány (zralé s vajíčky odpadávají). |
+| Boubel | Klidové zapouzdřené larvální stádium tasemnice uložené nejčastěji ve svalovině mezihostitele. |
+| **OBECNÁ ZOOLOGIE / EMBRYOLOGIE** |  |
+| Rýhování | Mitotické dělení zygoty (oplozeného vajíčka) na menší buňky během raného embryonálního vývoje. |
+| Morula | Rané stádium embrya ve tvaru plného shluku buněk (tvar moruše). |
+| Blastula | Stádium embrya ve tvaru duté koule tvořené jednou vrstvou buněk. |
+| Blastocoel | Prvotní tělní dutina uvnitř blastuly. |
+| Gastrulace | Proces, při kterém se část embrya vchlípí dovnitř za vzniku zárodečných listů. |
+| Archenteron | Prvostřevo, slepá kapsa vzniklá vchlípením při gastrulaci. |
+| Blastoporus | Prvoústa, otvor spojující archenteron s vnějším prostředím (u prvoústých z něj vznikají ústa, u druhoústých řiť). |
+| Ektoderm | Vnější zárodečný list embrya (vzniká z něj např. pokožka a nervová soustava). |
+| Endoderm | Vnitřní zárodečný list embrya (vzniká z něj výstelka trávicí a dýchací soustavy). |
+| Mezoderm | Třetí (střední) zárodečný list u pokročilejších živočichů (vznikají z něj svaly, oběhová či vylučovací soustava). |
+| Acoelomata | Živočichové bez druhotné tělní dutiny (např. ploštěnci, prostor vyplňuje parenchym). |
+| Pseudocoelom | Tělní dutina ohraničená mezodermem jen částečně (např. u hlístic). |
+| Coelom | Pravá druhotná tělní dutina kompletně ohraničená mezodermem. |
+| Schizocoel | Způsob vzniku coelomu u prvoústých živočichů (rozestoupením mezodermu). |
+| Enterocoel | Způsob vzniku coelomu u druhoústých živočichů (vychlípením z prvostřeva). |
