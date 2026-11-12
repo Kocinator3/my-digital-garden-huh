@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/dejepis/samova-rise/","created":"2026-08-31T16:59:19.565+02:00","updated":"2026-09-23T07:29:15.517+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/dejepis/samova-rise/","created":"2026-08-13T19:48:16.678+02:00","updated":"2026-09-17T22:43:55.844+02:00","dg-note-properties":{}}
 ---
 
 - byla prvním státním útvarem Slovanů
