@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/zapadni-afrika/","created":"2026-09-14T17:10:27.717+02:00","updated":"2026-10-11T23:33:13.607+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/zapadni-afrika/","created":"2026-09-14T11:08:26.935+02:00","updated":"2026-10-21T20:55:28.894+02:00","dg-note-properties":{}}
 ---
 
 ,,

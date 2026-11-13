@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/procvicovani/","created":"2026-10-21T20:47:57.894+02:00","updated":"2026-10-21T09:09:32.587+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/procvicovani/","created":"2026-10-20T16:01:21.781+02:00","updated":"2026-10-21T09:07:37.635+02:00","dg-note-properties":{}}
 ---
 
 $$

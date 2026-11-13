@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/amerika/","created":"2026-08-13T19:48:16.678+02:00","updated":"2026-06-08T15:09:48.534+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/amerika/amerika/","created":"2026-08-31T16:59:19.560+02:00","updated":"2026-06-08T17:09:48.000+02:00","dg-note-properties":{}}
 ---
 
 dělí se na [[škola/Zeměpis/Regionální geografie/Amerika/Jižní Amerika\|jižní]] a [[škola/Zeměpis/Regionální geografie/Amerika/Severní Amerika\|severní]]

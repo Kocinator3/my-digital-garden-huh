@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/subsaharska-afrika/","created":"2026-09-10T20:14:14.351+02:00","updated":"2026-10-06T22:33:32.232+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/subsaharska-afrika/","created":"2026-09-10T13:08:13.855+02:00","updated":"2026-10-21T20:55:28.893+02:00","dg-note-properties":{}}
 ---
 
 

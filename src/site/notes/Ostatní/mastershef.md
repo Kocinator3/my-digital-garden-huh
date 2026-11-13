@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ostatni/mastershef/","created":"2026-10-21T20:47:57.812+02:00","updated":"2026-11-11T08:10:55.648+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/ostatni/mastershef/","created":"2026-10-20T17:18:38.881+02:00","updated":"2026-11-11T08:10:55.648+01:00","dg-note-properties":{}}
 ---
 
 ## triclena skupinka 

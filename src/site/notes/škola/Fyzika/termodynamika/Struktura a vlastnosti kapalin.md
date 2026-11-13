@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-05T14:49:02.552+01:00","updated":"2026-11-11T12:32:50.407+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-04T12:17:47.341+01:00","updated":"2026-11-11T12:31:47.846+01:00","dg-note-properties":{}}
 ---
 
 # Povrchová vrstva kapalin

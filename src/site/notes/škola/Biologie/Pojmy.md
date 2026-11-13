@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/pojmy/","created":"2026-11-12T18:26:12.279+01:00","updated":"2026-11-12T18:26:12.279+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/pojmy/","created":"2026-11-13T09:14:18.586+01:00","updated":"2026-11-12T18:27:13.813+01:00","dg-note-properties":{}}
 ---
 
 
