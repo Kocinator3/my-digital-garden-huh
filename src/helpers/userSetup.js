@@ -35,7 +35,7 @@ function userMarkdownSetup(md) {
           );
           if (!marker) break;
 
-          child.content = child.content.slice(marker.length).replace(/^\\s+/, "");
+          child.content = child.content.slice(marker.length).trimStart();
           open.attrJoin("class", `highlight-${HIGHLIGHT_EMOJI.get(marker)}`);
           break;
         }
