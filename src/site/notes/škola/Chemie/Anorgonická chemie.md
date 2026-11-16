@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-09T09:30:49.869+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-11T20:52:29.927+02:00","updated":"2026-11-13T13:15:39.875+01:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu
@@ -285,3 +285,24 @@ $$
 - ${}\ce{ CsO2 \text{- superoxid cesný} }{}$
 - ${}\ce{ NaO2 \text{- superoxid sodný} }{}$
 - ${}\ce{ Ca(O2)2 \text{- superoxid vápenatý} }{}$
+$$
+\begin{aligned}
+\ce{ &BaO - \text{bazický oxid} - BaO + H2O -> Ba(OH)2 } \\
+\ce{ &SiO2 - \text{kyselý oxid} - \text{s vodou nereaguje} } \\
+\ce{ &CO - \text{neutrální oxid} - \text{s vodou nereaguje} } \\
+\ce{ &CO2 - \text{kyselý oxid} - CO2 + H2O -> H2CO3 } \\ \\
+
+\ce{ &BaO - \text{oxid barnatý} } \\
+\ce{ &BaO2 - \text{peroxid barntý} } \\
+\ce{ &K2O - \text{oxid draselný} } \\
+\ce{ &KO - \text{peroxid draselný}} \\
+\ce{ &KO2 - \text{hyperoxid draselný} } \\
+\ce{ &K2O2 - \text{peroxid draselný} } \\
+\ce{ &H2S2O5 - \text{kyselina disiřičitá} } \\
+\ce{ &H3IO5 - \text{kyselina trihydrogenjodistá} } \\
+\ce{ &H5IO6 - \text{kyselina pentahydrogenjodistá} } \\
+\ce{ &H3BO3 - \text{kyselina trihydrogenboritá} } \\
+\ce{ &H_{2}P_{2}O_{4} - \text{kyselina dihydrogendifosforitá} }
+\end{aligned}
+$$
+

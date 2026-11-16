@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/fungi/lisejniky/","created":"2026-09-25T11:14:05.491+02:00","updated":"2026-10-21T20:55:28.890+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/fungi/lisejniky/","created":"2026-10-04T17:42:00.657+02:00","updated":"2026-10-06T21:26:25.608+02:00","dg-note-properties":{}}
 ---
 
 - lišejník je podvojný organismus, ve kterém je vázán určitý druh houby (mykobiont) s určitým druhem řasy nebo sinice (fytobiont)

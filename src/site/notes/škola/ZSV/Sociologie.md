@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zsv/sociologie/","created":"2026-08-31T16:59:19.566+02:00","updated":"2026-06-11T20:22:46.000+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zsv/sociologie/","created":"2026-08-13T19:48:16.678+02:00","updated":"2026-06-11T18:22:47.927+02:00","dg-note-properties":{}}
 ---
 
 # <p hidden>Sociologie</p>

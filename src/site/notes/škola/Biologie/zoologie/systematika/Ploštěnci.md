@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/plostenci/","created":"2026-11-06T11:30:03.781+01:00","updated":"2026-11-12T12:57:23.945+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/plostenci/","created":"2026-11-12T18:15:55.700+01:00","updated":"2026-11-13T11:42:18.235+01:00","dg-note-properties":{}}
 ---
 
 
@@ -34,3 +34,25 @@
 - Ekologie
 	- původně mořská skupina, postupně přechod do sladkých vod a vlhké půdy
 	- význam pro člověka: velké množství endoparazitů napadá člověka (i smrtelně)
+
+# Systém
+
+## třída: Ploštěnky (*Turbellaria*)
+
+- volně žijící ploštěnci
+- drobnější tělo opatřeno rabdity - tvorba slizového obalu
+- epidermis obrvená - pohyb
+- TS - ústní otvor ve středu těla na ventrální straně
+- sladkovodní vývoj přímý (vajíčko ${}\to{}$ jedinec podobný dospělému jedinci)
+- mořští přes larvu (Mullerovu) (vajíčko ${}\to{}$ larva ${}\to{}$ (popřípadě další stádia) ${}\to{}$ dospělý jedinec)
+	- ploštěnka potoční (šilhavá)
+	- ploštěnka americká (strakavá)
+	- ploštěnka horská (rohatá)
+	- ploštěnka mléčná (mléčně bílá)
+
+## třída: Motolice (*Trematoda*)
+
+- tvoří tegument bez brv, mohou mýt ostny (háčky)
+- tělo opatřeno přísavkami - u úst a na ventrální straně
+- endoparazité na vnitřních orgánech - min 2 hostitelé
+- živ. cyklus: vajíčko ${}\to{}$ obrvená larva (*miracidium*) ${}\to{}$ mezihostitel (většinou plž (např bahnatka malá) nebo mravenci) ${}\to{}$ uvnitř vzniká larva (*redie*) ${}\to{}$ různým způsobem opouští mezihostitele ${}\to{}$ změna v *cerkarii* ${}\to{}$ do finálního hostitele ${}\to {}$ cysta v žaludku praská ${}\to{}$ průnik do jater ${}\to{}$ dospělá motolice

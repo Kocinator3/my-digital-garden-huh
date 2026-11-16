@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-04T12:17:47.341+01:00","updated":"2026-11-11T12:31:47.846+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-05T14:49:02.552+01:00","updated":"2026-11-13T12:40:13.115+01:00","dg-note-properties":{}}
 ---
 
 # Povrchová vrstva kapalin
@@ -58,3 +58,40 @@ reálná kapalina:
 
 - Kapillární tlak vzníká zakřivením povrchu kapaliny při stěnách, vzniká také u kapek, bublin.
 - Je způsoben pružností povrchové vrstvy.
+- Pod dutým povrchem je tlak menší o kapilární tlak (oproti vodorné hladině)
+- Pod vypuklým povrchem je tlak větší o kapilární tlak (oproti vodorovné hladině)
+- ${}P_{k}=\frac{2\sigma}{R}{}$
+
+$$
+\begin{aligned}
+d & = 1\,\text{µm} \\
+h & = 5\,\text{m} \\
+p_{a} & = 1000\,\text{hPa} \\
+\sigma & =73\,\text{mNm}^{-1}\\\hline \\
+p_{t} & = \frac{2\sigma}{R} \\
+p_{k} & =h\cdot \rho \cdot \text{g} \\
+p_{c} & =p_{t}+p_{k}+p_{a} \\
+ \\
+p_{c} & =\frac{2\cdot73\cdot10^{-3}}{0,5\cdot 10^{-6}}+5\cdot 1000\cdot 10+1000\cdot 10^2 \\ \\
+p_c  & = 292 \, 000 + 50 \, 000 + 100 \, 000 = 442 \, 000 \, \text{Pa}
+\end{aligned}
+$$
+
+## Kapilární jevy
+
+- kapilára je trubička
+- trubice o velmi úzkém průměru
+- jevy v kapiláře
+- kapilární elevace
+- kapilární deprese
+- u dutého povrchu kapalina smáčí stěny nádoby - vystoupí kapalina do výšky h, aby vyrovnala tlak (tlak je oproti rovnému povrchu menší)
+- u vypuklého povrchu - kapalina nesmáčí stěny nádoby - kapalina v kapiláře klesne pod volný povrch, aby vyrovnala tlak (tlak je oproti volnému povrchu větší)
+- ${}h\cdot \rho \cdot \text{g}=\frac{2\sigma}{R}=\frac{2\sigma}{\rho \cdot \text{g}\cdot R}{}$
+
+$$
+\begin{aligned}
+\sigma & =? \\
+d & =0,4\,\text{mm} \\
+h & =3\,\text{cm}
+\end{aligned}
+$$
