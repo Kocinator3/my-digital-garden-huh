@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/australie-a-oceanie/","created":"2026-11-12T18:15:58.718+01:00","updated":"2026-11-16T13:53:42.877+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/australie-a-oceanie/","created":"2026-11-09T11:08:17.960+01:00","updated":"2026-11-23T11:12:30.257+01:00","dg-note-properties":{}}
 ---
 
 Australský svaz
@@ -54,3 +54,28 @@ Australský svaz
 	- dnes hlavně běloši - potomci britských kolonizátorů
 	- úřední jazyk: angličtina + maorština
 	- národní sport - rugby - při nástupu bojový tanec **haka**
+
+---
+
+v testu bude:
+
+- povrch austrálie
+	- příklady pohoří
+	- co ja na pobřeží uvnitř, pohoží
+	- litosférická deska
+	- nejvyšší hora
+- vodstvo austrálie
+	- trvalé řeky, bezodtoké oblasti, oceány moře
+- obyvatelstvo
+	- obecně obyvatelstvo australie a noveho zelandu
+	- původní obyvatele nového zelandu
+		- proč jižní ostrov?
+	- původní obyvatele austrálie
+		- kde žijí
+- Průmysl a zemědělství v austrálii
+	- cestovní ruch
+	- těžba - vlastní spotřeba
+	- rostlinné a živočišné výrobky
+- Mikronésie Polynésie a další z Oceánie
+	- vyjmenovat z každé částí pár státu
+	- problematika do budoucnosti

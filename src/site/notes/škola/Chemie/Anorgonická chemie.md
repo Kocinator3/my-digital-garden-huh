@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-11T20:52:29.927+02:00","updated":"2026-11-13T13:15:39.875+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-17T21:12:25.444+01:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu
@@ -71,7 +71,7 @@
 	- Přímá **reakce s halogeny**
 		- Vznik ==🟡amoniaku ${}\ce{ NH3 }{}$==
 	- **Vyredukování kovu z oxidu vodíkem**
-		- Využití - **==🟠výroba kovů==
+		- Využití - **==🟠výroba kovů==**
 
 # Kyslík
 
@@ -165,7 +165,7 @@ $$
 		- ${}\boxed{\ce{ CO2 NO2 SO3 CrO3 Mn2O7 }}{}$
 		- oxidy **nekovů** a kovy s ox. číslem vyšším než +V
 		- **reakce**:
-			- rozpustné ve vodě - reagujé s ${}\ce{ H20 }{}$ **za vzniku kyselin** (tzv. kyselinotvorné oxidy)
+			- rozpustné ve vodě - reagujé s ${}\ce{ H2O }{}$ **za vzniku kyselin** (tzv. kyselinotvorné oxidy)
 			- nerozpustné ve vodě - reagují s hydroxidy za vzniku soli
 $$
 \begin{aligned}
@@ -249,7 +249,7 @@ $$
 - **voda v komplexech - aquakomplexy**
 
 - napojení koordinační vazbou, nelze vodu jednoduše odstranit zahříváním
-- např. ${}\ce{  [Cr(H₂O)₆]^{3+} }{}$ ${}\ce{ [Fe(H₂O)₆]^{3+}}{}$
+- např.  $\ce{[Cr(H₂O)₆]^{3+} }$  ${}\ce{ [Fe(H₂O)₆]^{3+}}{}$
 
 **Druhy vody**(*různá klasifikace*)
 
@@ -285,6 +285,8 @@ $$
 - ${}\ce{ CsO2 \text{- superoxid cesný} }{}$
 - ${}\ce{ NaO2 \text{- superoxid sodný} }{}$
 - ${}\ce{ Ca(O2)2 \text{- superoxid vápenatý} }{}$
+
+
 $$
 \begin{aligned}
 \ce{ &BaO - \text{bazický oxid} - BaO + H2O -> Ba(OH)2 } \\

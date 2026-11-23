@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/regionalni-geografie-afriky/","created":"2026-09-07T17:03:56.249+02:00","updated":"2026-10-06T22:35:14.132+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/regionalni-geografie-afriky/","created":"2026-09-07T11:07:53.056+02:00","updated":"2026-10-21T20:55:28.891+02:00","dg-note-properties":{}}
 ---
 
 - kontinent i světadíl

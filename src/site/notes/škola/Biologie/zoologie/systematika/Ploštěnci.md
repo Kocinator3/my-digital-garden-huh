@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/plostenci/","created":"2026-11-12T18:15:55.700+01:00","updated":"2026-11-13T11:42:18.235+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/plostenci/","created":"2026-11-06T11:30:03.781+01:00","updated":"2026-11-20T11:41:20.311+01:00","dg-note-properties":{}}
 ---
 
 
@@ -56,3 +56,21 @@
 - tělo opatřeno přísavkami - u úst a na ventrální straně
 - endoparazité na vnitřních orgánech - min 2 hostitelé
 - živ. cyklus: vajíčko ${}\to{}$ obrvená larva (*miracidium*) ${}\to{}$ mezihostitel (většinou plž (např bahnatka malá) nebo mravenci) ${}\to{}$ uvnitř vzniká larva (*redie*) ${}\to{}$ různým způsobem opouští mezihostitele ${}\to{}$ změna v *cerkarii* ${}\to{}$ do finálního hostitele ${}\to {}$ cysta v žaludku praská ${}\to{}$ průnik do jater ${}\to{}$ dospělá motolice
+- krevnička
+
+## třída: Tasemnice (*Cestoda*)
+
+- skolex (hlavička), krček a proglotidy (články)
+- na skolexu buď háčky, přísavky nebo přísavné štěrbiny k přichycení na hostitele
+- chybí TS - příjem živin osmoticky
+- tegument - endoparazité střev ryb a savců
+- hermafrodité - častá partenogeneze
+- poslední článek odpadá s vyvinutými vajíčky - vývoj vodní či suchou cestou přes mezihostitele ${}\to{}$ larva ${}\to{}$ mezihostitel ${}\to{}$ boubel (cysta - uvnitř skolex) ${}\to{}$ mezihostitel pozřen predátorem ${}\to{}$ dospělec
+	- **štěrbinovky** - nemají přísavky ale štěrbiny, vývoj přes vodní postředí
+		- škulovec široký (až 12 m dlouhý, 4000 proglotidů, výskyt u masožravců)
+	- **Kruhovky** - 4 přísavky, někdy i věnec háčků
+		- tasemnice dlouhočlenná (mezihostitelem je prase, háčky, ophostitelem je člověk, 8m, 900 proglotidů)
+		- tasemnice bezbranna (mezihostitelem je skot, věnec háčků zcela chybí)
+		- tasemnice lyščí (mezihostitelem myši)
+		- tasemnice vrtohlavá (mezihostitelem mozek ovce, hostitelem pes)
+		- 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/vychodni-afika/","created":"2026-10-21T20:47:55.606+02:00","updated":"2026-10-31T14:02:06.975+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/afrika/vychodni-afika/","created":"2026-10-12T11:15:51.434+02:00","updated":"2026-10-31T14:02:06.975+01:00","dg-note-properties":{}}
 ---
 
 

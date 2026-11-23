@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-05T14:49:02.552+01:00","updated":"2026-11-13T12:40:13.115+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/fyzika/termodynamika/struktura-a-vlastnosti-kapalin/","created":"2026-11-04T12:17:47.341+01:00","updated":"2026-11-20T12:38:57.241+01:00","dg-note-properties":{}}
 ---
 
 # Povrchová vrstva kapalin
@@ -93,5 +93,87 @@ $$
 \sigma & =? \\
 d & =0,4\,\text{mm} \\
 h & =3\,\text{cm}
+\end{aligned}
+$$
+
+- kapilární jevy v praxi
+	- zahrada a okopávání
+	- izolace stěn domů
+	- pájení
+	- knot svíčky
+
+## Teplotní objemová roztažnost kapalin
+
+- U většiny kapalin roste s teplotou její objem
+- ${}\beta{}$ teplotní součinitel objemové roztažnosti kapalin
+- praxe - kapalinové teploměry
+- S teplotou se mění hustota
+- $\Delta{V}=V_{1}\beta\Delta{t}$
+- ${}\rho=\rho_{1}(1-\beta \Delta t){}$
+- Voda - 0˚C - 4˚C objem se zmenšuje
+- od 4˚C se voda chová jako ostatní kapaliny
+
+$$
+\begin{aligned}
+&r,\rho \\
+&h =4\cdot 10^{-3} \\
+a) \\
+&\rho_{2}=2\rho,\sigma_{2}=\sigma,h_{2}=? \\\hline \\
+
+h & = \frac{2\sigma}{\rho \cdot \text{g}\cdot R} \\
+h_{2} & =\frac{2\sigma}{2\rho \cdot \text{g}\cdot R} \\ \\
+h_{2} & =\frac{\sigma}{\rho \cdot g\cdot R}
+
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+V_{1} & =100\,\text{dm}^{3} \\
+\Delta V & =? \\
+\Delta T & =40\,\text{K} \\
+\Delta t & =40˚\text{C} \\
+\beta & =9,6\cdot 10^{-4}\text{K}^{-1}\\\hline \\
+\Delta V & =V_{1}\cdot \beta \cdot \Delta T \\
+\Delta V & =3,84\,\text{dm}^{3}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+t & =20˚\text{C} \\
+\rho_{20} & =13546\,\text{kgm}^{-3} \\
+\rho_{0} & =? \\
+\rho_{100} & =? \\
+\beta & =1,818\cdot 10^{-4}\text{K}^{-1}\\\hline \\
+\rho_{0} & =\frac{\rho_{20}}{1-\beta \Delta T} \\
+\rho_{100} & =\rho_{20}(1-\beta \Delta T) \\
+ \\
+ \rho_{0} & =\frac{13546}{1-1,818\cdot{}10^{-4}\cdot 20} \\
+ \rho_{0} & =13595,433\,\text{kgm}^{-3} \\
+  \\
+ \rho_{100} & =13546(1-1,818\cdot 10^{-4}\cdot 80) \\
+ \rho_{100} & =13348,987\,\text{kgm}^{-3}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+d & =2\cdot 10^{-2}\,\text{m} \\
+\sigma & =0,040\,\text{Nm}^{-1} \\\hline \\
+P_{k} & =\frac{4\sigma}{R} \\
+P_{k} & =\frac{4\cdot 0,040}{1\cdot 10^{-2}} \\
+P_{k} & =16\,\text{Pa}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\rho_{10} & =12570\,\text{kgm}^{-3} \\
+\rho_{?} & =13480\,\text{kgm}^{-3} \\
+\beta & =1,8\cdot 10^{-4}\,\text{K}^{-1}\\\hline \\
+\rho_{10} & =\rho_{?}(1-\beta \Delta t) \\
+\frac{\Delta \rho}{\rho_{?}\beta} & =\Delta t \\
+\frac{12570-13480}{13480\cdot 1,8\cdot 10^{-4}} & =
 \end{aligned}
 $$
