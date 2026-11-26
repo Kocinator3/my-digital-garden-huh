@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/australie-a-oceanie/","created":"2026-11-09T11:08:17.960+01:00","updated":"2026-11-23T11:12:30.257+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/zemepis/regionalni-geografie/australie-a-oceanie/","created":"2026-11-09T11:08:17.960+01:00","updated":"2026-11-26T11:42:08.358+01:00","dg-note-properties":{}}
 ---
 
 Australský svaz
@@ -60,22 +60,53 @@ Australský svaz
 v testu bude:
 
 - povrch austrálie
-	- příklady pohoří
-	- co ja na pobřeží uvnitř, pohoží
-	- litosférická deska
-	- nejvyšší hora
+	- příklady pohoří - velké předělové pohoří (V), nejvyšší jsou Australské Alpy (JV)
+	- co ja na pobřeží - velké předělové pohoří, uvnitř - Ayers Rock = Uluru = symbol australie
+	- litosférická deska - indoaustralská deska
+	- nejvyšší hora - Mt. Kosciusko - nejnižší z nejvyšších vrcholů světa
 - vodstvo austrálie
 	- trvalé řeky, bezodtoké oblasti, oceány moře
+	- 3/4 trpí suchem
+	- většina území je bezodtoká
+		- většinou jsou zde je řeky občasné = CREEK
+	- významné řeky:
+		- **Murray** - nejvýznamnější přítok je **Darling**
+		- podzemní voda **artézské prameny**
+	- **Eyreovo jezero** - centrální část austrálie, slané, kolísavá hladina (podle srážek)
 - obyvatelstvo
 	- obecně obyvatelstvo australie a noveho zelandu
+		- dnes multikulti, většina běloši, první objevitelé australie - Holanďané 15./16. stol.
 	- původní obyvatele nového zelandu
+		- Maorové = bojovníci/válečníci, kteří sem přišli z polynésie - tetování tanec haka
 		- proč jižní ostrov?
+			- maorové osídlili oba ostrovy
 	- původní obyvatele austrálie
-		- kde žijí
+		- Aboridžinci = negroidní rasa
+		- dnes je jich velmi málo, stojí na pokraji spočnosti (chybí jim vzdělání), těžko si hledají práci do druhé poloviny 20. století neměli žádné práva, dnes jsou už vyrovnána
 - Průmysl a zemědělství v austrálii
-	- cestovní ruch
-	- těžba - vlastní spotřeba
+	- cestovní ruch - rozvíjí se po roce 2000 (olympijské hry v Sydney)
+		- největší atrakcí je léto v prosinci
+		- nevýhodou je vzdálenost
+		- krásná příroda, novodobé památky, útesy
+	- těžba - export do japonska
+		- černé uhlí
+		- železná ruda
+		- většina barevných kovů bauxit, mangan, uran a kobalt
 	- rostlinné a živočišné výrobky
-- Mikronésie Polynésie a další z Oceánie
+		- špatné přírodní podmínky - suchou a pouště - převažuje živočišná výroba é chov
+		- na buších chov ovcí
+		- z rostlinné výroby pouze obiloviny - 10% povrchu
+			- jsou soběstační mají i přebytek ${}\to{}$ světový vývozce pšenice
+- Mikronésie Polynésie Melanésie
 	- vyjmenovat z každé částí pár státu
+		- Melanésie
+			- Fidži, Papua-Nová Guinea, Vanuatu
+		- Mikronésie
+			- Palau, Marshallovy ostrovy
+		- Polynésie
+			- Samoa, Tonga, Havajské ostrovy
 	- problematika do budoucnosti
+		- zvýšení hladiny vody
+			- slané kontaminace vod
+		- intenzivnější cyklony a velká sucha
+		- ekonomická zranitelnost

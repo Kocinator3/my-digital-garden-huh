@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-17T21:12:25.444+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/chemie/anorgonicka-chemie/","created":"2026-10-09T13:11:06.980+02:00","updated":"2026-11-24T21:42:18.616+01:00","dg-note-properties":{}}
 ---
 
 - dnes více než 14 milionů sloučenin - třídění dle struktury a původu
@@ -307,4 +307,5 @@ $$
 \ce{ &H_{2}P_{2}O_{4} - \text{kyselina dihydrogendifosforitá} }
 \end{aligned}
 $$
+
 

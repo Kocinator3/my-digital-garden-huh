@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/plostenci/","created":"2026-11-06T11:30:03.781+01:00","updated":"2026-11-20T11:41:20.311+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/skola/biologie/zoologie/systematika/plostenci/","created":"2026-11-06T11:30:03.781+01:00","updated":"2026-11-25T14:40:24.534+01:00","dg-note-properties":{}}
 ---
 
 
@@ -73,4 +73,4 @@
 		- tasemnice bezbranna (mezihostitelem je skot, věnec háčků zcela chybí)
 		- tasemnice lyščí (mezihostitelem myši)
 		- tasemnice vrtohlavá (mezihostitelem mozek ovce, hostitelem pes)
-		- 
+		- **Pseudocoela
